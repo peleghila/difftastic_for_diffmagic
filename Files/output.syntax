@@ -1,5 +1,5 @@
 LHS: [
-    List id:1 content_id:27 {
+    List id:1 content_id:16 {
         open_content: "{",
         open_position: "0:0-1",
         children: [
@@ -7,736 +7,326 @@ LHS: [
                 content: "Prog",
                 position: "0:13-17",
             },
-            List id:3 content_id:4 {
+            List id:3 content_id:15 {
                 open_content: "",
                 open_position: "1:4-4",
                 children: [
                     Atom id:4 content_id:2 {
-                        content: "Day",
-                        position: "1:9-12",
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    Atom id:5 content_id:3 {
-                        content: "enum",
-                        position: "1:4-8",
-                    },
-                ],
-                close_content: "",
-                close_position: "1:12-12",
-            },
-            List id:6 content_id:25 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    List id:7 content_id:4 {
+                    List id:5 content_id:5 {
                         open_content: "",
                         open_position: "1:4-4",
                         children: [
-                            Atom id:8 content_id:2 {
-                                content: "Day",
-                                position: "1:9-12",
+                            Atom id:6 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            Atom id:9 content_id:3 {
-                                content: "enum",
-                                position: "1:4-8",
+                            Atom id:7 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "1:12-12",
+                        close_position: "1:17-17",
                     },
-                    List id:10 content_id:5 {
+                    List id:8 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:9 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:10 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:11 content_id:13 {
                         open_content: "{",
-                        open_position: "1:12-13",
-                        children: [],
+                        open_position: "1:42-43",
+                        children: [
+                            List id:12 content_id:12 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:13 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:14 content_id:10 {
+                                        content: "LHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:15 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
                         close_content: "}",
-                        close_position: "1:23-24",
+                        close_position: "3:3-4",
                     },
-                    List id:11 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:12 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:13 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:14 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:15 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:16 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:17 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:18 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:19 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:20 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:21 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:22 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:23 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:24 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:25 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:26 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:27 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:28 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:29 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:30 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
-                    },
-                    List id:31 content_id:24 {
-                        open_content: "",
-                        open_position: "8:4-4",
-                        children: [
-                            Atom id:32 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
-                            },
-                            List id:33 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:34 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:35 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:36 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:37 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "9:5-5",
+                    Atom id:16 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
-            List id:38 content_id:26 {
+            List id:17 content_id:15 {
                 open_content: "",
-                open_position: "3:4-4",
+                open_position: "1:4-4",
                 children: [
-                    List id:39 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:40 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:41 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:42 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:43 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:44 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:45 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:46 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:47 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:48 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:49 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:50 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:51 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:52 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:53 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:54 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:55 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:56 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:57 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:58 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
+                    Atom id:18 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    List id:59 content_id:24 {
+                    List id:19 content_id:5 {
                         open_content: "",
-                        open_position: "8:4-4",
+                        open_position: "1:4-4",
                         children: [
-                            Atom id:60 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
+                            Atom id:20 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            List id:61 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:62 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:63 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:64 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:65 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
+                            Atom id:21 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "9:5-5",
+                        close_position: "1:17-17",
+                    },
+                    List id:22 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:23 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:24 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:25 content_id:13 {
+                        open_content: "{",
+                        open_position: "1:42-43",
+                        children: [
+                            List id:26 content_id:12 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:27 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:28 content_id:10 {
+                                        content: "LHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:29 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:30 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
         ],
         close_content: "}",
-        close_position: "10:1-2",
+        close_position: "4:1-2",
     },
 ]
 RHS: [
-    List id:66 content_id:27 {
+    List id:31 content_id:21 {
         open_content: "{",
         open_position: "0:0-1",
         children: [
-            Atom id:67 content_id:1 {
+            Atom id:32 content_id:1 {
                 content: "Prog",
                 position: "0:13-17",
             },
-            List id:68 content_id:4 {
+            List id:33 content_id:20 {
                 open_content: "",
                 open_position: "1:4-4",
                 children: [
-                    Atom id:69 content_id:2 {
-                        content: "Day",
-                        position: "1:9-12",
+                    Atom id:34 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    Atom id:70 content_id:3 {
-                        content: "enum",
-                        position: "1:4-8",
-                    },
-                ],
-                close_content: "",
-                close_position: "1:12-12",
-            },
-            List id:71 content_id:25 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    List id:72 content_id:4 {
+                    List id:35 content_id:5 {
                         open_content: "",
                         open_position: "1:4-4",
                         children: [
-                            Atom id:73 content_id:2 {
-                                content: "Day",
-                                position: "1:9-12",
+                            Atom id:36 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            Atom id:74 content_id:3 {
-                                content: "enum",
-                                position: "1:4-8",
+                            Atom id:37 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "1:12-12",
+                        close_position: "1:17-17",
                     },
-                    List id:75 content_id:5 {
+                    List id:38 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:39 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:40 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:41 content_id:19 {
                         open_content: "{",
-                        open_position: "1:12-13",
-                        children: [],
+                        open_position: "1:42-43",
+                        children: [
+                            List id:42 content_id:18 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:43 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:44 content_id:17 {
+                                        content: "RHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:45 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
                         close_content: "}",
-                        close_position: "1:23-24",
+                        close_position: "3:3-4",
                     },
-                    List id:76 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:77 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:78 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:79 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:80 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:81 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:82 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:83 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:84 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:85 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:86 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:87 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:88 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:89 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:90 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:91 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:92 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:93 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:94 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:95 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
-                    },
-                    List id:96 content_id:24 {
-                        open_content: "",
-                        open_position: "8:4-4",
-                        children: [
-                            Atom id:97 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
-                            },
-                            List id:98 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:99 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:100 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:101 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:102 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "9:5-5",
+                    Atom id:46 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
-            List id:103 content_id:26 {
+            List id:47 content_id:20 {
                 open_content: "",
-                open_position: "3:4-4",
+                open_position: "1:4-4",
                 children: [
-                    List id:104 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:105 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:106 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:107 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:108 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:109 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:110 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:111 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:112 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:113 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:114 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:115 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:116 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:117 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:118 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:119 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:120 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:121 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:122 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:123 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
+                    Atom id:48 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    List id:124 content_id:24 {
+                    List id:49 content_id:5 {
                         open_content: "",
-                        open_position: "8:4-4",
+                        open_position: "1:4-4",
                         children: [
-                            Atom id:125 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
+                            Atom id:50 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            List id:126 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:127 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:128 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:129 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:130 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
+                            Atom id:51 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "9:5-5",
+                        close_position: "1:17-17",
+                    },
+                    List id:52 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:53 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:54 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:55 content_id:19 {
+                        open_content: "{",
+                        open_position: "1:42-43",
+                        children: [
+                            List id:56 content_id:18 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:57 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:58 content_id:17 {
+                                        content: "RHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:59 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:60 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
         ],
         close_content: "}",
-        close_position: "10:1-2",
+        close_position: "4:1-2",
     },
 ]

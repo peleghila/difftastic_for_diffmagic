@@ -1,5 +1,275 @@
 LHS: [
-    List id:1 content_id:27 {
+    List id:1 content_id:13 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:2 content_id:1 {
+                content: "Utils",
+                position: "0:13-18",
+            },
+            List id:3 content_id:12 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:4 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:5 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:6 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:7 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:8 content_id:10 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:9 content_id:9 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:10 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:11 content_id:7 {
+                                        content: "Hello!",
+                                        position: "2:27-33",
+                                    },
+                                    Atom id:12 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:36-37",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:13 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+            List id:14 content_id:12 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:15 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:16 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:17 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:18 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:19 content_id:10 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:20 content_id:9 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:21 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:22 content_id:7 {
+                                        content: "Hello!",
+                                        position: "2:27-33",
+                                    },
+                                    Atom id:23 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:36-37",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:24 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "4:1-2",
+    },
+]
+
+RHS: [
+    List id:25 content_id:18 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:26 content_id:1 {
+                content: "Utils",
+                position: "0:13-18",
+            },
+            List id:27 content_id:17 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:28 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:29 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:30 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:31 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:32 content_id:16 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:33 content_id:15 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:34 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:35 content_id:14 {
+                                        content: "Goodbye!",
+                                        position: "2:27-35",
+                                    },
+                                    Atom id:36 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:38-39",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:37 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+            List id:38 content_id:17 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:39 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:40 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:41 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:42 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:43 content_id:16 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:44 content_id:15 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:45 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:46 content_id:14 {
+                                        content: "Goodbye!",
+                                        position: "2:27-35",
+                                    },
+                                    Atom id:47 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:38-39",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:48 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "4:1-2",
+    },
+]
+
+LHS: [
+    List id:1 content_id:16 {
         open_content: "{",
         open_position: "0:0-1",
         children: [
@@ -7,3588 +277,460 @@ LHS: [
                 content: "Prog",
                 position: "0:13-17",
             },
-            List id:3 content_id:4 {
+            List id:3 content_id:15 {
                 open_content: "",
                 open_position: "1:4-4",
                 children: [
                     Atom id:4 content_id:2 {
-                        content: "Day",
-                        position: "1:9-12",
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    Atom id:5 content_id:3 {
-                        content: "enum",
-                        position: "1:4-8",
-                    },
-                ],
-                close_content: "",
-                close_position: "1:12-12",
-            },
-            List id:6 content_id:25 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    List id:7 content_id:4 {
+                    List id:5 content_id:5 {
                         open_content: "",
                         open_position: "1:4-4",
                         children: [
-                            Atom id:8 content_id:2 {
-                                content: "Day",
-                                position: "1:9-12",
+                            Atom id:6 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            Atom id:9 content_id:3 {
-                                content: "enum",
-                                position: "1:4-8",
+                            Atom id:7 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "1:12-12",
+                        close_position: "1:17-17",
                     },
-                    List id:10 content_id:5 {
+                    List id:8 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:9 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:10 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:11 content_id:13 {
                         open_content: "{",
-                        open_position: "1:12-13",
-                        children: [],
+                        open_position: "1:42-43",
+                        children: [
+                            List id:12 content_id:12 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:13 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:14 content_id:10 {
+                                        content: "LHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:15 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
                         close_content: "}",
-                        close_position: "1:23-24",
+                        close_position: "3:3-4",
                     },
-                    List id:11 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:12 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:13 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:14 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:15 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:16 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:17 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:18 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:19 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:20 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:21 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:22 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:23 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:24 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:25 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:26 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:27 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:28 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:29 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:30 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
-                    },
-                    List id:31 content_id:24 {
-                        open_content: "",
-                        open_position: "8:4-4",
-                        children: [
-                            Atom id:32 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
-                            },
-                            List id:33 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:34 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:35 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:36 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:37 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "9:5-5",
+                    Atom id:16 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
-            List id:38 content_id:26 {
+            List id:17 content_id:15 {
                 open_content: "",
-                open_position: "3:4-4",
+                open_position: "1:4-4",
                 children: [
-                    List id:39 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:40 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:41 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:42 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:43 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:44 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:45 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:46 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:47 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:48 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:49 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:50 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:51 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:52 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:53 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:54 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:55 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:56 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:57 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:58 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
+                    Atom id:18 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    List id:59 content_id:24 {
+                    List id:19 content_id:5 {
                         open_content: "",
-                        open_position: "8:4-4",
+                        open_position: "1:4-4",
                         children: [
-                            Atom id:60 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
+                            Atom id:20 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            List id:61 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:62 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:63 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:64 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:65 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
+                            Atom id:21 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "9:5-5",
+                        close_position: "1:17-17",
+                    },
+                    List id:22 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:23 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:24 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:25 content_id:13 {
+                        open_content: "{",
+                        open_position: "1:42-43",
+                        children: [
+                            List id:26 content_id:12 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:27 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:28 content_id:10 {
+                                        content: "LHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:29 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:30 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
         ],
         close_content: "}",
-        close_position: "10:1-2",
+        close_position: "4:1-2",
     },
 ]
 
 RHS: [
-    List id:66 content_id:27 {
+    List id:31 content_id:21 {
         open_content: "{",
         open_position: "0:0-1",
         children: [
-            Atom id:67 content_id:1 {
+            Atom id:32 content_id:1 {
                 content: "Prog",
                 position: "0:13-17",
             },
-            List id:68 content_id:4 {
+            List id:33 content_id:20 {
                 open_content: "",
                 open_position: "1:4-4",
                 children: [
-                    Atom id:69 content_id:2 {
-                        content: "Day",
-                        position: "1:9-12",
+                    Atom id:34 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    Atom id:70 content_id:3 {
-                        content: "enum",
-                        position: "1:4-8",
-                    },
-                ],
-                close_content: "",
-                close_position: "1:12-12",
-            },
-            List id:71 content_id:25 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    List id:72 content_id:4 {
+                    List id:35 content_id:5 {
                         open_content: "",
                         open_position: "1:4-4",
                         children: [
-                            Atom id:73 content_id:2 {
-                                content: "Day",
-                                position: "1:9-12",
+                            Atom id:36 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            Atom id:74 content_id:3 {
-                                content: "enum",
-                                position: "1:4-8",
+                            Atom id:37 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "1:12-12",
+                        close_position: "1:17-17",
                     },
-                    List id:75 content_id:5 {
+                    List id:38 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:39 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:40 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:41 content_id:19 {
                         open_content: "{",
-                        open_position: "1:12-13",
-                        children: [],
+                        open_position: "1:42-43",
+                        children: [
+                            List id:42 content_id:18 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:43 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:44 content_id:17 {
+                                        content: "RHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:45 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
                         close_content: "}",
-                        close_position: "1:23-24",
+                        close_position: "3:3-4",
                     },
-                    List id:76 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:77 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:78 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:79 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:80 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:81 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:82 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:83 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:84 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:85 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:86 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:87 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:88 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:89 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:90 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:91 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:92 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:93 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:94 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:95 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
-                    },
-                    List id:96 content_id:24 {
-                        open_content: "",
-                        open_position: "8:4-4",
-                        children: [
-                            Atom id:97 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
-                            },
-                            List id:98 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:99 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:100 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:101 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:102 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "9:5-5",
+                    Atom id:46 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
-            List id:103 content_id:26 {
+            List id:47 content_id:20 {
                 open_content: "",
-                open_position: "3:4-4",
+                open_position: "1:4-4",
                 children: [
-                    List id:104 content_id:22 {
-                        open_content: "",
-                        open_position: "3:4-4",
-                        children: [
-                            Atom id:105 content_id:6 {
-                                content: "main",
-                                position: "3:23-27",
-                            },
-                            List id:106 content_id:9 {
-                                open_content: "",
-                                open_position: "3:4-4",
-                                children: [
-                                    Atom id:107 content_id:7 {
-                                        content: "public",
-                                        position: "3:4-10",
-                                    },
-                                    Atom id:108 content_id:8 {
-                                        content: "static",
-                                        position: "3:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:17-17",
-                            },
-                            List id:109 content_id:12 {
-                                open_content: "",
-                                open_position: "3:28-28",
-                                children: [
-                                    Atom id:110 content_id:10 {
-                                        content: "args",
-                                        position: "3:37-41",
-                                    },
-                                    Atom id:111 content_id:11 {
-                                        content: "String",
-                                        position: "3:28-34",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "3:41-41",
-                            },
-                            List id:112 content_id:20 {
-                                open_content: "{",
-                                open_position: "3:42-43",
-                                children: [
-                                    List id:113 content_id:19 {
-                                        open_content: "",
-                                        open_position: "4:8-8",
-                                        children: [
-                                            List id:114 content_id:15 {
-                                                open_content: "",
-                                                open_position: "4:8-8",
-                                                children: [
-                                                    Atom id:115 content_id:2 {
-                                                        content: "Day",
-                                                        position: "4:8-11",
-                                                    },
-                                                    List id:116 content_id:14 {
-                                                        open_content: "",
-                                                        open_position: "4:12-12",
-                                                        children: [
-                                                            Atom id:117 content_id:13 {
-                                                                content: "d",
-                                                                position: "4:12-13",
-                                                            },
-                                                            Atom id:118 content_id:2 {
-                                                                content: "Day",
-                                                                position: "4:16-19",
-                                                            },
-                                                        ],
-                                                        close_content: "",
-                                                        close_position: "4:23-23",
-                                                    },
-                                                ],
-                                                close_content: "",
-                                                close_position: "4:24-24",
-                                            },
-                                            List id:119 content_id:18 {
-                                                open_content: "(",
-                                                open_position: "5:8-9",
-                                                children: [
-                                                    Atom id:120 content_id:16 {
-                                                        content: "println",
-                                                        position: "5:19-26",
-                                                    },
-                                                    Atom id:121 content_id:13 {
-                                                        content: "d",
-                                                        position: "5:27-28",
-                                                    },
-                                                    Atom id:122 content_id:17 {
-                                                        content: "System",
-                                                        position: "5:8-14",
-                                                    },
-                                                ],
-                                                close_content: ")",
-                                                close_position: "5:29-30",
-                                            },
-                                        ],
-                                        close_content: "",
-                                        close_position: "5:30-30",
-                                    },
-                                ],
-                                close_content: "}",
-                                close_position: "6:3-4",
-                            },
-                            Atom id:123 content_id:21 {
-                                content: "void",
-                                position: "3:18-22",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "6:5-5",
+                    Atom id:48 content_id:2 {
+                        content: "main",
+                        position: "1:23-27",
                     },
-                    List id:124 content_id:24 {
+                    List id:49 content_id:5 {
                         open_content: "",
-                        open_position: "8:4-4",
+                        open_position: "1:4-4",
                         children: [
-                            Atom id:125 content_id:23 {
-                                content: "foo",
-                                position: "8:23-26",
+                            Atom id:50 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
                             },
-                            List id:126 content_id:9 {
-                                open_content: "",
-                                open_position: "8:4-4",
-                                children: [
-                                    Atom id:127 content_id:7 {
-                                        content: "public",
-                                        position: "8:4-10",
-                                    },
-                                    Atom id:128 content_id:8 {
-                                        content: "static",
-                                        position: "8:11-17",
-                                    },
-                                ],
-                                close_content: "",
-                                close_position: "8:17-17",
-                            },
-                            List id:129 content_id:5 {
-                                open_content: "{",
-                                open_position: "8:28-29",
-                                children: [],
-                                close_content: "}",
-                                close_position: "9:3-4",
-                            },
-                            Atom id:130 content_id:21 {
-                                content: "void",
-                                position: "8:18-22",
+                            Atom id:51 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
                             },
                         ],
                         close_content: "",
-                        close_position: "9:5-5",
+                        close_position: "1:17-17",
+                    },
+                    List id:52 content_id:8 {
+                        open_content: "",
+                        open_position: "1:28-28",
+                        children: [
+                            Atom id:53 content_id:6 {
+                                content: "args",
+                                position: "1:37-41",
+                            },
+                            Atom id:54 content_id:7 {
+                                content: "String",
+                                position: "1:28-34",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:41-41",
+                    },
+                    List id:55 content_id:19 {
+                        open_content: "{",
+                        open_position: "1:42-43",
+                        children: [
+                            List id:56 content_id:18 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:57 content_id:9 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:58 content_id:17 {
+                                        content: "RHS",
+                                        position: "2:27-30",
+                                    },
+                                    Atom id:59 content_id:11 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:33-34",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:60 content_id:14 {
+                        content: "void",
+                        position: "1:18-22",
                     },
                 ],
                 close_content: "",
-                close_position: "9:5-5",
+                close_position: "3:5-5",
             },
         ],
         close_content: "}",
-        close_position: "10:1-2",
+        close_position: "4:1-2",
     },
 ]
 
 Changes: ChangeMap {
     changes: {
-        73: Unchanged(ID: 8),
-        38: Unchanged(ID: 103),
-        111: Unchanged(ID: 46),
-        3: Unchanged(ID: 68),
-        76: Unchanged(ID: 11),
-        41: Unchanged(ID: 106),
-        114: Unchanged(ID: 49),
-        6: Unchanged(ID: 71),
-        79: Unchanged(ID: 14),
-        44: Unchanged(ID: 109),
-        117: Unchanged(ID: 52),
-        9: Unchanged(ID: 74),
-        82: Unchanged(ID: 17),
-        47: Unchanged(ID: 112),
-        120: Unchanged(ID: 55),
-        12: Unchanged(ID: 77),
-        85: Unchanged(ID: 20),
-        50: Unchanged(ID: 115),
-        123: Unchanged(ID: 58),
-        15: Unchanged(ID: 80),
-        88: Unchanged(ID: 23),
-        53: Unchanged(ID: 118),
-        126: Unchanged(ID: 61),
-        18: Unchanged(ID: 83),
-        91: Unchanged(ID: 26),
-        56: Unchanged(ID: 121),
-        129: Unchanged(ID: 64),
-        21: Unchanged(ID: 86),
-        94: Unchanged(ID: 29),
-        59: Unchanged(ID: 124),
-        24: Unchanged(ID: 89),
-        97: Unchanged(ID: 32),
-        62: Unchanged(ID: 127),
-        27: Unchanged(ID: 92),
-        100: Unchanged(ID: 35),
-        65: Unchanged(ID: 130),
-        30: Unchanged(ID: 95),
-        103: Unchanged(ID: 38),
-        68: Unchanged(ID: 3),
-        33: Unchanged(ID: 98),
-        106: Unchanged(ID: 41),
-        71: Unchanged(ID: 6),
-        36: Unchanged(ID: 101),
-        109: Unchanged(ID: 44),
-        1: Unchanged(ID: 66),
-        74: Unchanged(ID: 9),
-        39: Unchanged(ID: 104),
-        112: Unchanged(ID: 47),
-        4: Unchanged(ID: 69),
-        77: Unchanged(ID: 12),
-        42: Unchanged(ID: 107),
-        115: Unchanged(ID: 50),
-        7: Unchanged(ID: 72),
-        80: Unchanged(ID: 15),
-        45: Unchanged(ID: 110),
-        118: Unchanged(ID: 53),
-        10: Unchanged(ID: 75),
-        83: Unchanged(ID: 18),
-        48: Unchanged(ID: 113),
-        121: Unchanged(ID: 56),
-        13: Unchanged(ID: 78),
-        86: Unchanged(ID: 21),
-        51: Unchanged(ID: 116),
-        124: Unchanged(ID: 59),
-        16: Unchanged(ID: 81),
-        89: Unchanged(ID: 24),
-        54: Unchanged(ID: 119),
-        127: Unchanged(ID: 62),
-        19: Unchanged(ID: 84),
-        92: Unchanged(ID: 27),
-        57: Unchanged(ID: 122),
-        130: Unchanged(ID: 65),
-        22: Unchanged(ID: 87),
-        95: Unchanged(ID: 30),
-        60: Unchanged(ID: 125),
-        25: Unchanged(ID: 90),
-        98: Unchanged(ID: 33),
-        63: Unchanged(ID: 128),
-        28: Unchanged(ID: 93),
-        101: Unchanged(ID: 36),
-        66: Unchanged(ID: 1),
-        31: Unchanged(ID: 96),
-        104: Unchanged(ID: 39),
-        69: Unchanged(ID: 4),
-        34: Unchanged(ID: 99),
-        107: Unchanged(ID: 42),
-        72: Unchanged(ID: 7),
-        37: Unchanged(ID: 102),
-        110: Unchanged(ID: 45),
-        2: Unchanged(ID: 67),
-        75: Unchanged(ID: 10),
-        40: Unchanged(ID: 105),
-        113: Unchanged(ID: 48),
-        5: Unchanged(ID: 70),
-        78: Unchanged(ID: 13),
-        43: Unchanged(ID: 108),
-        116: Unchanged(ID: 51),
-        8: Unchanged(ID: 73),
-        81: Unchanged(ID: 16),
-        46: Unchanged(ID: 111),
-        119: Unchanged(ID: 54),
-        11: Unchanged(ID: 76),
-        84: Unchanged(ID: 19),
-        49: Unchanged(ID: 114),
-        122: Unchanged(ID: 57),
-        14: Unchanged(ID: 79),
-        87: Unchanged(ID: 22),
-        52: Unchanged(ID: 117),
-        125: Unchanged(ID: 60),
-        17: Unchanged(ID: 82),
-        90: Unchanged(ID: 25),
-        55: Unchanged(ID: 120),
-        128: Unchanged(ID: 63),
-        20: Unchanged(ID: 85),
-        93: Unchanged(ID: 28),
-        58: Unchanged(ID: 123),
-        23: Unchanged(ID: 88),
-        96: Unchanged(ID: 31),
-        61: Unchanged(ID: 126),
-        26: Unchanged(ID: 91),
-        99: Unchanged(ID: 34),
-        64: Unchanged(ID: 129),
-        29: Unchanged(ID: 94),
-        102: Unchanged(ID: 37),
-        67: Unchanged(ID: 2),
-        32: Unchanged(ID: 97),
-        105: Unchanged(ID: 40),
-        70: Unchanged(ID: 5),
-        35: Unchanged(ID: 100),
-        108: Unchanged(ID: 43),
+        19: Unchanged(ID: 43),
+        46: Novel,
+        38: Unchanged(ID: 14),
+        11: Novel,
+        30: Unchanged(ID: 6),
+        3: Unchanged(ID: 27),
+        22: Novel,
+        41: Unchanged(ID: 17),
+        14: Unchanged(ID: 38),
+        33: Unchanged(ID: 9),
+        6: Unchanged(ID: 30),
+        25: Unchanged(ID: 1),
+        17: Unchanged(ID: 41),
+        44: Unchanged(ID: 20),
+        36: Unchanged(ID: 12),
+        9: Unchanged(ID: 33),
+        1: Unchanged(ID: 25),
+        28: Unchanged(ID: 4),
+        20: Unchanged(ID: 44),
+        47: Unchanged(ID: 23),
+        39: Unchanged(ID: 15),
+        12: Unchanged(ID: 36),
+        4: Unchanged(ID: 28),
+        31: Unchanged(ID: 7),
+        23: Unchanged(ID: 47),
+        42: Unchanged(ID: 18),
+        15: Unchanged(ID: 39),
+        7: Unchanged(ID: 31),
+        34: Unchanged(ID: 10),
+        26: Unchanged(ID: 2),
+        45: Unchanged(ID: 21),
+        18: Unchanged(ID: 42),
+        10: Unchanged(ID: 34),
+        37: Unchanged(ID: 13),
+        29: Unchanged(ID: 5),
+        2: Unchanged(ID: 26),
+        48: Unchanged(ID: 24),
+        21: Unchanged(ID: 45),
+        13: Unchanged(ID: 37),
+        40: Unchanged(ID: 16),
+        32: Unchanged(ID: 8),
+        5: Unchanged(ID: 29),
+        24: Unchanged(ID: 48),
+        16: Unchanged(ID: 40),
+        43: Unchanged(ID: 19),
+        35: Novel,
+        8: Unchanged(ID: 32),
+        27: Unchanged(ID: 3),
     },
 }
 
-DiffResult {
-    display_path: "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs/rhs.java",
-    extra_info: None,
-    file_format: SupportedLanguage(
-        Java,
-    ),
-    lhs_src: Text(
-        "public class Prog {\n    enum Day { MON, TUE }\n\n    public static void main(String[] args) {\n        Day d = Day.MON;\n        System.out.println(d);\n    }\n\n    public static void foo() {\n    }\n}\n",
-    ),
-    rhs_src: Text(
-        "public class Prog {\n    enum Day { MON, TUE }\n\n    public static void main(String[] args) {\n        Day d = Day.TUE;\n        System.out.println(d);\n    }\n\n    public static void foo() {\n    }\n}\n",
-    ),
-    hunks: [],
-    lhs_positions: [
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 0,
-                        end_col: 1,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 0,
-                        end_col: 1,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 1 (zero-indexed: 0),
-                start_col: 0,
-                end_col: 1,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 13,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 13,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 1 (zero-indexed: 0),
-                start_col: 13,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 9,
-                end_col: 12,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 4,
-                end_col: 8,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 9,
-                end_col: 12,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 4,
-                end_col: 8,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 23,
-                        end_col: 24,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 23,
-                        end_col: 24,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 23,
-                end_col: 24,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 23,
-                end_col: 27,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 37,
-                end_col: 41,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 28,
-                end_col: 34,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 42,
-                end_col: 43,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 8,
-                end_col: 11,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 16,
-                end_col: 19,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 9,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 19,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 27,
-                end_col: 28,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 14,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 29,
-                end_col: 30,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 7 (zero-indexed: 6),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 23,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 28,
-                end_col: 29,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 10 (zero-indexed: 9),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 23,
-                end_col: 27,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 37,
-                end_col: 41,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 28,
-                end_col: 34,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 42,
-                end_col: 43,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 8,
-                end_col: 11,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 16,
-                end_col: 19,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 9,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 19,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 27,
-                end_col: 28,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 14,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 29,
-                end_col: 30,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 7 (zero-indexed: 6),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 23,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 28,
-                end_col: 29,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 10 (zero-indexed: 9),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 11 (zero-indexed: 10),
-                        start_col: 1,
-                        end_col: 2,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 11 (zero-indexed: 10),
-                        start_col: 1,
-                        end_col: 2,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 11 (zero-indexed: 10),
-                start_col: 1,
-                end_col: 2,
-            },
-        },
-    ],
-    rhs_positions: [
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 0,
-                        end_col: 1,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 0,
-                        end_col: 1,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 1 (zero-indexed: 0),
-                start_col: 0,
-                end_col: 1,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 13,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 1 (zero-indexed: 0),
-                        start_col: 13,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 1 (zero-indexed: 0),
-                start_col: 13,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 9,
-                end_col: 12,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 4,
-                end_col: 8,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 9,
-                        end_col: 12,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 9,
-                end_col: 12,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 4,
-                        end_col: 8,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 4,
-                end_col: 8,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 23,
-                        end_col: 24,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 2 (zero-indexed: 1),
-                        start_col: 23,
-                        end_col: 24,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 2 (zero-indexed: 1),
-                start_col: 23,
-                end_col: 24,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 23,
-                end_col: 27,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 37,
-                end_col: 41,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 28,
-                end_col: 34,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 42,
-                end_col: 43,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 8,
-                end_col: 11,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 16,
-                end_col: 19,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 9,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 19,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 27,
-                end_col: 28,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 14,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 29,
-                end_col: 30,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 7 (zero-indexed: 6),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 23,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 28,
-                end_col: 29,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 10 (zero-indexed: 9),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 23,
-                        end_col: 27,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 23,
-                end_col: 27,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 37,
-                        end_col: 41,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 37,
-                end_col: 41,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 28,
-                        end_col: 34,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 28,
-                end_col: 34,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 42,
-                        end_col: 43,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 42,
-                end_col: 43,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 8,
-                        end_col: 11,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 8,
-                end_col: 11,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 12,
-                        end_col: 13,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 12,
-                end_col: 13,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 5 (zero-indexed: 4),
-                        start_col: 16,
-                        end_col: 19,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 5 (zero-indexed: 4),
-                start_col: 16,
-                end_col: 19,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 9,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 9,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 19,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 19,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 27,
-                        end_col: 28,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 27,
-                end_col: 28,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 8,
-                        end_col: 14,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 8,
-                end_col: 14,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 6 (zero-indexed: 5),
-                        start_col: 29,
-                        end_col: 30,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 6 (zero-indexed: 5),
-                start_col: 29,
-                end_col: 30,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 7 (zero-indexed: 6),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 7 (zero-indexed: 6),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 4 (zero-indexed: 3),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 4 (zero-indexed: 3),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Normal,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 23,
-                        end_col: 26,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 23,
-                end_col: 26,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 4,
-                        end_col: 10,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 4,
-                end_col: 10,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Keyword,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 11,
-                        end_col: 17,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 11,
-                end_col: 17,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 28,
-                        end_col: 29,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 28,
-                end_col: 29,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 10 (zero-indexed: 9),
-                        start_col: 3,
-                        end_col: 4,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 10 (zero-indexed: 9),
-                start_col: 3,
-                end_col: 4,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Atom(
-                    Type,
-                ),
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 9 (zero-indexed: 8),
-                        start_col: 18,
-                        end_col: 22,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 9 (zero-indexed: 8),
-                start_col: 18,
-                end_col: 22,
-            },
-        },
-        MatchedPos {
-            kind: UnchangedToken {
-                highlight: Delimiter,
-                self_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 11 (zero-indexed: 10),
-                        start_col: 1,
-                        end_col: 2,
-                    },
-                ],
-                opposite_pos: [
-                    SingleLineSpan {
-                        line: LineNumber: 11 (zero-indexed: 10),
-                        start_col: 1,
-                        end_col: 2,
-                    },
-                ],
-            },
-            pos: SingleLineSpan {
-                line: LineNumber: 11 (zero-indexed: 10),
-                start_col: 1,
-                end_col: 2,
-            },
-        },
-    ],
-    has_byte_changes: true,
-    has_syntactic_changes: false,
+Changes: ChangeMap {
+    changes: {
+        19: Unchanged(ID: 49),
+        38: Unchanged(ID: 8),
+        57: Unchanged(ID: 27),
+        3: Unchanged(ID: 33),
+        22: Unchanged(ID: 52),
+        41: Unchanged(ID: 11),
+        60: Unchanged(ID: 30),
+        6: Unchanged(ID: 36),
+        25: Unchanged(ID: 55),
+        44: Novel,
+        9: Unchanged(ID: 39),
+        28: Novel,
+        47: Unchanged(ID: 17),
+        12: Unchanged(ID: 42),
+        31: Unchanged(ID: 1),
+        50: Unchanged(ID: 20),
+        15: Unchanged(ID: 45),
+        34: Unchanged(ID: 4),
+        53: Unchanged(ID: 23),
+        18: Unchanged(ID: 48),
+        37: Unchanged(ID: 7),
+        56: Unchanged(ID: 26),
+        2: Unchanged(ID: 32),
+        21: Unchanged(ID: 51),
+        40: Unchanged(ID: 10),
+        59: Unchanged(ID: 29),
+        5: Unchanged(ID: 35),
+        24: Unchanged(ID: 54),
+        43: Unchanged(ID: 13),
+        8: Unchanged(ID: 38),
+        27: Unchanged(ID: 57),
+        46: Unchanged(ID: 16),
+        11: Unchanged(ID: 41),
+        30: Unchanged(ID: 60),
+        49: Unchanged(ID: 19),
+        14: Novel,
+        33: Unchanged(ID: 3),
+        52: Unchanged(ID: 22),
+        17: Unchanged(ID: 47),
+        36: Unchanged(ID: 6),
+        55: Unchanged(ID: 25),
+        1: Unchanged(ID: 31),
+        20: Unchanged(ID: 50),
+        39: Unchanged(ID: 9),
+        58: Novel,
+        4: Unchanged(ID: 34),
+        23: Unchanged(ID: 53),
+        42: Unchanged(ID: 12),
+        7: Unchanged(ID: 37),
+        26: Unchanged(ID: 56),
+        45: Unchanged(ID: 15),
+        10: Unchanged(ID: 40),
+        29: Unchanged(ID: 59),
+        48: Unchanged(ID: 18),
+        13: Unchanged(ID: 43),
+        32: Unchanged(ID: 2),
+        51: Unchanged(ID: 21),
+        16: Unchanged(ID: 46),
+        35: Unchanged(ID: 5),
+        54: Unchanged(ID: 24),
+    },
 }
-/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs/rhs.java --- Java
-No syntactic changes.
+
+Utils.java --- Java
+1 public class Utils {                      1 public class Utils {
+2     public static void foo() {            2     public static void foo() {
+3         System.out.println("Hello!");     3         System.out.println("Goodbye!");
+4     }                                     4     }
+5 }                                         5 }
+
+Prog.java --- Java
+1 public class Prog {                            1 public class Prog {
+2     public static void main(String[] args) {   2     public static void main(String[] args) {
+3         System.out.println("LHS");             3         System.out.println("RHS");
+4     }                                          4     }
+5 }                                              5 }
 

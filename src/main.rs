@@ -726,7 +726,7 @@ fn update_syntax_info<'a>(
     traverse(root, syntax_info, id_to_node);
 }
 
-fn build_syntax_tree<'a>(syntax: Value, syntax_info: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
+fn build_syntax_tree<'a>(syntax: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
     match syntax {
         Value::Object(obj) => {
             let node_kind = obj.get("node_kind").and_then(|v| v.as_str()).unwrap_or("");
@@ -747,7 +747,7 @@ fn build_syntax_tree<'a>(syntax: Value, syntax_info: Value, arena: &'a Arena<Syn
                 if let Some(children_array) = obj.get("children").and_then(|v| v.as_array()) {
                     for child_value in children_array {
                         // Recursively process each child
-                        let child_node = build_syntax_tree(child_value.clone(), syntax_info.clone(), arena);
+                        let child_node = build_syntax_tree(child_value.clone(), arena);
                         children.push(child_node);
                     }
                 }
@@ -794,29 +794,18 @@ fn build_syntax_tree<'a>(syntax: Value, syntax_info: Value, arena: &'a Arena<Syn
     }
 }
 
-fn parse_from_json<'a>(src: &str, arena: &'a Arena<Syntax<'a>>) -> Result<&'a Syntax<'a>, String> {
-    let v: Value = serde_json::from_str(src).map_err(|_| "Failed to parse JSON")?;
+fn parse_from_json<'a>(src: &str, filename: &str, arena: &'a Arena<Syntax<'a>>) -> Result<&'a Syntax<'a>, String> {
+    let json: serde_json::Value = serde_json::from_str(src).unwrap();
 
-    // Get the syntax array
-    let syntax_array = match v.get("syntax") {
-        Some(s) if s.is_array() => s.as_array().unwrap(),
-        Some(_) => return Err("'syntax' field is not an array".to_string()),
-        None => return Err("Missing 'syntax' field in JSON".to_string())
+    let syntax_obj = match json.get("syntax") {
+        Some(obj) => obj,
+        None => return Err("No 'syntax' field found in JSON".to_string()),
     };
 
-    // Get the first object in the array
-    let syntax_value = match syntax_array.first() {
-        Some(first_obj) => first_obj.clone(),
-        None => return Err("'syntax' array is empty".to_string())
+    let file_syntax = match syntax_obj.get(filename) {
+        Some(syntax) => return Ok(build_syntax_tree(syntax.clone(), arena)),
+        None => return Err(format!("No syntax found for file: {}", filename)),
     };
-
-    // Get the syntax info
-    let syntax_info_value = match v.get("syntaxInfo") {
-        Some(s) => s.clone(),
-        None => return Err("Missing 'syntaxInfo' field in JSON".to_string())
-    };
-
-    Ok(build_syntax_tree(syntax_value, syntax_info_value.clone(), arena))
 }
 
 fn build_id_to_node_map<'a>(root: &'a Syntax<'a>) -> std::collections::HashMap<u32, &'a Syntax<'a>> {
@@ -974,9 +963,24 @@ fn diff_file_content(
                             
                             let lhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/lhs.json").unwrap();
                             let rhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs.json").unwrap();
-                            let lhs_parsed = parse_from_json(&lhs_json, &arena).unwrap();
+                            
+                            let lhs_path_str = _lhs_path.to_string();
+                            let rhs_path_str = rhs_path.to_string();
+
+                            // Extract just the filenames as owned strings
+                            let lhs_filename = match lhs_path_str.split('/').last() {
+                                Some(name) => name.to_string(),
+                                None => lhs_path_str.clone()
+                            };
+
+                            let rhs_filename = match rhs_path_str.split('/').last() {
+                                Some(name) => name.to_string(),
+                                None => rhs_path_str.clone()
+                            };
+                            
+                            let lhs_parsed = parse_from_json(&lhs_json, &lhs_filename, &arena).unwrap();
                             let lhs = vec![lhs_parsed];
-                            let rhs_parsed = parse_from_json(&rhs_json, &arena).unwrap();
+                            let rhs_parsed = parse_from_json(&rhs_json, &rhs_filename, &arena).unwrap();
                             let rhs = vec![rhs_parsed];
                             init_all_info(&lhs, &rhs);
 
