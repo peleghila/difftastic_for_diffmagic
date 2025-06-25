@@ -1,273 +1,4 @@
-LHS: [
-    List id:1 content_id:13 {
-        open_content: "{",
-        open_position: "0:0-1",
-        children: [
-            Atom id:2 content_id:1 {
-                content: "Utils",
-                position: "0:13-18",
-            },
-            List id:3 content_id:12 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    Atom id:4 content_id:2 {
-                        content: "foo",
-                        position: "1:23-26",
-                    },
-                    List id:5 content_id:5 {
-                        open_content: "",
-                        open_position: "1:4-4",
-                        children: [
-                            Atom id:6 content_id:3 {
-                                content: "public",
-                                position: "1:4-10",
-                            },
-                            Atom id:7 content_id:4 {
-                                content: "static",
-                                position: "1:11-17",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "1:17-17",
-                    },
-                    List id:8 content_id:10 {
-                        open_content: "{",
-                        open_position: "1:28-29",
-                        children: [
-                            List id:9 content_id:9 {
-                                open_content: "(",
-                                open_position: "2:8-9",
-                                children: [
-                                    Atom id:10 content_id:6 {
-                                        content: "println",
-                                        position: "2:19-26",
-                                    },
-                                    Atom id:11 content_id:7 {
-                                        content: "Hello!",
-                                        position: "2:27-33",
-                                    },
-                                    Atom id:12 content_id:8 {
-                                        content: "System",
-                                        position: "2:8-14",
-                                    },
-                                ],
-                                close_content: ")",
-                                close_position: "2:36-37",
-                            },
-                        ],
-                        close_content: "}",
-                        close_position: "3:3-4",
-                    },
-                    Atom id:13 content_id:11 {
-                        content: "void",
-                        position: "1:18-22",
-                    },
-                ],
-                close_content: "",
-                close_position: "3:5-5",
-            },
-            List id:14 content_id:12 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    Atom id:15 content_id:2 {
-                        content: "foo",
-                        position: "1:23-26",
-                    },
-                    List id:16 content_id:5 {
-                        open_content: "",
-                        open_position: "1:4-4",
-                        children: [
-                            Atom id:17 content_id:3 {
-                                content: "public",
-                                position: "1:4-10",
-                            },
-                            Atom id:18 content_id:4 {
-                                content: "static",
-                                position: "1:11-17",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "1:17-17",
-                    },
-                    List id:19 content_id:10 {
-                        open_content: "{",
-                        open_position: "1:28-29",
-                        children: [
-                            List id:20 content_id:9 {
-                                open_content: "(",
-                                open_position: "2:8-9",
-                                children: [
-                                    Atom id:21 content_id:6 {
-                                        content: "println",
-                                        position: "2:19-26",
-                                    },
-                                    Atom id:22 content_id:7 {
-                                        content: "Hello!",
-                                        position: "2:27-33",
-                                    },
-                                    Atom id:23 content_id:8 {
-                                        content: "System",
-                                        position: "2:8-14",
-                                    },
-                                ],
-                                close_content: ")",
-                                close_position: "2:36-37",
-                            },
-                        ],
-                        close_content: "}",
-                        close_position: "3:3-4",
-                    },
-                    Atom id:24 content_id:11 {
-                        content: "void",
-                        position: "1:18-22",
-                    },
-                ],
-                close_content: "",
-                close_position: "3:5-5",
-            },
-        ],
-        close_content: "}",
-        close_position: "4:1-2",
-    },
-]
-
-RHS: [
-    List id:25 content_id:18 {
-        open_content: "{",
-        open_position: "0:0-1",
-        children: [
-            Atom id:26 content_id:1 {
-                content: "Utils",
-                position: "0:13-18",
-            },
-            List id:27 content_id:17 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    Atom id:28 content_id:2 {
-                        content: "foo",
-                        position: "1:23-26",
-                    },
-                    List id:29 content_id:5 {
-                        open_content: "",
-                        open_position: "1:4-4",
-                        children: [
-                            Atom id:30 content_id:3 {
-                                content: "public",
-                                position: "1:4-10",
-                            },
-                            Atom id:31 content_id:4 {
-                                content: "static",
-                                position: "1:11-17",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "1:17-17",
-                    },
-                    List id:32 content_id:16 {
-                        open_content: "{",
-                        open_position: "1:28-29",
-                        children: [
-                            List id:33 content_id:15 {
-                                open_content: "(",
-                                open_position: "2:8-9",
-                                children: [
-                                    Atom id:34 content_id:6 {
-                                        content: "println",
-                                        position: "2:19-26",
-                                    },
-                                    Atom id:35 content_id:14 {
-                                        content: "Goodbye!",
-                                        position: "2:27-35",
-                                    },
-                                    Atom id:36 content_id:8 {
-                                        content: "System",
-                                        position: "2:8-14",
-                                    },
-                                ],
-                                close_content: ")",
-                                close_position: "2:38-39",
-                            },
-                        ],
-                        close_content: "}",
-                        close_position: "3:3-4",
-                    },
-                    Atom id:37 content_id:11 {
-                        content: "void",
-                        position: "1:18-22",
-                    },
-                ],
-                close_content: "",
-                close_position: "3:5-5",
-            },
-            List id:38 content_id:17 {
-                open_content: "",
-                open_position: "1:4-4",
-                children: [
-                    Atom id:39 content_id:2 {
-                        content: "foo",
-                        position: "1:23-26",
-                    },
-                    List id:40 content_id:5 {
-                        open_content: "",
-                        open_position: "1:4-4",
-                        children: [
-                            Atom id:41 content_id:3 {
-                                content: "public",
-                                position: "1:4-10",
-                            },
-                            Atom id:42 content_id:4 {
-                                content: "static",
-                                position: "1:11-17",
-                            },
-                        ],
-                        close_content: "",
-                        close_position: "1:17-17",
-                    },
-                    List id:43 content_id:16 {
-                        open_content: "{",
-                        open_position: "1:28-29",
-                        children: [
-                            List id:44 content_id:15 {
-                                open_content: "(",
-                                open_position: "2:8-9",
-                                children: [
-                                    Atom id:45 content_id:6 {
-                                        content: "println",
-                                        position: "2:19-26",
-                                    },
-                                    Atom id:46 content_id:14 {
-                                        content: "Goodbye!",
-                                        position: "2:27-35",
-                                    },
-                                    Atom id:47 content_id:8 {
-                                        content: "System",
-                                        position: "2:8-14",
-                                    },
-                                ],
-                                close_content: ")",
-                                close_position: "2:38-39",
-                            },
-                        ],
-                        close_content: "}",
-                        close_position: "3:3-4",
-                    },
-                    Atom id:48 content_id:11 {
-                        content: "void",
-                        position: "1:18-22",
-                    },
-                ],
-                close_content: "",
-                close_position: "3:5-5",
-            },
-        ],
-        close_content: "}",
-        close_position: "4:1-2",
-    },
-]
-
+------------------Prog.java------------------
 LHS: [
     List id:1 content_id:16 {
         open_content: "{",
@@ -434,7 +165,6 @@ LHS: [
         close_position: "4:1-2",
     },
 ]
-
 RHS: [
     List id:31 content_id:21 {
         open_content: "{",
@@ -602,58 +332,275 @@ RHS: [
     },
 ]
 
-Changes: ChangeMap {
-    changes: {
-        19: Unchanged(ID: 43),
-        46: Novel,
-        38: Unchanged(ID: 14),
-        11: Novel,
-        30: Unchanged(ID: 6),
-        3: Unchanged(ID: 27),
-        22: Novel,
-        41: Unchanged(ID: 17),
-        14: Unchanged(ID: 38),
-        33: Unchanged(ID: 9),
-        6: Unchanged(ID: 30),
-        25: Unchanged(ID: 1),
-        17: Unchanged(ID: 41),
-        44: Unchanged(ID: 20),
-        36: Unchanged(ID: 12),
-        9: Unchanged(ID: 33),
-        1: Unchanged(ID: 25),
-        28: Unchanged(ID: 4),
-        20: Unchanged(ID: 44),
-        47: Unchanged(ID: 23),
-        39: Unchanged(ID: 15),
-        12: Unchanged(ID: 36),
-        4: Unchanged(ID: 28),
-        31: Unchanged(ID: 7),
-        23: Unchanged(ID: 47),
-        42: Unchanged(ID: 18),
-        15: Unchanged(ID: 39),
-        7: Unchanged(ID: 31),
-        34: Unchanged(ID: 10),
-        26: Unchanged(ID: 2),
-        45: Unchanged(ID: 21),
-        18: Unchanged(ID: 42),
-        10: Unchanged(ID: 34),
-        37: Unchanged(ID: 13),
-        29: Unchanged(ID: 5),
-        2: Unchanged(ID: 26),
-        48: Unchanged(ID: 24),
-        21: Unchanged(ID: 45),
-        13: Unchanged(ID: 37),
-        40: Unchanged(ID: 16),
-        32: Unchanged(ID: 8),
-        5: Unchanged(ID: 29),
-        24: Unchanged(ID: 48),
-        16: Unchanged(ID: 40),
-        43: Unchanged(ID: 19),
-        35: Novel,
-        8: Unchanged(ID: 32),
-        27: Unchanged(ID: 3),
+------------------Utils.java------------------
+LHS: [
+    List id:1 content_id:13 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:2 content_id:1 {
+                content: "Utils",
+                position: "0:13-18",
+            },
+            List id:3 content_id:12 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:4 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:5 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:6 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:7 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:8 content_id:10 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:9 content_id:9 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:10 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:11 content_id:7 {
+                                        content: "Hello!",
+                                        position: "2:27-33",
+                                    },
+                                    Atom id:12 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:36-37",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:13 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+            List id:14 content_id:12 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:15 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:16 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:17 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:18 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:19 content_id:10 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:20 content_id:9 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:21 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:22 content_id:7 {
+                                        content: "Hello!",
+                                        position: "2:27-33",
+                                    },
+                                    Atom id:23 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:36-37",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:24 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "4:1-2",
     },
-}
+]
+RHS: [
+    List id:25 content_id:18 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:26 content_id:1 {
+                content: "Utils",
+                position: "0:13-18",
+            },
+            List id:27 content_id:17 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:28 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:29 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:30 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:31 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:32 content_id:16 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:33 content_id:15 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:34 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:35 content_id:14 {
+                                        content: "Goodbye!",
+                                        position: "2:27-35",
+                                    },
+                                    Atom id:36 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:38-39",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:37 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+            List id:38 content_id:17 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    Atom id:39 content_id:2 {
+                        content: "foo",
+                        position: "1:23-26",
+                    },
+                    List id:40 content_id:5 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:41 content_id:3 {
+                                content: "public",
+                                position: "1:4-10",
+                            },
+                            Atom id:42 content_id:4 {
+                                content: "static",
+                                position: "1:11-17",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "1:17-17",
+                    },
+                    List id:43 content_id:16 {
+                        open_content: "{",
+                        open_position: "1:28-29",
+                        children: [
+                            List id:44 content_id:15 {
+                                open_content: "(",
+                                open_position: "2:8-9",
+                                children: [
+                                    Atom id:45 content_id:6 {
+                                        content: "println",
+                                        position: "2:19-26",
+                                    },
+                                    Atom id:46 content_id:14 {
+                                        content: "Goodbye!",
+                                        position: "2:27-35",
+                                    },
+                                    Atom id:47 content_id:8 {
+                                        content: "System",
+                                        position: "2:8-14",
+                                    },
+                                ],
+                                close_content: ")",
+                                close_position: "2:38-39",
+                            },
+                        ],
+                        close_content: "}",
+                        close_position: "3:3-4",
+                    },
+                    Atom id:48 content_id:11 {
+                        content: "void",
+                        position: "1:18-22",
+                    },
+                ],
+                close_content: "",
+                close_position: "3:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "4:1-2",
+    },
+]
 
 Changes: ChangeMap {
     changes: {
@@ -720,12 +667,58 @@ Changes: ChangeMap {
     },
 }
 
-Utils.java --- Java
-1 public class Utils {                      1 public class Utils {
-2     public static void foo() {            2     public static void foo() {
-3         System.out.println("Hello!");     3         System.out.println("Goodbye!");
-4     }                                     4     }
-5 }                                         5 }
+Changes: ChangeMap {
+    changes: {
+        19: Unchanged(ID: 43),
+        46: Novel,
+        38: Unchanged(ID: 14),
+        11: Novel,
+        30: Unchanged(ID: 6),
+        3: Unchanged(ID: 27),
+        22: Novel,
+        41: Unchanged(ID: 17),
+        14: Unchanged(ID: 38),
+        33: Unchanged(ID: 9),
+        6: Unchanged(ID: 30),
+        25: Unchanged(ID: 1),
+        17: Unchanged(ID: 41),
+        44: Unchanged(ID: 20),
+        36: Unchanged(ID: 12),
+        9: Unchanged(ID: 33),
+        1: Unchanged(ID: 25),
+        28: Unchanged(ID: 4),
+        20: Unchanged(ID: 44),
+        47: Unchanged(ID: 23),
+        39: Unchanged(ID: 15),
+        12: Unchanged(ID: 36),
+        4: Unchanged(ID: 28),
+        31: Unchanged(ID: 7),
+        23: Unchanged(ID: 47),
+        42: Unchanged(ID: 18),
+        15: Unchanged(ID: 39),
+        7: Unchanged(ID: 31),
+        34: Unchanged(ID: 10),
+        26: Unchanged(ID: 2),
+        45: Unchanged(ID: 21),
+        18: Unchanged(ID: 42),
+        10: Unchanged(ID: 34),
+        37: Unchanged(ID: 13),
+        29: Unchanged(ID: 5),
+        2: Unchanged(ID: 26),
+        48: Unchanged(ID: 24),
+        21: Unchanged(ID: 45),
+        13: Unchanged(ID: 37),
+        40: Unchanged(ID: 16),
+        32: Unchanged(ID: 8),
+        5: Unchanged(ID: 29),
+        24: Unchanged(ID: 48),
+        16: Unchanged(ID: 40),
+        43: Unchanged(ID: 19),
+        35: Novel,
+        8: Unchanged(ID: 32),
+        27: Unchanged(ID: 3),
+    },
+}
 
 Prog.java --- Java
 1 public class Prog {                            1 public class Prog {
@@ -733,4 +726,11 @@ Prog.java --- Java
 3         System.out.println("LHS");             3         System.out.println("RHS");
 4     }                                          4     }
 5 }                                              5 }
+
+Utils.java --- Java
+1 public class Utils {                      1 public class Utils {
+2     public static void foo() {            2     public static void foo() {
+3         System.out.println("Hello!");     3         System.out.println("Goodbye!");
+4     }                                     4     }
+5 }                                         5 }
 

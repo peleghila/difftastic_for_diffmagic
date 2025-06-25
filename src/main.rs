@@ -71,7 +71,6 @@ use crate::parse::guess_language::language_globs;
 use crate::parse::guess_language::{guess, language_name, Language, LanguageOverride};
 use crate::parse::syntax;
 use crate::parse::syntax::Syntax;
-use crate::parse::syntax::SyntaxInfo;
 use crate::parse::syntax::AtomKind;
 use line_numbers::SingleLineSpan;
 use crate::syntax::StringKind;
@@ -545,81 +544,6 @@ fn check_only_text(
     }
 }
 
-fn create_syntax_info<'a>(
-    syntax_info_json: &Value,
-    id: u32,
-    id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
-) -> SyntaxInfo<'a> {
-    let info = SyntaxInfo::new();
-
-    // Find the entry for this ID in the JSON array
-    if let Some(array) = syntax_info_json.as_array() {
-        for item in array {
-            let item_id = item["id"].as_u64().unwrap() as u32;
-
-            if item_id == id {
-                let content_id = item["content_id"].as_u64().unwrap() as u32;
-                info.content_id.set(content_id);
-
-                let is_unique = item["is_unique"].as_bool().unwrap();
-                info.content_is_unique.set(is_unique);
-
-                let num_ancestors = item["num_ancestors"].as_u64().unwrap() as u32;
-                info.num_ancestors.set(num_ancestors);
-
-                let num_after = item["num_after"].as_u64().unwrap() as usize;
-                info.num_after.set(num_after);
-
-                info.unique_id.set(std::num::NonZeroU32::new(id).unwrap());
-
-                let parent_val = &item["parent"];
-                if parent_val.is_string() && parent_val.as_str().unwrap() == "None" {
-                    info.parent.set(None);
-                } else {
-                    let parent_id = parent_val.as_u64().unwrap() as u32;
-                    if let Some(&parent_node) = id_to_node.get(&parent_id) {
-                        info.parent.set(Some(parent_node));
-                    }
-                }
-
-                let prev_val = &item["prev_sibling"];
-                if prev_val.is_string() && prev_val.as_str().unwrap() == "None" {
-                    info.previous_sibling.set(None);
-                } else {
-                    let prev_id = prev_val.as_u64().unwrap() as u32;
-                    if let Some(&prev_node) = id_to_node.get(&prev_id) {
-                        info.previous_sibling.set(Some(prev_node));
-                    }
-                }
-
-                let next_val = &item["next_sibling"];
-                if next_val.is_string() && next_val.as_str().unwrap() == "None" {
-                    info.next_sibling.set(None);
-                } else {
-                    let next_id = next_val.as_u64().unwrap() as u32;
-                    if let Some(&next_node) = id_to_node.get(&next_id) {
-                        info.next_sibling.set(Some(next_node));
-                    }
-                }
-
-                let prev_node_val = &item["prev_node"];
-                if prev_node_val.is_string() && prev_node_val.as_str().unwrap() == "None" {
-                    info.prev.set(None);
-                } else {
-                    let prev_node_id = prev_node_val.as_u64().unwrap() as u32;
-                    if let Some(&prev_node) = id_to_node.get(&prev_node_id) {
-                        info.prev.set(Some(prev_node));
-                    }
-                }
-
-                return info;
-            }
-        }
-    }
-
-    info
-}
-
 fn get_atom_kind(kind_str: &str) -> AtomKind {
     match kind_str {
         "Keyword" => AtomKind::Keyword,
@@ -671,61 +595,6 @@ fn create_position(position_str: &str) -> Vec<SingleLineSpan> {
     }]
 }
 
-fn update_syntax_info<'a>(
-    root: &'a Syntax<'a>,
-    syntax_info: &Value,
-    id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
-) {
-    // Helper function to recursively traverse the syntax tree
-    fn traverse<'a>(
-        node: &'a Syntax<'a>,
-        syntax_info: &Value,
-        id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
-    ) {
-        // Get the ID of the current node
-        if let id = node.info().unique_id.get() {
-            // Create the proper SyntaxInfo for this node
-            let updated_info = create_syntax_info(syntax_info, id.get(), id_to_node);
-
-            // Update the node's info fields with values from updated_info
-            let node_info = node.info();
-
-            // Copy over all Cell values from updated_info to node_info
-            node_info.content_id.set(updated_info.content_id.get());
-            node_info.content_is_unique.set(updated_info.content_is_unique.get());
-            node_info.num_ancestors.set(updated_info.num_ancestors.get());
-            node_info.num_after.set(updated_info.num_after.get());
-
-            // Only set parent/sibling/prev references if they exist in updated_info
-            if let Some(parent) = updated_info.parent.get() {
-                node_info.parent.set(Some(parent));
-            }
-
-            if let Some(prev_sibling) = updated_info.previous_sibling.get() {
-                node_info.previous_sibling.set(Some(prev_sibling));
-            }
-
-            if let Some(next_sibling) = updated_info.next_sibling.get() {
-                node_info.next_sibling.set(Some(next_sibling));
-            }
-
-            if let Some(prev) = updated_info.prev.get() {
-                node_info.prev.set(Some(prev));
-            }
-        }
-
-        // Recursively process children if this is a list
-        if let Syntax::List { children, .. } = node {
-            for child in children {
-                traverse(child, syntax_info, id_to_node);
-            }
-        }
-    }
-
-    // Start traversal from the root node
-    traverse(root, syntax_info, id_to_node);
-}
-
 fn build_syntax_tree<'a>(syntax: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
     match syntax {
         Value::Object(obj) => {
@@ -764,7 +633,7 @@ fn build_syntax_tree<'a>(syntax: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syn
                 list
             }
         },
-        Value::Array(arr) => {
+        Value::Array(_) => {
             // Create a default atom for unknown syntax types
             Syntax::new_atom(
                 arena,
@@ -802,87 +671,10 @@ fn parse_from_json<'a>(src: &str, filename: &str, arena: &'a Arena<Syntax<'a>>) 
         None => return Err("No 'syntax' field found in JSON".to_string()),
     };
 
-    let file_syntax = match syntax_obj.get(filename) {
+    match syntax_obj.get(filename) {
         Some(syntax) => return Ok(build_syntax_tree(syntax.clone(), arena)),
         None => return Err(format!("No syntax found for file: {}", filename)),
     };
-}
-
-fn build_id_to_node_map<'a>(root: &'a Syntax<'a>) -> std::collections::HashMap<u32, &'a Syntax<'a>> {
-    let mut id_to_node = std::collections::HashMap::new();
-
-    // Helper function to recursively traverse the syntax tree
-    fn traverse<'a>(node: &'a Syntax<'a>, map: &mut std::collections::HashMap<u32, &'a Syntax<'a>>) {
-        // Get the ID from node info
-        if let id = node.info().unique_id.get() {
-            map.insert(id.get(), node);
-        }
-
-        // Recursively process children if this is a list
-        if let Syntax::List { children, .. } = node {
-            for child in children {
-                traverse(child, map);
-            }
-        }
-    }
-
-    traverse(root, &mut id_to_node);
-    id_to_node
-}
-
-fn print_syntax_info_recursive<'a>(node: &'a Syntax<'a>, indent: usize) -> String {
-    let mut result = String::new();
-    let indent_str = " ".repeat(indent);
-
-    // Get node basic info
-    let info = node.info();
-    let id = info.unique_id.get().get();
-    let content_id = info.content_id.get();
-    let content_is_unique = info.content_is_unique.get();
-    let num_ancestors = info.num_ancestors.get();
-    let num_after = info.num_after.get();
-
-    // Format parent, previous_sibling, next_sibling and prev references
-    let parent_id = match info.parent.get() {
-        Some(p) => p.info().unique_id.get().get().to_string(),
-        None => "None".to_string()
-    };
-
-    let prev_sibling_id = match info.previous_sibling.get() {
-        Some(p) => p.info().unique_id.get().get().to_string(),
-        None => "None".to_string()
-    };
-
-    let next_sibling_id = match info.next_sibling.get() {
-        Some(p) => p.info().unique_id.get().get().to_string(),
-        None => "None".to_string()
-    };
-
-    let prev_id = match info.prev.get() {
-        Some(p) => p.info().unique_id.get().get().to_string(),
-        None => "None".to_string()
-    };
-
-    // Basic node info
-    result.push_str(&format!("{}SyntaxInfo for node {}:\n", indent_str, id));
-    result.push_str(&format!("{}  content_id: {}\n", indent_str, content_id));
-    result.push_str(&format!("{}  content_is_unique: {}\n", indent_str, content_is_unique));
-    result.push_str(&format!("{}  num_ancestors: {}\n", indent_str, num_ancestors));
-    result.push_str(&format!("{}  num_after: {}\n", indent_str, num_after));
-    result.push_str(&format!("{}  parent: {}\n", indent_str, parent_id));
-    result.push_str(&format!("{}  previous_sibling: {}\n", indent_str, prev_sibling_id));
-    result.push_str(&format!("{}  next_sibling: {}\n", indent_str, next_sibling_id));
-    result.push_str(&format!("{}  prev: {}\n", indent_str, prev_id));
-
-    // Recursively process children if this is a list
-    if let Syntax::List { children, .. } = node {
-        result.push_str(&format!("{}  children_info:\n", indent_str));
-        for child in children {
-            result.push_str(&print_syntax_info_recursive(child, indent + 4));
-        }
-    }
-
-    result
 }
 
 fn write_to_file(content: &str, filepath: &str) -> std::io::Result<()> {
@@ -967,7 +759,6 @@ fn diff_file_content(
                             let lhs_path_str = _lhs_path.to_string();
                             let rhs_path_str = rhs_path.to_string();
 
-                            // Extract just the filenames as owned strings
                             let lhs_filename = match lhs_path_str.split('/').last() {
                                 Some(name) => name.to_string(),
                                 None => lhs_path_str.clone()
@@ -984,8 +775,8 @@ fn diff_file_content(
                             let rhs = vec![rhs_parsed];
                             init_all_info(&lhs, &rhs);
 
-                            println!("LHS: {:#?}\n", lhs);
-                            println!("RHS: {:#?}\n", rhs);
+                            println!("------------------{}------------------\nLHS: {:#?}\nRHS: {:#?}\n", lhs_filename, lhs, rhs);
+                            
                             let actual = format!("LHS: {:#?}\nRHS: {:#?}", lhs, rhs);
                             write_to_file(&actual, "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/output.syntax")
                                 .expect("Failed to write expected.syntax file");
