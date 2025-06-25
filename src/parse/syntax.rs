@@ -49,30 +49,31 @@ impl fmt::Debug for ChangeKind<'_> {
 pub(crate) type SyntaxId = NonZeroU32;
 
 /// Fields that are common to both `Syntax::List` and `Syntax::Atom`.
+#[derive(Debug)]
 pub(crate) struct SyntaxInfo<'a> {
     /// The previous node with the same parent as this one.
-    previous_sibling: Cell<Option<&'a Syntax<'a>>>,
+    pub(crate) previous_sibling: Cell<Option<&'a Syntax<'a>>>,
     /// The next node with the same parent as this one.
-    next_sibling: Cell<Option<&'a Syntax<'a>>>,
+    pub(crate) next_sibling: Cell<Option<&'a Syntax<'a>>>,
     /// The syntax node that occurs before this one, in a depth-first
     /// tree traversal.
-    prev: Cell<Option<&'a Syntax<'a>>>,
+    pub(crate) prev: Cell<Option<&'a Syntax<'a>>>,
     /// The parent syntax node, if present.
-    parent: Cell<Option<&'a Syntax<'a>>>,
+    pub(crate) parent: Cell<Option<&'a Syntax<'a>>>,
     /// The number of nodes that are ancestors of this one.
-    num_ancestors: Cell<u32>,
+    pub(crate) num_ancestors: Cell<u32>,
     pub(crate) num_after: Cell<usize>,
     /// A number that uniquely identifies this syntax node.
-    unique_id: Cell<SyntaxId>,
+    pub(crate) unique_id: Cell<SyntaxId>,
     /// A number that uniquely identifies the content of this syntax
     /// node. This may be the same as nodes on the other side of the
     /// diff, or nodes at different positions.
     ///
     /// Values are sequential, not hashes. Collisions never occur.
-    content_id: Cell<u32>,
+    pub(crate) content_id: Cell<u32>,
     /// Is this the only node with this content? Ignores nodes on the
     /// other side.
-    content_is_unique: Cell<bool>,
+    pub(crate) content_is_unique: Cell<bool>,
 }
 
 impl<'a> SyntaxInfo<'a> {

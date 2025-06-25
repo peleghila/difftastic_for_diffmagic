@@ -1,0 +1,2423 @@
+LHS: [
+    List id:1 content_id:35 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:2 content_id:1 {
+                content: "Prog",
+                position: "0:13-17",
+            },
+            List id:3 content_id:34 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    List id:4 content_id:30 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:5 content_id:2 {
+                                content: "main",
+                                position: "1:23-27",
+                            },
+                            List id:6 content_id:5 {
+                                open_content: "",
+                                open_position: "1:4-4",
+                                children: [
+                                    Atom id:7 content_id:3 {
+                                        content: "public",
+                                        position: "1:4-10",
+                                    },
+                                    Atom id:8 content_id:4 {
+                                        content: "static",
+                                        position: "1:11-17",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "1:17-17",
+                            },
+                            List id:9 content_id:8 {
+                                open_content: "",
+                                open_position: "1:28-28",
+                                children: [
+                                    Atom id:10 content_id:6 {
+                                        content: "args",
+                                        position: "1:37-41",
+                                    },
+                                    Atom id:11 content_id:7 {
+                                        content: "String",
+                                        position: "1:28-34",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "1:41-41",
+                            },
+                            List id:12 content_id:28 {
+                                open_content: "{",
+                                open_position: "1:42-43",
+                                children: [
+                                    List id:13 content_id:27 {
+                                        open_content: "{",
+                                        open_position: "2:8-9",
+                                        children: [
+                                            List id:14 content_id:17 {
+                                                open_content: "{",
+                                                open_position: "4:10-11",
+                                                children: [
+                                                    List id:15 content_id:13 {
+                                                        open_content: "{",
+                                                        open_position: "4:39-40",
+                                                        children: [
+                                                            List id:16 content_id:12 {
+                                                                open_content: "(",
+                                                                open_position: "5:12-13",
+                                                                children: [
+                                                                    Atom id:17 content_id:9 {
+                                                                        content: "println",
+                                                                        position: "5:23-30",
+                                                                    },
+                                                                    Atom id:18 content_id:10 {
+                                                                        content: "Division by zero",
+                                                                        position: "5:31-47",
+                                                                    },
+                                                                    Atom id:19 content_id:11 {
+                                                                        content: "System",
+                                                                        position: "5:12-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "5:50-51",
+                                                            },
+                                                        ],
+                                                        close_content: "}",
+                                                        close_position: "6:7-8",
+                                                    },
+                                                    List id:20 content_id:16 {
+                                                        open_content: "",
+                                                        open_position: "4:17-17",
+                                                        children: [
+                                                            Atom id:21 content_id:14 {
+                                                                content: "e",
+                                                                position: "4:37-38",
+                                                            },
+                                                            Atom id:22 content_id:15 {
+                                                                content: "ArithmeticException",
+                                                                position: "4:17-36",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "4:38-38",
+                                                    },
+                                                ],
+                                                close_content: "}",
+                                                close_position: "6:9-10",
+                                            },
+                                            List id:23 content_id:26 {
+                                                open_content: "{",
+                                                open_position: "2:11-12",
+                                                children: [
+                                                    List id:24 content_id:25 {
+                                                        open_content: "",
+                                                        open_position: "3:12-12",
+                                                        children: [
+                                                            Atom id:25 content_id:18 {
+                                                                content: "int",
+                                                                position: "3:12-15",
+                                                            },
+                                                            List id:26 content_id:24 {
+                                                                open_content: "",
+                                                                open_position: "3:16-16",
+                                                                children: [
+                                                                    Atom id:27 content_id:19 {
+                                                                        content: "a",
+                                                                        position: "3:16-17",
+                                                                    },
+                                                                    List id:28 content_id:23 {
+                                                                        open_content: "",
+                                                                        open_position: "3:20-20",
+                                                                        children: [
+                                                                            Atom id:29 content_id:20 {
+                                                                                content: "5",
+                                                                                position: "3:20-21",
+                                                                            },
+                                                                            Atom id:30 content_id:21 {
+                                                                                content: "/",
+                                                                                position: "3:21-22",
+                                                                            },
+                                                                            Atom id:31 content_id:22 {
+                                                                                content: "0",
+                                                                                position: "3:24-25",
+                                                                            },
+                                                                        ],
+                                                                        close_content: "",
+                                                                        close_position: "3:25-25",
+                                                                    },
+                                                                ],
+                                                                close_content: "",
+                                                                close_position: "3:25-25",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "3:26-26",
+                                                    },
+                                                ],
+                                                close_content: "}",
+                                                close_position: "4:7-8",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "6:9-10",
+                                    },
+                                ],
+                                close_content: "}",
+                                close_position: "6:7-8",
+                            },
+                            Atom id:32 content_id:29 {
+                                content: "void",
+                                position: "1:18-22",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "7:5-5",
+                    },
+                    List id:33 content_id:33 {
+                        open_content: "",
+                        open_position: "9:4-4",
+                        children: [
+                            Atom id:34 content_id:31 {
+                                content: "foo",
+                                position: "9:23-26",
+                            },
+                            List id:35 content_id:5 {
+                                open_content: "",
+                                open_position: "9:4-4",
+                                children: [
+                                    Atom id:36 content_id:3 {
+                                        content: "public",
+                                        position: "9:4-10",
+                                    },
+                                    Atom id:37 content_id:4 {
+                                        content: "static",
+                                        position: "9:11-17",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "9:17-17",
+                            },
+                            List id:38 content_id:32 {
+                                open_content: "{",
+                                open_position: "9:28-29",
+                                children: [],
+                                close_content: "}",
+                                close_position: "10:3-4",
+                            },
+                            Atom id:39 content_id:29 {
+                                content: "void",
+                                position: "9:18-22",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "10:5-5",
+                    },
+                ],
+                close_content: "",
+                close_position: "10:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "11:1-2",
+    },
+]
+
+RHS: [
+    List id:40 content_id:45 {
+        open_content: "{",
+        open_position: "0:0-1",
+        children: [
+            Atom id:41 content_id:1 {
+                content: "Prog",
+                position: "0:13-17",
+            },
+            List id:42 content_id:44 {
+                open_content: "",
+                open_position: "1:4-4",
+                children: [
+                    List id:43 content_id:43 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            Atom id:44 content_id:2 {
+                                content: "main",
+                                position: "1:23-27",
+                            },
+                            List id:45 content_id:5 {
+                                open_content: "",
+                                open_position: "1:4-4",
+                                children: [
+                                    Atom id:46 content_id:3 {
+                                        content: "public",
+                                        position: "1:4-10",
+                                    },
+                                    Atom id:47 content_id:4 {
+                                        content: "static",
+                                        position: "1:11-17",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "1:17-17",
+                            },
+                            List id:48 content_id:8 {
+                                open_content: "",
+                                open_position: "1:28-28",
+                                children: [
+                                    Atom id:49 content_id:6 {
+                                        content: "args",
+                                        position: "1:37-41",
+                                    },
+                                    Atom id:50 content_id:7 {
+                                        content: "String",
+                                        position: "1:28-34",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "1:41-41",
+                            },
+                            List id:51 content_id:42 {
+                                open_content: "{",
+                                open_position: "1:42-43",
+                                children: [
+                                    List id:52 content_id:41 {
+                                        open_content: "{",
+                                        open_position: "2:8-9",
+                                        children: [
+                                            List id:53 content_id:17 {
+                                                open_content: "{",
+                                                open_position: "4:10-11",
+                                                children: [
+                                                    List id:54 content_id:13 {
+                                                        open_content: "{",
+                                                        open_position: "4:39-40",
+                                                        children: [
+                                                            List id:55 content_id:12 {
+                                                                open_content: "(",
+                                                                open_position: "5:12-13",
+                                                                children: [
+                                                                    Atom id:56 content_id:9 {
+                                                                        content: "println",
+                                                                        position: "5:23-30",
+                                                                    },
+                                                                    Atom id:57 content_id:10 {
+                                                                        content: "Division by zero",
+                                                                        position: "5:31-47",
+                                                                    },
+                                                                    Atom id:58 content_id:11 {
+                                                                        content: "System",
+                                                                        position: "5:12-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "5:50-51",
+                                                            },
+                                                        ],
+                                                        close_content: "}",
+                                                        close_position: "6:7-8",
+                                                    },
+                                                    List id:59 content_id:16 {
+                                                        open_content: "",
+                                                        open_position: "4:17-17",
+                                                        children: [
+                                                            Atom id:60 content_id:14 {
+                                                                content: "e",
+                                                                position: "4:37-38",
+                                                            },
+                                                            Atom id:61 content_id:15 {
+                                                                content: "ArithmeticException",
+                                                                position: "4:17-36",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "4:38-38",
+                                                    },
+                                                ],
+                                                close_content: "}",
+                                                close_position: "6:9-10",
+                                            },
+                                            List id:62 content_id:40 {
+                                                open_content: "{",
+                                                open_position: "2:11-12",
+                                                children: [
+                                                    List id:63 content_id:39 {
+                                                        open_content: "",
+                                                        open_position: "3:12-12",
+                                                        children: [
+                                                            Atom id:64 content_id:18 {
+                                                                content: "int",
+                                                                position: "3:12-15",
+                                                            },
+                                                            List id:65 content_id:38 {
+                                                                open_content: "",
+                                                                open_position: "3:16-16",
+                                                                children: [
+                                                                    Atom id:66 content_id:19 {
+                                                                        content: "a",
+                                                                        position: "3:16-17",
+                                                                    },
+                                                                    List id:67 content_id:37 {
+                                                                        open_content: "",
+                                                                        open_position: "3:20-20",
+                                                                        children: [
+                                                                            Atom id:68 content_id:36 {
+                                                                                content: "3",
+                                                                                position: "3:20-21",
+                                                                            },
+                                                                            Atom id:69 content_id:21 {
+                                                                                content: "/",
+                                                                                position: "3:21-22",
+                                                                            },
+                                                                            Atom id:70 content_id:22 {
+                                                                                content: "0",
+                                                                                position: "3:24-25",
+                                                                            },
+                                                                        ],
+                                                                        close_content: "",
+                                                                        close_position: "3:25-25",
+                                                                    },
+                                                                ],
+                                                                close_content: "",
+                                                                close_position: "3:25-25",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "3:26-26",
+                                                    },
+                                                ],
+                                                close_content: "}",
+                                                close_position: "4:7-8",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "6:9-10",
+                                    },
+                                ],
+                                close_content: "}",
+                                close_position: "6:7-8",
+                            },
+                            Atom id:71 content_id:29 {
+                                content: "void",
+                                position: "1:18-22",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "7:5-5",
+                    },
+                    List id:72 content_id:33 {
+                        open_content: "",
+                        open_position: "9:4-4",
+                        children: [
+                            Atom id:73 content_id:31 {
+                                content: "foo",
+                                position: "9:23-26",
+                            },
+                            List id:74 content_id:5 {
+                                open_content: "",
+                                open_position: "9:4-4",
+                                children: [
+                                    Atom id:75 content_id:3 {
+                                        content: "public",
+                                        position: "9:4-10",
+                                    },
+                                    Atom id:76 content_id:4 {
+                                        content: "static",
+                                        position: "9:11-17",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "9:17-17",
+                            },
+                            List id:77 content_id:32 {
+                                open_content: "{",
+                                open_position: "9:28-29",
+                                children: [],
+                                close_content: "}",
+                                close_position: "10:3-4",
+                            },
+                            Atom id:78 content_id:29 {
+                                content: "void",
+                                position: "9:18-22",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "10:5-5",
+                    },
+                ],
+                close_content: "",
+                close_position: "10:5-5",
+            },
+        ],
+        close_content: "}",
+        close_position: "11:1-2",
+    },
+]
+
+Changes: ChangeMap {
+    changes: {
+        73: Unchanged(ID: 34),
+        19: Unchanged(ID: 58),
+        38: Unchanged(ID: 77),
+        57: Unchanged(ID: 18),
+        76: Unchanged(ID: 37),
+        3: Unchanged(ID: 42),
+        22: Unchanged(ID: 61),
+        41: Unchanged(ID: 2),
+        60: Unchanged(ID: 21),
+        6: Unchanged(ID: 45),
+        25: Unchanged(ID: 64),
+        44: Unchanged(ID: 5),
+        63: Unchanged(ID: 24),
+        9: Unchanged(ID: 48),
+        28: Unchanged(ID: 67),
+        47: Unchanged(ID: 8),
+        66: Unchanged(ID: 27),
+        12: Unchanged(ID: 51),
+        31: Unchanged(ID: 70),
+        50: Unchanged(ID: 11),
+        69: Unchanged(ID: 30),
+        15: Unchanged(ID: 54),
+        34: Unchanged(ID: 73),
+        53: Unchanged(ID: 14),
+        72: Unchanged(ID: 33),
+        18: Unchanged(ID: 57),
+        37: Unchanged(ID: 76),
+        56: Unchanged(ID: 17),
+        2: Unchanged(ID: 41),
+        75: Unchanged(ID: 36),
+        21: Unchanged(ID: 60),
+        40: Unchanged(ID: 1),
+        59: Unchanged(ID: 20),
+        5: Unchanged(ID: 44),
+        78: Unchanged(ID: 39),
+        24: Unchanged(ID: 63),
+        43: Unchanged(ID: 4),
+        62: Unchanged(ID: 23),
+        8: Unchanged(ID: 47),
+        27: Unchanged(ID: 66),
+        46: Unchanged(ID: 7),
+        65: Unchanged(ID: 26),
+        11: Unchanged(ID: 50),
+        30: Unchanged(ID: 69),
+        49: Unchanged(ID: 10),
+        68: Novel,
+        14: Unchanged(ID: 53),
+        33: Unchanged(ID: 72),
+        52: Unchanged(ID: 13),
+        71: Unchanged(ID: 32),
+        17: Unchanged(ID: 56),
+        36: Unchanged(ID: 75),
+        55: Unchanged(ID: 16),
+        1: Unchanged(ID: 40),
+        74: Unchanged(ID: 35),
+        20: Unchanged(ID: 59),
+        39: Unchanged(ID: 78),
+        58: Unchanged(ID: 19),
+        4: Unchanged(ID: 43),
+        77: Unchanged(ID: 38),
+        23: Unchanged(ID: 62),
+        42: Unchanged(ID: 3),
+        61: Unchanged(ID: 22),
+        7: Unchanged(ID: 46),
+        26: Unchanged(ID: 65),
+        45: Unchanged(ID: 6),
+        64: Unchanged(ID: 25),
+        10: Unchanged(ID: 49),
+        29: Novel,
+        48: Unchanged(ID: 9),
+        67: Unchanged(ID: 28),
+        13: Unchanged(ID: 52),
+        32: Unchanged(ID: 71),
+        51: Unchanged(ID: 12),
+        70: Unchanged(ID: 31),
+        16: Unchanged(ID: 55),
+        35: Unchanged(ID: 74),
+        54: Unchanged(ID: 15),
+    },
+}
+
+DiffResult {
+    display_path: "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs/rhs.java",
+    extra_info: None,
+    file_format: SupportedLanguage(
+        Java,
+    ),
+    lhs_src: Text(
+        "public class Prog {\n    public static void main(String[] args) {\n        try {\n            int a = 5 / 0;\n        } catch (ArithmeticException e) {\n            System.out.println(\"Division by zero\");\n        }\n    }\n\n    public static void foo() {\n    }\n}\n",
+    ),
+    rhs_src: Text(
+        "public class Prog {\n    public static void main(String[] args) {\n        try {\n            int a = 3 / 0;\n        } catch (ArithmeticException e) {\n            System.out.println(\"Division by zero\");\n        }\n    }\n\n    public static void foo() {\n    }\n}\n",
+    ),
+    hunks: [
+        Hunk {
+            novel_lhs: {
+                LineNumber: 4 (zero-indexed: 3),
+            },
+            novel_rhs: {
+                LineNumber: 4 (zero-indexed: 3),
+            },
+            lines: [
+                (
+                    Some(
+                        LineNumber: 4 (zero-indexed: 3),
+                    ),
+                    Some(
+                        LineNumber: 4 (zero-indexed: 3),
+                    ),
+                ),
+            ],
+        },
+    ],
+    lhs_positions: [
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 0,
+                        end_col: 1,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 0,
+                        end_col: 1,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 1 (zero-indexed: 0),
+                start_col: 0,
+                end_col: 1,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 13,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 13,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 1 (zero-indexed: 0),
+                start_col: 13,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 23,
+                        end_col: 27,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 23,
+                        end_col: 27,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 23,
+                end_col: 27,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 4,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 11,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 37,
+                        end_col: 41,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 37,
+                        end_col: 41,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 37,
+                end_col: 41,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 28,
+                        end_col: 34,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 28,
+                        end_col: 34,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 28,
+                end_col: 34,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 42,
+                        end_col: 43,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 42,
+                        end_col: 43,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 42,
+                end_col: 43,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 8,
+                        end_col: 9,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 8,
+                        end_col: 9,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 3 (zero-indexed: 2),
+                start_col: 8,
+                end_col: 9,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 10,
+                        end_col: 11,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 10,
+                        end_col: 11,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 10,
+                end_col: 11,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 39,
+                        end_col: 40,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 39,
+                        end_col: 40,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 39,
+                end_col: 40,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 13,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 13,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 12,
+                end_col: 13,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 23,
+                        end_col: 30,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 23,
+                        end_col: 30,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 23,
+                end_col: 30,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 31,
+                        end_col: 47,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 31,
+                        end_col: 47,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 31,
+                end_col: 47,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 18,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 18,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 12,
+                end_col: 18,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 50,
+                        end_col: 51,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 50,
+                        end_col: 51,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 50,
+                end_col: 51,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 37,
+                        end_col: 38,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 37,
+                        end_col: 38,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 37,
+                end_col: 38,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 17,
+                        end_col: 36,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 17,
+                        end_col: 36,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 17,
+                end_col: 36,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 9,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 11,
+                        end_col: 12,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 11,
+                        end_col: 12,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 3 (zero-indexed: 2),
+                start_col: 11,
+                end_col: 12,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 12,
+                        end_col: 15,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 12,
+                        end_col: 15,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 12,
+                end_col: 15,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 16,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 16,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 16,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: Novel {
+                highlight: Atom(
+                    Normal,
+                ),
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 20,
+                end_col: 21,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 21,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 21,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 21,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 24,
+                        end_col: 25,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 24,
+                        end_col: 25,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 24,
+                end_col: 25,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 9,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 18,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 23,
+                        end_col: 26,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 23,
+                        end_col: 26,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 23,
+                end_col: 26,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 4,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 11,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 28,
+                        end_col: 29,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 28,
+                        end_col: 29,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 28,
+                end_col: 29,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 11 (zero-indexed: 10),
+                        start_col: 3,
+                        end_col: 4,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 11 (zero-indexed: 10),
+                        start_col: 3,
+                        end_col: 4,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 11 (zero-indexed: 10),
+                start_col: 3,
+                end_col: 4,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 18,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 12 (zero-indexed: 11),
+                        start_col: 1,
+                        end_col: 2,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 12 (zero-indexed: 11),
+                        start_col: 1,
+                        end_col: 2,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 12 (zero-indexed: 11),
+                start_col: 1,
+                end_col: 2,
+            },
+        },
+    ],
+    rhs_positions: [
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 0,
+                        end_col: 1,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 0,
+                        end_col: 1,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 1 (zero-indexed: 0),
+                start_col: 0,
+                end_col: 1,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 13,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 1 (zero-indexed: 0),
+                        start_col: 13,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 1 (zero-indexed: 0),
+                start_col: 13,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 23,
+                        end_col: 27,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 23,
+                        end_col: 27,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 23,
+                end_col: 27,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 4,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 11,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 37,
+                        end_col: 41,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 37,
+                        end_col: 41,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 37,
+                end_col: 41,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 28,
+                        end_col: 34,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 28,
+                        end_col: 34,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 28,
+                end_col: 34,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 42,
+                        end_col: 43,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 42,
+                        end_col: 43,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 42,
+                end_col: 43,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 8,
+                        end_col: 9,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 8,
+                        end_col: 9,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 3 (zero-indexed: 2),
+                start_col: 8,
+                end_col: 9,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 10,
+                        end_col: 11,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 10,
+                        end_col: 11,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 10,
+                end_col: 11,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 39,
+                        end_col: 40,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 39,
+                        end_col: 40,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 39,
+                end_col: 40,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 13,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 13,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 12,
+                end_col: 13,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 23,
+                        end_col: 30,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 23,
+                        end_col: 30,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 23,
+                end_col: 30,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 31,
+                        end_col: 47,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 31,
+                        end_col: 47,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 31,
+                end_col: 47,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 18,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 12,
+                        end_col: 18,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 12,
+                end_col: 18,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 50,
+                        end_col: 51,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 6 (zero-indexed: 5),
+                        start_col: 50,
+                        end_col: 51,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 6 (zero-indexed: 5),
+                start_col: 50,
+                end_col: 51,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 37,
+                        end_col: 38,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 37,
+                        end_col: 38,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 37,
+                end_col: 38,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 17,
+                        end_col: 36,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 17,
+                        end_col: 36,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 17,
+                end_col: 36,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 9,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 11,
+                        end_col: 12,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 3 (zero-indexed: 2),
+                        start_col: 11,
+                        end_col: 12,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 3 (zero-indexed: 2),
+                start_col: 11,
+                end_col: 12,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 12,
+                        end_col: 15,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 12,
+                        end_col: 15,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 12,
+                end_col: 15,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 16,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 16,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 16,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: Novel {
+                highlight: Atom(
+                    Normal,
+                ),
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 20,
+                end_col: 21,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 21,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 21,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 21,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 24,
+                        end_col: 25,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 4 (zero-indexed: 3),
+                        start_col: 24,
+                        end_col: 25,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 4 (zero-indexed: 3),
+                start_col: 24,
+                end_col: 25,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 5 (zero-indexed: 4),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 5 (zero-indexed: 4),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 9,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 9,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 7 (zero-indexed: 6),
+                        start_col: 7,
+                        end_col: 8,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 7 (zero-indexed: 6),
+                start_col: 7,
+                end_col: 8,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 2 (zero-indexed: 1),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 2 (zero-indexed: 1),
+                start_col: 18,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Normal,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 23,
+                        end_col: 26,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 23,
+                        end_col: 26,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 23,
+                end_col: 26,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 4,
+                        end_col: 10,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 4,
+                end_col: 10,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Keyword,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 11,
+                        end_col: 17,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 11,
+                end_col: 17,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 28,
+                        end_col: 29,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 28,
+                        end_col: 29,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 28,
+                end_col: 29,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 11 (zero-indexed: 10),
+                        start_col: 3,
+                        end_col: 4,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 11 (zero-indexed: 10),
+                        start_col: 3,
+                        end_col: 4,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 11 (zero-indexed: 10),
+                start_col: 3,
+                end_col: 4,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Atom(
+                    Type,
+                ),
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 10 (zero-indexed: 9),
+                        start_col: 18,
+                        end_col: 22,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 10 (zero-indexed: 9),
+                start_col: 18,
+                end_col: 22,
+            },
+        },
+        MatchedPos {
+            kind: UnchangedToken {
+                highlight: Delimiter,
+                self_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 12 (zero-indexed: 11),
+                        start_col: 1,
+                        end_col: 2,
+                    },
+                ],
+                opposite_pos: [
+                    SingleLineSpan {
+                        line: LineNumber: 12 (zero-indexed: 11),
+                        start_col: 1,
+                        end_col: 2,
+                    },
+                ],
+            },
+            pos: SingleLineSpan {
+                line: LineNumber: 12 (zero-indexed: 11),
+                start_col: 1,
+                end_col: 2,
+            },
+        },
+    ],
+    has_byte_changes: true,
+    has_syntactic_changes: true,
+}
+/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs/rhs.java --- Java
+1 public class Prog {                                   1 public class Prog {
+2     public static void main(String[] args) {          2     public static void main(String[] args) {
+3         try {                                         3         try {
+4             int a = 5 / 0;                            4             int a = 3 / 0;
+5         } catch (ArithmeticException e) {             5         } catch (ArithmeticException e) {
+6             System.out.println("Division by zero");   6             System.out.println("Division by zero");
+7         }                                             7         }
+

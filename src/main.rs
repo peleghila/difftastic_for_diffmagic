@@ -70,6 +70,11 @@ use crate::files::{
 use crate::parse::guess_language::language_globs;
 use crate::parse::guess_language::{guess, language_name, Language, LanguageOverride};
 use crate::parse::syntax;
+use crate::parse::syntax::Syntax;
+use crate::parse::syntax::SyntaxInfo;
+use crate::parse::syntax::AtomKind;
+use line_numbers::SingleLineSpan;
+use crate::syntax::StringKind;
 
 /// The global allocator used by difftastic.
 ///
@@ -80,6 +85,10 @@ static GLOBAL: MiMalloc = MiMalloc;
 
 use std::path::Path;
 use std::{env, thread};
+
+use serde_json::Value;
+use std::fs::File;
+use std::io::prelude::*;
 
 use humansize::{format_size, BINARY};
 use owo_colors::OwoColorize;
@@ -337,6 +346,7 @@ fn main() {
                         false,
                         &language_overrides,
                     );
+                    println!("{:#?}", diff_result);
                     if diff_result.has_reportable_change() {
                         encountered_changes = true;
                     }
@@ -535,6 +545,363 @@ fn check_only_text(
     }
 }
 
+fn create_syntax_info<'a>(
+    syntax_info_json: &Value,
+    id: u32,
+    id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
+) -> SyntaxInfo<'a> {
+    let info = SyntaxInfo::new();
+
+    // Find the entry for this ID in the JSON array
+    if let Some(array) = syntax_info_json.as_array() {
+        for item in array {
+            let item_id = item["id"].as_u64().unwrap() as u32;
+
+            if item_id == id {
+                let content_id = item["content_id"].as_u64().unwrap() as u32;
+                info.content_id.set(content_id);
+
+                let is_unique = item["is_unique"].as_bool().unwrap();
+                info.content_is_unique.set(is_unique);
+
+                let num_ancestors = item["num_ancestors"].as_u64().unwrap() as u32;
+                info.num_ancestors.set(num_ancestors);
+
+                let num_after = item["num_after"].as_u64().unwrap() as usize;
+                info.num_after.set(num_after);
+
+                info.unique_id.set(std::num::NonZeroU32::new(id).unwrap());
+
+                let parent_val = &item["parent"];
+                if parent_val.is_string() && parent_val.as_str().unwrap() == "None" {
+                    info.parent.set(None);
+                } else {
+                    let parent_id = parent_val.as_u64().unwrap() as u32;
+                    if let Some(&parent_node) = id_to_node.get(&parent_id) {
+                        info.parent.set(Some(parent_node));
+                    }
+                }
+
+                let prev_val = &item["prev_sibling"];
+                if prev_val.is_string() && prev_val.as_str().unwrap() == "None" {
+                    info.previous_sibling.set(None);
+                } else {
+                    let prev_id = prev_val.as_u64().unwrap() as u32;
+                    if let Some(&prev_node) = id_to_node.get(&prev_id) {
+                        info.previous_sibling.set(Some(prev_node));
+                    }
+                }
+
+                let next_val = &item["next_sibling"];
+                if next_val.is_string() && next_val.as_str().unwrap() == "None" {
+                    info.next_sibling.set(None);
+                } else {
+                    let next_id = next_val.as_u64().unwrap() as u32;
+                    if let Some(&next_node) = id_to_node.get(&next_id) {
+                        info.next_sibling.set(Some(next_node));
+                    }
+                }
+
+                let prev_node_val = &item["prev_node"];
+                if prev_node_val.is_string() && prev_node_val.as_str().unwrap() == "None" {
+                    info.prev.set(None);
+                } else {
+                    let prev_node_id = prev_node_val.as_u64().unwrap() as u32;
+                    if let Some(&prev_node) = id_to_node.get(&prev_node_id) {
+                        info.prev.set(Some(prev_node));
+                    }
+                }
+
+                return info;
+            }
+        }
+    }
+
+    info
+}
+
+fn get_atom_kind(kind_str: &str) -> AtomKind {
+    match kind_str {
+        "Keyword" => AtomKind::Keyword,
+        "Type" => AtomKind::Type,
+        "Comment" => AtomKind::Comment,
+        "StringLiteral" => AtomKind::String(StringKind::StringLiteral),
+        "Text" => AtomKind::String(StringKind::Text),
+        "TreeSitterError" => AtomKind::TreeSitterError,
+        _ => AtomKind::Normal,
+    }
+}
+
+fn create_position(position_str: &str) -> Vec<SingleLineSpan> {
+    if position_str.is_empty() || position_str == "0:0-0" {
+        return vec![]; // Return empty vec for empty positions
+    }
+
+    let parts: Vec<&str> = position_str.split(':').collect();
+    if parts.len() < 2 {
+        return vec![];
+    }
+
+    // Parse line number
+    let line = match parts[0].parse::<u32>() {
+        Ok(num) => num,
+        Err(_) => return vec![],
+    };
+
+    // Parse column range
+    let col_parts: Vec<&str> = parts[1].split('-').collect();
+    if col_parts.len() < 2 {
+        return vec![];
+    }
+
+    let start_col = match col_parts[0].parse::<u32>() {
+        Ok(num) => num,
+        Err(_) => return vec![],
+    };
+
+    let end_col = match col_parts[1].parse::<u32>() {
+        Ok(num) => num,
+        Err(_) => return vec![],
+    };
+
+    vec![SingleLineSpan {
+        line: line.into(), // Convert u32 to LineNumber using .into()
+        start_col,
+        end_col,
+    }]
+}
+
+fn update_syntax_info<'a>(
+    root: &'a Syntax<'a>,
+    syntax_info: &Value,
+    id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
+) {
+    // Helper function to recursively traverse the syntax tree
+    fn traverse<'a>(
+        node: &'a Syntax<'a>,
+        syntax_info: &Value,
+        id_to_node: &std::collections::HashMap<u32, &'a Syntax<'a>>
+    ) {
+        // Get the ID of the current node
+        if let id = node.info().unique_id.get() {
+            // Create the proper SyntaxInfo for this node
+            let updated_info = create_syntax_info(syntax_info, id.get(), id_to_node);
+
+            // Update the node's info fields with values from updated_info
+            let node_info = node.info();
+
+            // Copy over all Cell values from updated_info to node_info
+            node_info.content_id.set(updated_info.content_id.get());
+            node_info.content_is_unique.set(updated_info.content_is_unique.get());
+            node_info.num_ancestors.set(updated_info.num_ancestors.get());
+            node_info.num_after.set(updated_info.num_after.get());
+
+            // Only set parent/sibling/prev references if they exist in updated_info
+            if let Some(parent) = updated_info.parent.get() {
+                node_info.parent.set(Some(parent));
+            }
+
+            if let Some(prev_sibling) = updated_info.previous_sibling.get() {
+                node_info.previous_sibling.set(Some(prev_sibling));
+            }
+
+            if let Some(next_sibling) = updated_info.next_sibling.get() {
+                node_info.next_sibling.set(Some(next_sibling));
+            }
+
+            if let Some(prev) = updated_info.prev.get() {
+                node_info.prev.set(Some(prev));
+            }
+        }
+
+        // Recursively process children if this is a list
+        if let Syntax::List { children, .. } = node {
+            for child in children {
+                traverse(child, syntax_info, id_to_node);
+            }
+        }
+    }
+
+    // Start traversal from the root node
+    traverse(root, syntax_info, id_to_node);
+}
+
+fn build_syntax_tree<'a>(syntax: Value, syntax_info: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
+    match syntax {
+        Value::Object(obj) => {
+            let node_kind = obj.get("node_kind").and_then(|v| v.as_str()).unwrap_or("");
+            let id = obj.get("id").unwrap().as_u64().unwrap() as u32;
+
+            if node_kind == "atom" {
+                let atom = Syntax::new_atom(
+                    arena,
+                    create_position(obj.get("position").unwrap().as_str().unwrap()),
+                    obj.get("content").unwrap().as_str().unwrap().to_string(),
+                    obj.get("kind").and_then(|v| v.as_str()).map(get_atom_kind).unwrap_or(AtomKind::Normal),
+                );
+                atom.info().unique_id.set(std::num::NonZeroU32::new(id).unwrap());
+                atom
+            }
+            else { // node_kind == "list"
+                let mut children = Vec::new();
+                if let Some(children_array) = obj.get("children").and_then(|v| v.as_array()) {
+                    for child_value in children_array {
+                        // Recursively process each child
+                        let child_node = build_syntax_tree(child_value.clone(), syntax_info.clone(), arena);
+                        children.push(child_node);
+                    }
+                }
+
+                let list = Syntax::new_list(
+                    arena,
+                    obj.get("open_content").unwrap().as_str().unwrap(),
+                    create_position(obj.get("open_position").unwrap().as_str().unwrap()),
+                    children,
+                    obj.get("close_content").unwrap().as_str().unwrap(),
+                    create_position(obj.get("close_position").unwrap().as_str().unwrap()),
+                );
+                list.info().unique_id.set(std::num::NonZeroU32::new(id).unwrap());
+                list
+            }
+        },
+        Value::Array(arr) => {
+            // Create a default atom for unknown syntax types
+            Syntax::new_atom(
+                arena,
+                vec![],
+                "unexpected_array".to_string(),
+                AtomKind::Normal,
+            )
+        },
+        Value::Null => {
+            // Create a default atom for unknown syntax types
+            Syntax::new_atom(
+                arena,
+                vec![],
+                "unexpected_null".to_string(),
+                AtomKind::Normal,
+            )
+        },
+        _ => {
+            // Create a default atom for unknown syntax types
+            Syntax::new_atom(
+                arena,
+                vec![],
+                "unknown_syntax_type".to_string(),
+                AtomKind::Normal,
+            )
+        },
+    }
+}
+
+fn parse_from_json<'a>(src: &str, arena: &'a Arena<Syntax<'a>>) -> Result<&'a Syntax<'a>, String> {
+    let v: Value = serde_json::from_str(src).map_err(|_| "Failed to parse JSON")?;
+
+    // Get the syntax array
+    let syntax_array = match v.get("syntax") {
+        Some(s) if s.is_array() => s.as_array().unwrap(),
+        Some(_) => return Err("'syntax' field is not an array".to_string()),
+        None => return Err("Missing 'syntax' field in JSON".to_string())
+    };
+
+    // Get the first object in the array
+    let syntax_value = match syntax_array.first() {
+        Some(first_obj) => first_obj.clone(),
+        None => return Err("'syntax' array is empty".to_string())
+    };
+
+    // Get the syntax info
+    let syntax_info_value = match v.get("syntaxInfo") {
+        Some(s) => s.clone(),
+        None => return Err("Missing 'syntaxInfo' field in JSON".to_string())
+    };
+
+    Ok(build_syntax_tree(syntax_value, syntax_info_value.clone(), arena))
+}
+
+fn build_id_to_node_map<'a>(root: &'a Syntax<'a>) -> std::collections::HashMap<u32, &'a Syntax<'a>> {
+    let mut id_to_node = std::collections::HashMap::new();
+
+    // Helper function to recursively traverse the syntax tree
+    fn traverse<'a>(node: &'a Syntax<'a>, map: &mut std::collections::HashMap<u32, &'a Syntax<'a>>) {
+        // Get the ID from node info
+        if let id = node.info().unique_id.get() {
+            map.insert(id.get(), node);
+        }
+
+        // Recursively process children if this is a list
+        if let Syntax::List { children, .. } = node {
+            for child in children {
+                traverse(child, map);
+            }
+        }
+    }
+
+    traverse(root, &mut id_to_node);
+    id_to_node
+}
+
+fn print_syntax_info_recursive<'a>(node: &'a Syntax<'a>, indent: usize) -> String {
+    let mut result = String::new();
+    let indent_str = " ".repeat(indent);
+
+    // Get node basic info
+    let info = node.info();
+    let id = info.unique_id.get().get();
+    let content_id = info.content_id.get();
+    let content_is_unique = info.content_is_unique.get();
+    let num_ancestors = info.num_ancestors.get();
+    let num_after = info.num_after.get();
+
+    // Format parent, previous_sibling, next_sibling and prev references
+    let parent_id = match info.parent.get() {
+        Some(p) => p.info().unique_id.get().get().to_string(),
+        None => "None".to_string()
+    };
+
+    let prev_sibling_id = match info.previous_sibling.get() {
+        Some(p) => p.info().unique_id.get().get().to_string(),
+        None => "None".to_string()
+    };
+
+    let next_sibling_id = match info.next_sibling.get() {
+        Some(p) => p.info().unique_id.get().get().to_string(),
+        None => "None".to_string()
+    };
+
+    let prev_id = match info.prev.get() {
+        Some(p) => p.info().unique_id.get().get().to_string(),
+        None => "None".to_string()
+    };
+
+    // Basic node info
+    result.push_str(&format!("{}SyntaxInfo for node {}:\n", indent_str, id));
+    result.push_str(&format!("{}  content_id: {}\n", indent_str, content_id));
+    result.push_str(&format!("{}  content_is_unique: {}\n", indent_str, content_is_unique));
+    result.push_str(&format!("{}  num_ancestors: {}\n", indent_str, num_ancestors));
+    result.push_str(&format!("{}  num_after: {}\n", indent_str, num_after));
+    result.push_str(&format!("{}  parent: {}\n", indent_str, parent_id));
+    result.push_str(&format!("{}  previous_sibling: {}\n", indent_str, prev_sibling_id));
+    result.push_str(&format!("{}  next_sibling: {}\n", indent_str, next_sibling_id));
+    result.push_str(&format!("{}  prev: {}\n", indent_str, prev_id));
+
+    // Recursively process children if this is a list
+    if let Syntax::List { children, .. } = node {
+        result.push_str(&format!("{}  children_info:\n", indent_str));
+        for child in children {
+            result.push_str(&print_syntax_info_recursive(child, indent + 4));
+        }
+    }
+
+    result
+}
+
+fn write_to_file(content: &str, filepath: &str) -> std::io::Result<()> {
+    let mut file = File::create(filepath)?;
+    file.write_all(content.as_bytes())?;
+    Ok(())
+}
+
 fn diff_file_content(
     display_path: &str,
     extra_info: Option<String>,
@@ -601,6 +968,24 @@ fn diff_file_content(
                         diff_options,
                     ) {
                         Ok((lhs, rhs)) => {
+                            let expected = format!("LHS: {:#?}\nRHS: {:#?}", lhs, rhs);
+                            write_to_file(&expected, "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/expected.syntax")
+                                .expect("Failed to write expected.syntax file");
+                            
+                            let lhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/lhs.json").unwrap();
+                            let rhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs.json").unwrap();
+                            let lhs_parsed = parse_from_json(&lhs_json, &arena).unwrap();
+                            let lhs = vec![lhs_parsed];
+                            let rhs_parsed = parse_from_json(&rhs_json, &arena).unwrap();
+                            let rhs = vec![rhs_parsed];
+                            init_all_info(&lhs, &rhs);
+
+                            println!("LHS: {:#?}\n", lhs);
+                            println!("RHS: {:#?}\n", rhs);
+                            let actual = format!("LHS: {:#?}\nRHS: {:#?}", lhs, rhs);
+                            write_to_file(&actual, "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/output.syntax")
+                                .expect("Failed to write expected.syntax file");
+
                             if diff_options.check_only {
                                 let has_syntactic_changes = lhs != rhs;
                                 return DiffResult {
@@ -660,6 +1045,7 @@ fn diff_file_content(
 
                                 let mut lhs_positions = syntax::change_positions(&lhs, &change_map);
                                 let mut rhs_positions = syntax::change_positions(&rhs, &change_map);
+                                println!("Changes: {:#?}\n", change_map);
 
                                 if diff_options.ignore_comments {
                                     let lhs_comments =
