@@ -749,12 +749,8 @@ fn diff_file_content(
                         diff_options,
                     ) {
                         Ok((lhs, rhs)) => {
-                            let expected = format!("LHS: {:#?}\nRHS: {:#?}", lhs, rhs);
-                            write_to_file(&expected, "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/expected.syntax")
-                                .expect("Failed to write expected.syntax file");
-                            
-                            let lhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/lhs.json").unwrap();
-                            let rhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs.json").unwrap();
+                            let lhs_json = std::fs::read_to_string("../difftastic/Files/lhs.json").unwrap();
+                            let rhs_json = std::fs::read_to_string("../difftastic/Files/rhs.json").unwrap();
                             
                             let lhs_path_str = _lhs_path.to_string();
                             let rhs_path_str = rhs_path.to_string();
@@ -768,7 +764,8 @@ fn diff_file_content(
                                 Some(name) => name.to_string(),
                                 None => rhs_path_str.clone()
                             };
-                            
+
+                            // To create the expected version comment out this chunk
                             let lhs_parsed = parse_from_json(&lhs_json, &lhs_filename, &arena).unwrap();
                             let lhs = vec![lhs_parsed];
                             let rhs_parsed = parse_from_json(&rhs_json, &rhs_filename, &arena).unwrap();
@@ -777,10 +774,6 @@ fn diff_file_content(
 
                             println!("------------------{}------------------\nLHS: {:#?}\nRHS: {:#?}\n", lhs_filename, lhs, rhs);
                             
-                            let actual = format!("LHS: {:#?}\nRHS: {:#?}", lhs, rhs);
-                            write_to_file(&actual, "/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/output.syntax")
-                                .expect("Failed to write expected.syntax file");
-
                             if diff_options.check_only {
                                 let has_syntactic_changes = lhs != rhs;
                                 return DiffResult {
@@ -840,7 +833,7 @@ fn diff_file_content(
 
                                 let mut lhs_positions = syntax::change_positions(&lhs, &change_map);
                                 let mut rhs_positions = syntax::change_positions(&rhs, &change_map);
-                                println!("Changes: {:#?}\n", change_map);
+                                println!("------------------{}------------------\nChanges: {:#?}\n", lhs_filename, change_map);
 
                                 if diff_options.ignore_comments {
                                     let lhs_comments =
