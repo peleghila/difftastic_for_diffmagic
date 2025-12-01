@@ -86,8 +86,6 @@ use std::path::Path;
 use std::{env, thread};
 
 use serde_json::Value;
-use std::fs::File;
-use std::io::prelude::*;
 
 use humansize::{format_size, BINARY};
 use owo_colors::OwoColorize;
@@ -677,12 +675,6 @@ fn parse_from_json<'a>(src: &str, filename: &str, arena: &'a Arena<Syntax<'a>>) 
     };
 }
 
-fn write_to_file(content: &str, filepath: &str) -> std::io::Result<()> {
-    let mut file = File::create(filepath)?;
-    file.write_all(content.as_bytes())?;
-    Ok(())
-}
-
 fn diff_file_content(
     display_path: &str,
     extra_info: Option<String>,
@@ -749,8 +741,8 @@ fn diff_file_content(
                         diff_options,
                     ) {
                         Ok((lhs, rhs)) => {
-                            let lhs_json = std::fs::read_to_string("../difftastic/Files/lhs.json").unwrap();
-                            let rhs_json = std::fs::read_to_string("../difftastic/Files/rhs.json").unwrap();
+                            let lhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/lhs.json").unwrap();
+                            let rhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs.json").unwrap();
                             
                             let lhs_path_str = _lhs_path.to_string();
                             let rhs_path_str = rhs_path.to_string();

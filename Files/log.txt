@@ -2,98 +2,194 @@ Base absolute path: C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicma
 
 Batch parsing all compilation units...
 Parsed: Prog.java (index: 0)
-Parsed: Utils.java (index: 1)
 
 Processing parsed compilation units...
-Processing SimpleName: 'Prog' at position 13
+Processing SimpleName: 'com' at position 8
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 12
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'java' at position 31
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 36
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Random' at position 41
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'java' at position 57
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 62
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'List' at position 67
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Main' at position 89
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog;
-  Added local edge: SimpleName@13 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog; (defIdNum: 1336735375)
-Processing SimpleName: 'main' at position 44
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;
+Processing SimpleName: 'main' at position 120
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog;.main([LString;)V
-  Added local edge: SimpleName@44 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog;.main([LString;)V (defIdNum: 1353070773)
-Processing SimpleName: 'String' at position 49
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 125
   Binding type: RecoveredTypeBinding
   Binding key: Recovered#typeBindingLString;0
   WARNING: Binding not resolved in any compilation unit
   Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
-  Added unresolved edge: SimpleName@49 -> Recovered#typeBindingLString;0 (defIdNum: -1)
-Processing SimpleName: 'args' at position 58
+Processing SimpleName: 'args' at position 134
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog;.main([LString;)V#args#0#0
-  Added local edge: SimpleName@58 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Prog;.main([LString;)V#args#0#0 (defIdNum: 1540374340)
-Processing SimpleName: 'Utils' at position 75
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Helper' at position 151
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;
-  Added cross-file edge: SimpleName@75 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils; (defIdNum: 148626113)
-  Found in file: Utils.java
-Processing SimpleName: 'foo' at position 81
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Helper;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Helper@151 -> NameRes:SimpleName:Helper@242
+Processing SimpleName: 'h' at position 158
+  Binding type: VariableBinding
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#h
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Helper
+Processing SimpleName: 'Helper' at position 166
+  Binding type: TypeBinding
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Helper;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Helper@166 -> NameRes:SimpleName:Helper@242
+No binding for SimpleName: 'System' at position 185
+No binding for SimpleName: 'out' at position 192
+No binding for SimpleName: 'println' at position 196
+
+Processing MethodInvocation: randomNumber
+Processing SimpleName: 'h' at position 204
+  Binding type: VariableBinding
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#h
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:h@204 -> NameRes:SimpleName:h@158
+Processing SimpleName: 'randomNumber' at position 206
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;.foo()V
-  Added cross-file edge: SimpleName@81 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;.foo()V (defIdNum: 1608297024)
-  Found in file: Utils.java
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Helper;.randomNumber()I
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:randomNumber@206 -> NameRes:SimpleName:randomNumber@260
+Processing SimpleName: 'Helper' at position 242
+  Binding type: TypeBinding
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Helper;
+Processing SimpleName: 'randomNumber' at position 260
+  Binding type: MethodBinding
+  Binding key: Lcom/example/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Helper;.randomNumber()I
+  Pattern: SimpleName is a method declaration
+
+Processing ReturnStatement with literal in method: randomNumber
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@293 -> MethodReturnType:int@256
+Processing SimpleName: 'Random' at position 297
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLRandom;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLRandom;0, Kind: 2
+No binding for SimpleName: 'nextInt' at position 306
 Processed: Prog.java (6 edges)
-Processing SimpleName: 'Utils' at position 13
-  Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;
-  Added local edge: SimpleName@13 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils; (defIdNum: 148626113)
-Processing SimpleName: 'foo' at position 45
-  Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;.foo()V
-  Added local edge: SimpleName@45 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Utils~Utils;.foo()V (defIdNum: 1608297024)
-No binding for SimpleName: 'System' at position 62
-No binding for SimpleName: 'out' at position 69
-No binding for SimpleName: 'println' at position 73
-Processed: Utils.java (2 edges)
 
 LHS JSON saved to: ..\..\difftastic\Files\lhs.json
 
 Batch parsing all compilation units...
 Parsed: Prog.java (index: 0)
-Parsed: Utils.java (index: 1)
 
 Processing parsed compilation units...
-Processing SimpleName: 'Prog' at position 13
+Processing SimpleName: 'java' at position 11
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 16
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Random' at position 21
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Main' at position 47
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog;
-  Added local edge: SimpleName@13 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog; (defIdNum: 594427726)
-Processing SimpleName: 'main' at position 44
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;
+Processing SimpleName: 'main' at position 78
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog;.main([LString;)V
-  Added local edge: SimpleName@44 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog;.main([LString;)V (defIdNum: 960733886)
-Processing SimpleName: 'String' at position 49
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 83
   Binding type: RecoveredTypeBinding
   Binding key: Recovered#typeBindingLString;0
   WARNING: Binding not resolved in any compilation unit
   Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
-  Added unresolved edge: SimpleName@49 -> Recovered#typeBindingLString;0 (defIdNum: -1)
-Processing SimpleName: 'args' at position 58
+Processing SimpleName: 'args' at position 92
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog;.main([LString;)V#args#0#0
-  Added local edge: SimpleName@58 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Prog;.main([LString;)V#args#0#0 (defIdNum: 73181251)
-Processing SimpleName: 'Utils' at position 75
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Helper' at position 109
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;
-  Added cross-file edge: SimpleName@75 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils; (defIdNum: 1190820921)
-  Found in file: Utils.java
-Processing SimpleName: 'foo' at position 81
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Helper;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Helper@109 -> NameRes:SimpleName:Helper@206
+Processing SimpleName: 'h' at position 116
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#h
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Helper
+Processing SimpleName: 'Helper' at position 124
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Helper;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Helper@124 -> NameRes:SimpleName:Helper@206
+No binding for SimpleName: 'System' at position 143
+No binding for SimpleName: 'out' at position 150
+No binding for SimpleName: 'println' at position 154
+
+Processing MethodInvocation: randomNumberChange
+Processing SimpleName: 'h' at position 162
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#h
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:h@162 -> NameRes:SimpleName:h@116
+Processing SimpleName: 'randomNumberChange' at position 164
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;.foo()V
-  Added cross-file edge: SimpleName@81 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;.foo()V (defIdNum: 20094719)
-  Found in file: Utils.java
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Helper;.randomNumberChange()I
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:randomNumberChange@164 -> NameRes:SimpleName:randomNumberChange@224
+Processing SimpleName: 'Helper' at position 206
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Helper;
+Processing SimpleName: 'randomNumberChange' at position 224
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Helper;.randomNumberChange()I
+  Pattern: SimpleName is a method declaration
+
+Processing ReturnStatement with literal in method: randomNumberChange
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@263 -> MethodReturnType:int@220
+Processing SimpleName: 'Random' at position 267
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLRandom;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLRandom;0, Kind: 2
+No binding for SimpleName: 'nextInt' at position 276
 Processed: Prog.java (6 edges)
-Processing SimpleName: 'Utils' at position 13
-  Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;
-  Added local edge: SimpleName@13 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils; (defIdNum: 1190820921)
-Processing SimpleName: 'foo' at position 45
-  Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;.foo()V
-  Added local edge: SimpleName@45 -> LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Utils~Utils;.foo()V (defIdNum: 20094719)
-No binding for SimpleName: 'System' at position 62
-No binding for SimpleName: 'out' at position 69
-No binding for SimpleName: 'println' at position 73
-Processed: Utils.java (2 edges)
 
 RHS JSON saved to: ..\..\difftastic\Files\rhs.json
+
+=== Executing Shell Script ===
+Script path: /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/diffmagic.sh
+[Script] ▶ Running diffmagic(target/release/difft)
+[Script] ✅ Saved to /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/result.txt
+[Script] 
+[Script] ▶ Running expected(bin/release/difft)
+[Script] ✅ Saved to /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/expected.txt
+Script completed with exit code: 0

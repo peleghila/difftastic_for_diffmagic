@@ -1,0 +1,70 @@
+Base absolute path: C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Main' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;
+Processing SimpleName: 'foo' at position 36
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.foo(I)I
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'a' at position 44
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.foo(I)I#a#0#0
+Processing SimpleName: 'a' at position 65
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.foo(I)I#a#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:a@65 -> NameRes:SimpleName:a@44
+  Pattern: SimpleName is a return variable
+  Added variable-type-to-method-return-type edge: ReturnVarType:VarType:int@40 -> ReturnVarType:MethodReturnType:int@32
+Processing SimpleName: 'main' at position 101
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main()V
+  Pattern: SimpleName is a method declaration
+
+Processing MethodInvocation: foo
+  Added argument-to-parameter edge: SimpleName@123 -> a@40
+Processing SimpleName: 'foo' at position 119
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.foo(I)I
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:foo@119 -> NameRes:SimpleName:foo@36
+No binding for SimpleName: 'x' at position 123
+Processed: Prog.java (4 edges)
+
+LHS JSON saved to: ..\..\difftastic\Files\lhs.json
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Main' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;
+Processing SimpleName: 'foo' at position 36
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.foo(I)I
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'a' at position 44
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.foo(I)I#a#0#0
+
+Processing ReturnStatement with literal in method: foo
+  Added literal-to-method-return-type edge: ReturnLiteral:NumberLiteral@65 -> MethodReturnType:int@32
+Processing SimpleName: 'main' at position 101
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main()V
+  Pattern: SimpleName is a method declaration
+
+Processing MethodInvocation: foo
+  Added argument-to-parameter edge: SimpleName@123 -> a@40
+Processing SimpleName: 'foo' at position 119
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.foo(I)I
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:foo@119 -> NameRes:SimpleName:foo@36
+No binding for SimpleName: 'x' at position 123
+Processed: Prog.java (3 edges)
+
+RHS JSON saved to: ..\..\difftastic\Files\rhs.json

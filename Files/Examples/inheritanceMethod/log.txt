@@ -1,0 +1,173 @@
+Base absolute path: C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Animal' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;
+Processing SimpleName: 'Animal' at position 22
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;.()V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: Animal -> Animal
+Processing SimpleName: 'speak' at position 52
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;.speak()V
+  Pattern: SimpleName is a method declaration
+No binding for SimpleName: 'System' at position 71
+No binding for SimpleName: 'out' at position 78
+No binding for SimpleName: 'println' at position 82
+Processing SimpleName: 'Dog' at position 117
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Dog;
+Processing SimpleName: 'Animal' at position 129
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Animal@129 -> NameRes:SimpleName:Animal@6
+Processing SimpleName: 'Dog' at position 145
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Dog;.()V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: Dog -> Dog
+Processing SimpleName: 'Override' at position 186
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLOverride;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLOverride;0, Kind: 2
+Processing SimpleName: 'speak' at position 205
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Dog;.speak()V
+  Pattern: SimpleName is a method declaration
+  Added overriding-method-to-original edge: speak -> speak
+No binding for SimpleName: 'System' at position 224
+No binding for SimpleName: 'out' at position 231
+No binding for SimpleName: 'println' at position 235
+Processing SimpleName: 'Main' at position 277
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;
+Processing SimpleName: 'main' at position 308
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 313
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLString;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
+Processing SimpleName: 'args' at position 322
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Animal' at position 339
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Animal@339 -> NameRes:SimpleName:Animal@6
+Processing SimpleName: 'a' at position 346
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#a
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Animal
+Processing SimpleName: 'Animal' at position 354
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Animal@354 -> NameRes:SimpleName:Animal@6
+
+Processing MethodInvocation: speak
+Processing SimpleName: 'a' at position 373
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#a
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:a@373 -> NameRes:SimpleName:a@346
+Processing SimpleName: 'speak' at position 375
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Animal;.speak()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:speak@375 -> NameRes:SimpleName:speak@52
+Processed: Prog.java (9 edges)
+
+LHS JSON saved to: ..\..\difftastic\Files\lhs.json
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Animal' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Animal;
+Processing SimpleName: 'Animal' at position 22
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Animal;.()V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: Animal -> Animal
+Processing SimpleName: 'speak' at position 52
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Animal;.speak()V
+  Pattern: SimpleName is a method declaration
+No binding for SimpleName: 'System' at position 71
+No binding for SimpleName: 'out' at position 78
+No binding for SimpleName: 'println' at position 82
+Processing SimpleName: 'Dog' at position 117
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;
+Processing SimpleName: 'Animal' at position 129
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Animal;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Animal@129 -> NameRes:SimpleName:Animal@6
+Processing SimpleName: 'Dog' at position 145
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;.()V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: Dog -> Dog
+Processing SimpleName: 'Override' at position 186
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLOverride;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLOverride;0, Kind: 2
+Processing SimpleName: 'speak' at position 205
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;.speak()V
+  Pattern: SimpleName is a method declaration
+  Added overriding-method-to-original edge: speak -> speak
+No binding for SimpleName: 'System' at position 224
+No binding for SimpleName: 'out' at position 231
+No binding for SimpleName: 'println' at position 235
+Processing SimpleName: 'Main' at position 277
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;
+Processing SimpleName: 'main' at position 308
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 313
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLString;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
+Processing SimpleName: 'args' at position 322
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Dog' at position 339
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Dog@339 -> NameRes:SimpleName:Dog@117
+Processing SimpleName: 'a' at position 343
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#a
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Dog
+Processing SimpleName: 'Dog' at position 351
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Dog@351 -> NameRes:SimpleName:Dog@117
+
+Processing MethodInvocation: speak
+Processing SimpleName: 'a' at position 367
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#a
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:a@367 -> NameRes:SimpleName:a@343
+Processing SimpleName: 'speak' at position 369
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Dog;.speak()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:speak@369 -> NameRes:SimpleName:speak@205
+Processed: Prog.java (9 edges)
+
+RHS JSON saved to: ..\..\difftastic\Files\rhs.json

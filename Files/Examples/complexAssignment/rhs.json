@@ -1,0 +1,330 @@
+{
+  "nameResEdges": [
+    {
+      "from": "VarInit:InitLiteral:NumberLiteral@63",
+      "to": "VarInit:DeclVarType:int@55",
+      "fromId": 1748876332,
+      "toId": 825962150
+    },
+    {
+      "from": "NameRes:SimpleName:y@91",
+      "to": "NameRes:SimpleName:y@79",
+      "fromId": 101775274,
+      "toId": 1418620248
+    },
+    {
+      "from": "Assignment:RightLiteral:InfixExpression@95",
+      "to": "Assignment:LeftVarType:int@75",
+      "fromId": 555273695,
+      "toId": 391877669
+    },
+    {
+      "from": "NameRes:SimpleName:x@95",
+      "to": "NameRes:SimpleName:x@59",
+      "fromId": 396883763,
+      "toId": 40075281
+    }
+  ],
+  "syntax": {
+    "Prog.java": {
+      "close_position": "0:0-111",
+      "content_id": 1,
+      "children": [
+        {
+          "close_position": "-2:-1-0",
+          "content_id": 2,
+          "children": [
+            {
+              "content_id": 3,
+              "kind": "Normal",
+              "id": 28,
+              "position": "0:6-10",
+              "node_kind": "atom",
+              "content": "Main",
+              "uniqueId": 262366552
+            },
+            {
+              "close_position": "5:5-5",
+              "content_id": 1,
+              "children": [
+                {
+                  "content_id": 4,
+                  "kind": "Normal",
+                  "id": 30,
+                  "position": "1:23-27",
+                  "node_kind": "atom",
+                  "content": "main",
+                  "uniqueId": 301749835
+                },
+                {
+                  "close_position": "1:17-17",
+                  "content_id": 1,
+                  "children": [
+                    {
+                      "content_id": 5,
+                      "kind": "Keyword",
+                      "id": 31,
+                      "position": "1:4-10",
+                      "node_kind": "atom",
+                      "content": "public",
+                      "uniqueId": 848363848
+                    },
+                    {
+                      "content_id": 6,
+                      "kind": "Keyword",
+                      "id": 32,
+                      "position": "1:11-17",
+                      "node_kind": "atom",
+                      "content": "static",
+                      "uniqueId": 1062635358
+                    }
+                  ],
+                  "open_position": "1:4-4",
+                  "open_content": "",
+                  "close_content": "",
+                  "id": 33,
+                  "num_descendants": 0,
+                  "node_kind": "list"
+                },
+                {
+                  "close_position": "5:3-4",
+                  "content_id": 2,
+                  "children": [
+                    {
+                      "close_position": "4:18-18",
+                      "content_id": 1,
+                      "children": [
+                        {
+                          "close_position": "2:18-18",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "content_id": 7,
+                              "kind": "Type",
+                              "id": 36,
+                              "position": "2:8-11",
+                              "node_kind": "atom",
+                              "content": "int",
+                              "uniqueId": 825962150
+                            },
+                            {
+                              "close_position": "2:17-17",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "content_id": 8,
+                                  "kind": "Normal",
+                                  "id": 38,
+                                  "position": "2:12-13",
+                                  "node_kind": "atom",
+                                  "content": "x",
+                                  "uniqueId": 40075281
+                                },
+                                {
+                                  "content_id": 9,
+                                  "kind": "Normal",
+                                  "id": 39,
+                                  "position": "2:16-17",
+                                  "node_kind": "atom",
+                                  "content": "5",
+                                  "uniqueId": 1748876332
+                                }
+                              ],
+                              "open_position": "2:12-12",
+                              "open_content": "",
+                              "close_content": "",
+                              "id": 37,
+                              "num_descendants": 0,
+                              "node_kind": "list",
+                              "uniqueId": 1747352992
+                            }
+                          ],
+                          "open_position": "2:8-8",
+                          "open_content": "",
+                          "close_content": "",
+                          "id": 35,
+                          "num_descendants": 0,
+                          "node_kind": "list",
+                          "uniqueId": 726379593
+                        },
+                        {
+                          "close_position": "3:14-14",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "content_id": 7,
+                              "kind": "Type",
+                              "id": 41,
+                              "position": "3:8-11",
+                              "node_kind": "atom",
+                              "content": "int",
+                              "uniqueId": 391877669
+                            },
+                            {
+                              "close_position": "3:13-13",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "content_id": 10,
+                                  "kind": "Normal",
+                                  "id": 43,
+                                  "position": "3:12-13",
+                                  "node_kind": "atom",
+                                  "content": "y",
+                                  "uniqueId": 1418620248
+                                }
+                              ],
+                              "open_position": "3:12-12",
+                              "open_content": "",
+                              "close_content": "",
+                              "id": 42,
+                              "num_descendants": 0,
+                              "node_kind": "list",
+                              "uniqueId": 793138072
+                            }
+                          ],
+                          "open_position": "3:8-8",
+                          "open_content": "",
+                          "close_content": "",
+                          "id": 40,
+                          "num_descendants": 0,
+                          "node_kind": "list",
+                          "uniqueId": 265321659
+                        },
+                        {
+                          "close_position": "4:18-18",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "close_position": "4:17-17",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "content_id": 10,
+                                  "kind": "Normal",
+                                  "id": 46,
+                                  "position": "4:8-9",
+                                  "node_kind": "atom",
+                                  "content": "y",
+                                  "uniqueId": 101775274
+                                },
+                                {
+                                  "close_position": "4:17-17",
+                                  "content_id": 1,
+                                  "children": [
+                                    {
+                                      "content_id": 8,
+                                      "kind": "Normal",
+                                      "id": 48,
+                                      "position": "4:12-13",
+                                      "node_kind": "atom",
+                                      "content": "x",
+                                      "uniqueId": 396883763
+                                    },
+                                    {
+                                      "content_id": 13,
+                                      "id": 49,
+                                      "position": "4:13-14",
+                                      "node_kind": "atom",
+                                      "content": "+"
+                                    },
+                                    {
+                                      "content_id": 14,
+                                      "kind": "Normal",
+                                      "id": 50,
+                                      "position": "4:16-17",
+                                      "node_kind": "atom",
+                                      "content": "8",
+                                      "uniqueId": 1750498848
+                                    }
+                                  ],
+                                  "kind": "Normal",
+                                  "open_position": "4:12-12",
+                                  "open_content": "",
+                                  "close_content": "",
+                                  "id": 47,
+                                  "num_descendants": 0,
+                                  "node_kind": "list",
+                                  "uniqueId": 555273695
+                                },
+                                {
+                                  "content_id": 11,
+                                  "id": 51,
+                                  "position": "4:13-14",
+                                  "node_kind": "atom",
+                                  "content": "\u003d"
+                                }
+                              ],
+                              "kind": "Normal",
+                              "open_position": "4:8-8",
+                              "open_content": "",
+                              "close_content": "",
+                              "id": 45,
+                              "num_descendants": 0,
+                              "node_kind": "list",
+                              "uniqueId": 815320891
+                            }
+                          ],
+                          "open_position": "4:8-8",
+                          "open_content": "",
+                          "close_content": "",
+                          "id": 44,
+                          "num_descendants": 0,
+                          "node_kind": "list",
+                          "uniqueId": 896644936
+                        }
+                      ],
+                      "open_position": "2:8-8",
+                      "open_content": "",
+                      "close_content": "",
+                      "id": 52,
+                      "num_descendants": 0,
+                      "node_kind": "list"
+                    }
+                  ],
+                  "open_position": "1:29-30",
+                  "open_content": "{",
+                  "close_content": "}",
+                  "id": 34,
+                  "num_descendants": 0,
+                  "node_kind": "list",
+                  "uniqueId": 1050065615
+                },
+                {
+                  "content_id": 12,
+                  "kind": "Type",
+                  "id": 53,
+                  "position": "1:18-22",
+                  "node_kind": "atom",
+                  "content": "void",
+                  "uniqueId": 681094281
+                }
+              ],
+              "open_position": "1:4-4",
+              "open_content": "",
+              "close_content": "",
+              "id": 29,
+              "num_descendants": 0,
+              "node_kind": "list",
+              "uniqueId": 1995250556
+            }
+          ],
+          "open_position": "0:0-1",
+          "open_content": "{",
+          "close_content": "}",
+          "id": 27,
+          "num_descendants": 0,
+          "node_kind": "list",
+          "uniqueId": 2082351774
+        }
+      ],
+      "open_position": "0:0-0",
+      "open_content": "",
+      "close_content": "",
+      "id": 26,
+      "num_descendants": 0,
+      "node_kind": "list",
+      "uniqueId": 1850777594
+    }
+  }
+}
