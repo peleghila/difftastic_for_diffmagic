@@ -1,17 +1,9 @@
-package com.example;
-
-import java.util.Random;
-import java.util.List;
-
-public class Main {
+public class Demo {
     public static void main(String[] args) {
-        Helper h = new Helper();
-        System.out.println(h.randomNumber());
+        int x = 5;
+        foo(x);
     }
-}
-
-class Helper {
-    int randomNumber() {
-        return new Random().nextInt(10);
+    public static void foo(int a) {
+        System.out.println(a);
     }
 }

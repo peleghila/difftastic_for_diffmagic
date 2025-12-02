@@ -1,1 +1,37 @@
-[]
+{
+  "lhs": [],
+  "rhs": [
+    {
+      "from": "VarInit:InitLiteral:NumberLiteral@103",
+      "to": "VarInit:DeclVarType:int@95",
+      "fromId": 63,
+      "toId": 60,
+      "fromUniqueId": 1641415002,
+      "toUniqueId": 1324578393
+    },
+    {
+      "from": "ArgToParam:Expression:SimpleName@122",
+      "to": "ArgToParam:Param:b@168",
+      "fromId": 69,
+      "toId": 80,
+      "fromUniqueId": 464676531,
+      "toUniqueId": 895281180
+    },
+    {
+      "from": "NameRes:SimpleName:y@122",
+      "to": "NameRes:SimpleName:y@99",
+      "fromId": 69,
+      "toId": 62,
+      "fromUniqueId": 464676531,
+      "toUniqueId": 1380806038
+    },
+    {
+      "from": "NameRes:SimpleName:b@208",
+      "to": "NameRes:SimpleName:b@172",
+      "fromId": 89,
+      "toId": 81,
+      "fromUniqueId": 912672706,
+      "toUniqueId": 680712932
+    }
+  ]
+}

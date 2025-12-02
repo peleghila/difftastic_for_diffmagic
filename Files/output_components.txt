@@ -1,0 +1,84 @@
+================================================================================
+LHS - CONNECTED COMPONENTS ANALYSIS
+================================================================================
+
+Total number of connected components: 0
+Total number of changed nodes: 0
+
+
+================================================================================
+LHS SUMMARY BY COMPONENT SIZE
+================================================================================
+
+
+================================================================================
+RHS - CONNECTED COMPONENTS ANALYSIS
+================================================================================
+
+Total number of connected components: 3
+Total number of changed nodes: 7
+
+
+--------------------------------------------------------------------------------
+RHS COMPONENT #1 (Size: 3 nodes)
+--------------------------------------------------------------------------------
+  Node ID: 62
+    Type: SimpleName (atom)
+    Content: y
+    Position: 3:12-13
+
+  Node ID: 69
+    Type: SimpleName (atom)
+    Content: y
+    Position: 4:15-16
+
+  Node ID: 80
+    Type: SingleVariableDeclaration (list)
+    Content: 
+    Position: 6:34-34
+
+
+--------------------------------------------------------------------------------
+RHS COMPONENT #2 (Size: 2 nodes)
+--------------------------------------------------------------------------------
+  Node ID: 60
+    Type: PrimitiveType (atom)
+    Content: int
+    Position: 3:8-11
+
+  Node ID: 63
+    Type: NumberLiteral (atom)
+    Content: 3
+    Position: 3:16-17
+
+
+--------------------------------------------------------------------------------
+RHS COMPONENT #3 (Size: 2 nodes)
+--------------------------------------------------------------------------------
+  Node ID: 81
+    Type: SimpleName (atom)
+    Content: b
+    Position: 6:38-39
+
+  Node ID: 89
+    Type: SimpleName (atom)
+    Content: b
+    Position: 7:30-31
+
+
+================================================================================
+RHS SUMMARY BY COMPONENT SIZE
+================================================================================
+  1 component(s) with 3 node(s) each
+  2 component(s) with 2 node(s) each
+
+
+================================================================================
+COMBINED SUMMARY
+================================================================================
+LHS Components: 0
+RHS Components: 3
+Total Components: 3
+LHS Changed Nodes: 0
+RHS Changed Nodes: 7
+Total Changed Nodes: 7

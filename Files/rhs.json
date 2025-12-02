@@ -1,91 +1,411 @@
 {
   "nameResEdges": [
     {
-      "from": "NameRes:SimpleName:Helper@109",
-      "to": "NameRes:SimpleName:Helper@206",
-      "fromId": 1659367709,
-      "toId": 1431530910
+      "from": "VarInit:InitLiteral:NumberLiteral@83",
+      "to": "VarInit:DeclVarType:int@75",
+      "fromId": 1864869682,
+      "toId": 773662650
     },
     {
-      "from": "VarInit:InitLiteral:ClassInstanceCreation@120",
-      "to": "VarInit:DeclVarType:Helper@109",
+      "from": "VarInit:InitLiteral:NumberLiteral@103",
+      "to": "VarInit:DeclVarType:int@95",
+      "fromId": 1641415002,
+      "toId": 1324578393
+    },
+    {
+      "from": "ArgToParam:Expression:SimpleName@119",
+      "to": "ArgToParam:Param:a@161",
+      "fromId": 1311146128,
+      "toId": 893504292
+    },
+    {
+      "from": "ArgToParam:Expression:SimpleName@122",
+      "to": "ArgToParam:Param:b@168",
+      "fromId": 464676531,
+      "toId": 895281180
+    },
+    {
+      "from": "NameRes:SimpleName:foo@115",
+      "to": "NameRes:SimpleName:foo@157",
+      "fromId": 931496835,
+      "toId": 963815509
+    },
+    {
+      "from": "NameRes:SimpleName:x@119",
+      "to": "NameRes:SimpleName:x@79",
+      "fromId": 1311146128,
+      "toId": 255334292
+    },
+    {
+      "from": "NameRes:SimpleName:y@122",
+      "to": "NameRes:SimpleName:y@99",
+      "fromId": 464676531,
+      "toId": 1380806038
+    },
+    {
+      "from": "NameRes:SimpleName:a@205",
+      "to": "NameRes:SimpleName:a@165",
       "fromId": 1210830415,
-      "toId": 1346201722
+      "toId": 1376790324
     },
     {
-      "from": "NameRes:SimpleName:Helper@124",
-      "to": "NameRes:SimpleName:Helper@206",
+      "from": "NameRes:SimpleName:b@208",
+      "to": "NameRes:SimpleName:b@172",
       "fromId": 912672706,
-      "toId": 1431530910
-    },
-    {
-      "from": "NameRes:SimpleName:h@162",
-      "to": "NameRes:SimpleName:h@116",
-      "fromId": 1374754488,
-      "toId": 8805846
-    },
-    {
-      "from": "NameRes:SimpleName:randomNumberChange@164",
-      "to": "NameRes:SimpleName:randomNumberChange@224",
-      "fromId": 1288235781,
-      "toId": 1710265848
-    },
-    {
-      "from": "ReturnLiteral:MethodInvocation@263",
-      "to": "MethodReturnType:int@220",
-      "fromId": 1987169128,
-      "toId": 1944978632
+      "toId": 680712932
     }
   ],
   "syntax": {
     "Prog.java": {
-      "close_position": "0:0-300",
+      "close_position": "0:0-221",
       "nodeClass": "CompilationUnit",
       "content_id": 1,
       "children": [
         {
-          "nodeClass": "QualifiedName",
-          "content_id": 3,
-          "kind": "Normal",
-          "position": "2:7-23",
-          "id": 45,
-          "node_kind": "atom",
-          "content": "java.util.Random",
-          "uniqueId": 893504292
-        },
-        {
-          "close_position": "16:1-1",
-          "content_id": 1,
+          "close_position": "-2:-1-0",
+          "nodeClass": "TypeDeclaration",
+          "content_id": 2,
           "children": [
             {
-              "close_position": "10:1-2",
-              "nodeClass": "TypeDeclaration",
-              "content_id": 5,
+              "nodeClass": "SimpleName",
+              "content_id": 3,
+              "kind": "Normal",
+              "position": "0:13-17",
+              "id": 42,
+              "node_kind": "atom",
+              "content": "Demo",
+              "uniqueId": 717176949
+            },
+            {
+              "close_position": "8:5-5",
+              "content_id": 1,
               "children": [
                 {
-                  "nodeClass": "SimpleName",
-                  "content_id": 6,
-                  "kind": "Normal",
-                  "position": "5:13-17",
-                  "id": 48,
-                  "node_kind": "atom",
-                  "content": "Main",
-                  "uniqueId": 773989906
-                },
-                {
-                  "close_position": "9:5-5",
+                  "close_position": "5:5-5",
                   "nodeClass": "MethodDeclaration",
                   "content_id": 1,
                   "children": [
                     {
                       "nodeClass": "SimpleName",
-                      "content_id": 7,
+                      "content_id": 4,
                       "kind": "Normal",
-                      "position": "6:23-27",
-                      "id": 50,
+                      "position": "1:23-27",
+                      "id": 45,
                       "node_kind": "atom",
                       "content": "main",
+                      "uniqueId": 737077247
+                    },
+                    {
+                      "close_position": "1:17-17",
+                      "content_id": 1,
+                      "children": [
+                        {
+                          "nodeClass": "Modifier",
+                          "content_id": 5,
+                          "kind": "Keyword",
+                          "position": "1:4-10",
+                          "id": 47,
+                          "node_kind": "atom",
+                          "content": "public",
+                          "uniqueId": 1374754488
+                        },
+                        {
+                          "nodeClass": "Modifier",
+                          "content_id": 6,
+                          "kind": "Keyword",
+                          "position": "1:11-17",
+                          "id": 48,
+                          "node_kind": "atom",
+                          "content": "static",
+                          "uniqueId": 27084827
+                        }
+                      ],
+                      "open_position": "1:4-4",
+                      "open_content": "",
+                      "close_content": "",
+                      "num_descendants": 0,
+                      "id": 46,
+                      "node_kind": "list"
+                    },
+                    {
+                      "close_position": "1:41-41",
+                      "nodeClass": "SingleVariableDeclaration",
+                      "content_id": 1,
+                      "children": [
+                        {
+                          "nodeClass": "SimpleName",
+                          "content_id": 7,
+                          "kind": "Normal",
+                          "position": "1:37-41",
+                          "id": 50,
+                          "node_kind": "atom",
+                          "content": "args",
+                          "uniqueId": 1600667055
+                        },
+                        {
+                          "nodeClass": "ArrayType",
+                          "content_id": 8,
+                          "kind": "Normal",
+                          "position": "1:28-34",
+                          "id": 51,
+                          "node_kind": "atom",
+                          "content": "String",
+                          "uniqueId": 1332210474
+                        }
+                      ],
+                      "open_position": "1:28-28",
+                      "open_content": "",
+                      "close_content": "",
+                      "num_descendants": 0,
+                      "id": 49,
+                      "node_kind": "list",
+                      "uniqueId": 2030036700
+                    },
+                    {
+                      "close_position": "5:3-4",
+                      "nodeClass": "Block",
+                      "content_id": 2,
+                      "children": [
+                        {
+                          "close_position": "4:18-18",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "close_position": "2:18-18",
+                              "nodeClass": "VariableDeclarationStatement",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "nodeClass": "PrimitiveType",
+                                  "content_id": 9,
+                                  "kind": "Type",
+                                  "position": "2:8-11",
+                                  "id": 55,
+                                  "node_kind": "atom",
+                                  "content": "int",
+                                  "uniqueId": 773662650
+                                },
+                                {
+                                  "close_position": "2:17-17",
+                                  "nodeClass": "VariableDeclarationFragment",
+                                  "content_id": 1,
+                                  "children": [
+                                    {
+                                      "nodeClass": "SimpleName",
+                                      "content_id": 10,
+                                      "kind": "Normal",
+                                      "position": "2:12-13",
+                                      "id": 57,
+                                      "node_kind": "atom",
+                                      "content": "x",
+                                      "uniqueId": 255334292
+                                    },
+                                    {
+                                      "nodeClass": "NumberLiteral",
+                                      "content_id": 11,
+                                      "kind": "Normal",
+                                      "position": "2:16-17",
+                                      "id": 58,
+                                      "node_kind": "atom",
+                                      "content": "5",
+                                      "uniqueId": 1864869682
+                                    }
+                                  ],
+                                  "open_position": "2:12-12",
+                                  "open_content": "",
+                                  "close_content": "",
+                                  "num_descendants": 0,
+                                  "id": 56,
+                                  "node_kind": "list",
+                                  "uniqueId": 1819776360
+                                }
+                              ],
+                              "open_position": "2:8-8",
+                              "open_content": "",
+                              "close_content": "",
+                              "num_descendants": 0,
+                              "id": 54,
+                              "node_kind": "list",
+                              "uniqueId": 530042637
+                            },
+                            {
+                              "close_position": "3:18-18",
+                              "nodeClass": "VariableDeclarationStatement",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "nodeClass": "PrimitiveType",
+                                  "content_id": 9,
+                                  "kind": "Type",
+                                  "position": "3:8-11",
+                                  "id": 60,
+                                  "node_kind": "atom",
+                                  "content": "int",
+                                  "uniqueId": 1324578393
+                                },
+                                {
+                                  "close_position": "3:17-17",
+                                  "nodeClass": "VariableDeclarationFragment",
+                                  "content_id": 1,
+                                  "children": [
+                                    {
+                                      "nodeClass": "SimpleName",
+                                      "content_id": 18,
+                                      "kind": "Normal",
+                                      "position": "3:12-13",
+                                      "id": 62,
+                                      "node_kind": "atom",
+                                      "content": "y",
+                                      "uniqueId": 1380806038
+                                    },
+                                    {
+                                      "nodeClass": "NumberLiteral",
+                                      "content_id": 19,
+                                      "kind": "Normal",
+                                      "position": "3:16-17",
+                                      "id": 63,
+                                      "node_kind": "atom",
+                                      "content": "3",
+                                      "uniqueId": 1641415002
+                                    }
+                                  ],
+                                  "open_position": "3:12-12",
+                                  "open_content": "",
+                                  "close_content": "",
+                                  "num_descendants": 0,
+                                  "id": 61,
+                                  "node_kind": "list",
+                                  "uniqueId": 623247230
+                                }
+                              ],
+                              "open_position": "3:8-8",
+                              "open_content": "",
+                              "close_content": "",
+                              "num_descendants": 0,
+                              "id": 59,
+                              "node_kind": "list",
+                              "uniqueId": 336371513
+                            },
+                            {
+                              "close_position": "4:18-18",
+                              "nodeClass": "ExpressionStatement",
+                              "content_id": 1,
+                              "children": [
+                                {
+                                  "close_position": "4:17-18",
+                                  "nodeClass": "MethodInvocation",
+                                  "content_id": 12,
+                                  "children": [
+                                    {
+                                      "nodeClass": "SimpleName",
+                                      "content_id": 13,
+                                      "kind": "Normal",
+                                      "position": "4:8-11",
+                                      "id": 66,
+                                      "node_kind": "atom",
+                                      "content": "foo",
+                                      "uniqueId": 931496835
+                                    },
+                                    {
+                                      "close_position": "4:16-16",
+                                      "content_id": 1,
+                                      "children": [
+                                        {
+                                          "nodeClass": "SimpleName",
+                                          "content_id": 10,
+                                          "kind": "Normal",
+                                          "position": "4:12-13",
+                                          "id": 68,
+                                          "node_kind": "atom",
+                                          "content": "x",
+                                          "uniqueId": 1311146128
+                                        },
+                                        {
+                                          "nodeClass": "SimpleName",
+                                          "content_id": 18,
+                                          "kind": "Normal",
+                                          "position": "4:15-16",
+                                          "id": 69,
+                                          "node_kind": "atom",
+                                          "content": "y",
+                                          "uniqueId": 464676531
+                                        }
+                                      ],
+                                      "open_position": "4:12-12",
+                                      "open_content": "",
+                                      "close_content": "",
+                                      "num_descendants": 0,
+                                      "id": 67,
+                                      "node_kind": "list"
+                                    }
+                                  ],
+                                  "open_position": "4:8-9",
+                                  "open_content": "(",
+                                  "close_content": ")",
+                                  "num_descendants": 0,
+                                  "id": 65,
+                                  "node_kind": "list",
+                                  "uniqueId": 2003534796
+                                }
+                              ],
+                              "open_position": "4:8-8",
+                              "open_content": "",
+                              "close_content": "",
+                              "num_descendants": 0,
+                              "id": 64,
+                              "node_kind": "list",
+                              "uniqueId": 1301352406
+                            }
+                          ],
+                          "open_position": "2:8-8",
+                          "open_content": "",
+                          "close_content": "",
+                          "num_descendants": 0,
+                          "id": 53,
+                          "node_kind": "list"
+                        }
+                      ],
+                      "open_position": "1:42-43",
+                      "open_content": "{",
+                      "close_content": "}",
+                      "num_descendants": 0,
+                      "id": 52,
+                      "node_kind": "list",
                       "uniqueId": 640113647
+                    },
+                    {
+                      "nodeClass": "PrimitiveType",
+                      "content_id": 14,
+                      "kind": "Type",
+                      "position": "1:18-22",
+                      "id": 70,
+                      "node_kind": "atom",
+                      "content": "void",
+                      "uniqueId": 1760126453
+                    }
+                  ],
+                  "open_position": "1:4-4",
+                  "open_content": "",
+                  "close_content": "",
+                  "num_descendants": 0,
+                  "id": 44,
+                  "node_kind": "list",
+                  "uniqueId": 812446698
+                },
+                {
+                  "close_position": "8:5-5",
+                  "nodeClass": "MethodDeclaration",
+                  "content_id": 1,
+                  "children": [
+                    {
+                      "nodeClass": "SimpleName",
+                      "content_id": 13,
+                      "kind": "Normal",
+                      "position": "6:23-26",
+                      "id": 72,
+                      "node_kind": "atom",
+                      "content": "foo",
+                      "uniqueId": 963815509
                     },
                     {
                       "close_position": "6:17-17",
@@ -93,420 +413,250 @@
                       "children": [
                         {
                           "nodeClass": "Modifier",
-                          "content_id": 8,
+                          "content_id": 5,
                           "kind": "Keyword",
                           "position": "6:4-10",
-                          "id": 52,
+                          "id": 74,
                           "node_kind": "atom",
                           "content": "public",
-                          "uniqueId": 931480286
+                          "uniqueId": 124323713
                         },
                         {
                           "nodeClass": "Modifier",
-                          "content_id": 9,
+                          "content_id": 6,
                           "kind": "Keyword",
                           "position": "6:11-17",
-                          "id": 53,
+                          "id": 75,
                           "node_kind": "atom",
                           "content": "static",
-                          "uniqueId": 926434463
+                          "uniqueId": 2011997442
                         }
                       ],
                       "open_position": "6:4-4",
                       "open_content": "",
                       "close_content": "",
                       "num_descendants": 0,
-                      "id": 51,
+                      "id": 73,
                       "node_kind": "list"
                     },
                     {
-                      "close_position": "6:41-41",
-                      "nodeClass": "SingleVariableDeclaration",
+                      "close_position": "6:39-39",
                       "content_id": 1,
                       "children": [
                         {
-                          "nodeClass": "SimpleName",
-                          "content_id": 10,
-                          "kind": "Normal",
-                          "position": "6:37-41",
-                          "id": 55,
-                          "node_kind": "atom",
-                          "content": "args",
-                          "uniqueId": 694452085
-                        },
-                        {
-                          "nodeClass": "ArrayType",
-                          "content_id": 11,
-                          "kind": "Normal",
-                          "position": "6:28-34",
-                          "id": 56,
-                          "node_kind": "atom",
-                          "content": "String",
-                          "uniqueId": 680712932
-                        }
-                      ],
-                      "open_position": "6:28-28",
-                      "open_content": "",
-                      "close_content": "",
-                      "num_descendants": 0,
-                      "id": 54,
-                      "node_kind": "list",
-                      "uniqueId": 857068247
-                    },
-                    {
-                      "close_position": "9:3-4",
-                      "nodeClass": "Block",
-                      "content_id": 5,
-                      "children": [
-                        {
-                          "close_position": "8:51-51",
+                          "close_position": "6:32-32",
+                          "nodeClass": "SingleVariableDeclaration",
                           "content_id": 1,
                           "children": [
                             {
-                              "close_position": "7:32-32",
-                              "nodeClass": "VariableDeclarationStatement",
-                              "content_id": 1,
+                              "nodeClass": "SimpleName",
+                              "content_id": 15,
+                              "kind": "Normal",
+                              "position": "6:31-32",
+                              "id": 78,
+                              "node_kind": "atom",
+                              "content": "a",
+                              "uniqueId": 1376790324
+                            },
+                            {
+                              "nodeClass": "PrimitiveType",
+                              "content_id": 9,
+                              "kind": "Type",
+                              "position": "6:27-30",
+                              "id": 79,
+                              "node_kind": "atom",
+                              "content": "int",
+                              "uniqueId": 236840983
+                            }
+                          ],
+                          "open_position": "6:27-27",
+                          "open_content": "",
+                          "close_content": "",
+                          "num_descendants": 0,
+                          "id": 77,
+                          "node_kind": "list",
+                          "uniqueId": 893504292
+                        },
+                        {
+                          "close_position": "6:39-39",
+                          "nodeClass": "SingleVariableDeclaration",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "nodeClass": "SimpleName",
+                              "content_id": 20,
+                              "kind": "Normal",
+                              "position": "6:38-39",
+                              "id": 81,
+                              "node_kind": "atom",
+                              "content": "b",
+                              "uniqueId": 680712932
+                            },
+                            {
+                              "nodeClass": "PrimitiveType",
+                              "content_id": 9,
+                              "kind": "Type",
+                              "position": "6:34-37",
+                              "id": 82,
+                              "node_kind": "atom",
+                              "content": "int",
+                              "uniqueId": 330382173
+                            }
+                          ],
+                          "open_position": "6:34-34",
+                          "open_content": "",
+                          "close_content": "",
+                          "num_descendants": 0,
+                          "id": 80,
+                          "node_kind": "list",
+                          "uniqueId": 895281180
+                        }
+                      ],
+                      "open_position": "6:27-27",
+                      "open_content": "",
+                      "close_content": "",
+                      "num_descendants": 0,
+                      "id": 76,
+                      "node_kind": "list"
+                    },
+                    {
+                      "close_position": "8:3-4",
+                      "nodeClass": "Block",
+                      "content_id": 2,
+                      "children": [
+                        {
+                          "close_position": "7:33-33",
+                          "nodeClass": "ExpressionStatement",
+                          "content_id": 1,
+                          "children": [
+                            {
+                              "close_position": "7:32-33",
+                              "nodeClass": "MethodInvocation",
+                              "content_id": 12,
                               "children": [
                                 {
-                                  "nodeClass": "SimpleType",
-                                  "content_id": 12,
+                                  "nodeClass": "SimpleName",
+                                  "content_id": 16,
                                   "kind": "Normal",
-                                  "position": "7:8-14",
-                                  "id": 60,
+                                  "position": "7:19-26",
+                                  "id": 86,
                                   "node_kind": "atom",
-                                  "content": "Helper",
-                                  "uniqueId": 1346201722
+                                  "content": "println",
+                                  "uniqueId": 1437941060
                                 },
                                 {
                                   "close_position": "7:31-31",
-                                  "nodeClass": "VariableDeclarationFragment",
                                   "content_id": 1,
                                   "children": [
                                     {
                                       "nodeClass": "SimpleName",
-                                      "content_id": 13,
+                                      "content_id": 15,
                                       "kind": "Normal",
-                                      "position": "7:15-16",
-                                      "id": 62,
+                                      "position": "7:27-28",
+                                      "id": 88,
                                       "node_kind": "atom",
-                                      "content": "h",
-                                      "uniqueId": 8805846
+                                      "content": "a",
+                                      "uniqueId": 1210830415
                                     },
                                     {
-                                      "close_position": "7:19-31",
-                                      "nodeClass": "ClassInstanceCreation",
-                                      "content_id": 1,
-                                      "children": [
-                                        {
-                                          "nodeClass": "SimpleType",
-                                          "content_id": 12,
-                                          "kind": "Normal",
-                                          "position": "7:23-29",
-                                          "id": 64,
-                                          "node_kind": "atom",
-                                          "content": "Helper",
-                                          "uniqueId": 1785397234
-                                        }
-                                      ],
-                                      "open_position": "0:0-0",
-                                      "open_content": "",
-                                      "close_content": "",
-                                      "num_descendants": 0,
-                                      "id": 63,
-                                      "node_kind": "list",
-                                      "uniqueId": 1210830415
+                                      "nodeClass": "SimpleName",
+                                      "content_id": 20,
+                                      "kind": "Normal",
+                                      "position": "7:30-31",
+                                      "id": 89,
+                                      "node_kind": "atom",
+                                      "content": "b",
+                                      "uniqueId": 912672706
                                     }
                                   ],
-                                  "open_position": "7:15-15",
+                                  "open_position": "7:27-27",
                                   "open_content": "",
                                   "close_content": "",
                                   "num_descendants": 0,
-                                  "id": 61,
-                                  "node_kind": "list",
-                                  "uniqueId": 373928166
-                                }
-                              ],
-                              "open_position": "7:8-8",
-                              "open_content": "",
-                              "close_content": "",
-                              "num_descendants": 0,
-                              "id": 59,
-                              "node_kind": "list",
-                              "uniqueId": 1776409896
-                            },
-                            {
-                              "close_position": "8:50-51",
-                              "nodeClass": "MethodInvocation",
-                              "content_id": 14,
-                              "children": [
-                                {
-                                  "nodeClass": "SimpleName",
-                                  "content_id": 15,
-                                  "kind": "Normal",
-                                  "position": "8:19-26",
-                                  "id": 66,
-                                  "node_kind": "atom",
-                                  "content": "println",
-                                  "uniqueId": 717176949
-                                },
-                                {
-                                  "close_position": "8:49-50",
-                                  "nodeClass": "MethodInvocation",
-                                  "content_id": 14,
-                                  "children": [
-                                    {
-                                      "nodeClass": "SimpleName",
-                                      "content_id": 23,
-                                      "kind": "Normal",
-                                      "position": "8:29-47",
-                                      "id": 68,
-                                      "node_kind": "atom",
-                                      "content": "randomNumberChange",
-                                      "uniqueId": 1288235781
-                                    },
-                                    {
-                                      "nodeClass": "SimpleName",
-                                      "content_id": 13,
-                                      "kind": "Normal",
-                                      "position": "8:27-28",
-                                      "id": 69,
-                                      "node_kind": "atom",
-                                      "content": "h",
-                                      "uniqueId": 1374754488
-                                    }
-                                  ],
-                                  "open_position": "8:27-28",
-                                  "open_content": "(",
-                                  "close_content": ")",
-                                  "num_descendants": 0,
-                                  "id": 67,
-                                  "node_kind": "list",
-                                  "uniqueId": 1997353766
+                                  "id": 87,
+                                  "node_kind": "list"
                                 },
                                 {
                                   "nodeClass": "QualifiedName",
                                   "content_id": 17,
                                   "kind": "Normal",
-                                  "position": "8:8-18",
-                                  "id": 70,
+                                  "position": "7:8-18",
+                                  "id": 90,
                                   "node_kind": "atom",
                                   "content": "System.out",
-                                  "uniqueId": 27084827
+                                  "uniqueId": 1785397234
                                 }
                               ],
-                              "open_position": "8:8-9",
+                              "open_position": "7:8-9",
                               "open_content": "(",
                               "close_content": ")",
                               "num_descendants": 0,
-                              "id": 65,
+                              "id": 85,
                               "node_kind": "list",
-                              "uniqueId": 111374580
+                              "uniqueId": 1604353554
                             }
                           ],
                           "open_position": "7:8-8",
                           "open_content": "",
                           "close_content": "",
                           "num_descendants": 0,
-                          "id": 58,
-                          "node_kind": "list"
+                          "id": 84,
+                          "node_kind": "list",
+                          "uniqueId": 843512726
                         }
                       ],
-                      "open_position": "6:42-43",
+                      "open_position": "6:40-41",
                       "open_content": "{",
                       "close_content": "}",
                       "num_descendants": 0,
-                      "id": 57,
+                      "id": 83,
                       "node_kind": "list",
-                      "uniqueId": 297602875
+                      "uniqueId": 773989906
                     },
                     {
                       "nodeClass": "PrimitiveType",
-                      "content_id": 18,
+                      "content_id": 14,
                       "kind": "Type",
                       "position": "6:18-22",
-                      "id": 71,
+                      "id": 91,
                       "node_kind": "atom",
                       "content": "void",
-                      "uniqueId": 1437941060
+                      "uniqueId": 225344427
                     }
                   ],
                   "open_position": "6:4-4",
                   "open_content": "",
                   "close_content": "",
                   "num_descendants": 0,
-                  "id": 49,
+                  "id": 71,
                   "node_kind": "list",
-                  "uniqueId": 1301352406
+                  "uniqueId": 81412691
                 }
               ],
-              "open_position": "5:0-1",
-              "open_content": "{",
-              "close_content": "}",
+              "open_position": "1:4-4",
+              "open_content": "",
+              "close_content": "",
               "num_descendants": 0,
-              "id": 47,
-              "node_kind": "list",
-              "uniqueId": 843512726
-            },
-            {
-              "close_position": "16:1-2",
-              "nodeClass": "TypeDeclaration",
-              "content_id": 5,
-              "children": [
-                {
-                  "nodeClass": "SimpleName",
-                  "content_id": 12,
-                  "kind": "Normal",
-                  "position": "12:6-12",
-                  "id": 73,
-                  "node_kind": "atom",
-                  "content": "Helper",
-                  "uniqueId": 1431530910
-                },
-                {
-                  "close_position": "15:5-5",
-                  "nodeClass": "MethodDeclaration",
-                  "content_id": 1,
-                  "children": [
-                    {
-                      "nodeClass": "SimpleName",
-                      "content_id": 23,
-                      "kind": "Normal",
-                      "position": "13:8-26",
-                      "id": 75,
-                      "node_kind": "atom",
-                      "content": "randomNumberChange",
-                      "uniqueId": 1710265848
-                    },
-                    {
-                      "close_position": "15:3-4",
-                      "nodeClass": "Block",
-                      "content_id": 5,
-                      "children": [
-                        {
-                          "close_position": "14:40-40",
-                          "nodeClass": "ReturnStatement",
-                          "content_id": 1,
-                          "children": [
-                            {
-                              "close_position": "14:39-40",
-                              "nodeClass": "MethodInvocation",
-                              "content_id": 14,
-                              "children": [
-                                {
-                                  "nodeClass": "SimpleName",
-                                  "content_id": 19,
-                                  "kind": "Normal",
-                                  "position": "14:28-35",
-                                  "id": 79,
-                                  "node_kind": "atom",
-                                  "content": "nextInt",
-                                  "uniqueId": 1239183618
-                                },
-                                {
-                                  "nodeClass": "NumberLiteral",
-                                  "content_id": 20,
-                                  "kind": "Normal",
-                                  "position": "14:36-38",
-                                  "id": 80,
-                                  "node_kind": "atom",
-                                  "content": "10",
-                                  "uniqueId": 1804379080
-                                },
-                                {
-                                  "close_position": "14:15-27",
-                                  "nodeClass": "ClassInstanceCreation",
-                                  "content_id": 1,
-                                  "children": [
-                                    {
-                                      "nodeClass": "SimpleType",
-                                      "content_id": 21,
-                                      "kind": "Normal",
-                                      "position": "14:19-25",
-                                      "id": 82,
-                                      "node_kind": "atom",
-                                      "content": "Random",
-                                      "uniqueId": 980138431
-                                    }
-                                  ],
-                                  "open_position": "0:0-0",
-                                  "open_content": "",
-                                  "close_content": "",
-                                  "num_descendants": 0,
-                                  "id": 81,
-                                  "node_kind": "list",
-                                  "uniqueId": 1757880885
-                                }
-                              ],
-                              "open_position": "14:15-16",
-                              "open_content": "(",
-                              "close_content": ")",
-                              "num_descendants": 0,
-                              "id": 78,
-                              "node_kind": "list",
-                              "uniqueId": 1987169128
-                            }
-                          ],
-                          "open_position": "14:8-8",
-                          "open_content": "",
-                          "close_content": "",
-                          "num_descendants": 0,
-                          "id": 77,
-                          "node_kind": "list",
-                          "uniqueId": 204684384
-                        }
-                      ],
-                      "open_position": "13:28-29",
-                      "open_content": "{",
-                      "close_content": "}",
-                      "num_descendants": 0,
-                      "id": 76,
-                      "node_kind": "list",
-                      "uniqueId": 2044366277
-                    },
-                    {
-                      "nodeClass": "PrimitiveType",
-                      "content_id": 22,
-                      "kind": "Type",
-                      "position": "13:4-7",
-                      "id": 83,
-                      "node_kind": "atom",
-                      "content": "int",
-                      "uniqueId": 1944978632
-                    }
-                  ],
-                  "open_position": "13:4-4",
-                  "open_content": "",
-                  "close_content": "",
-                  "num_descendants": 0,
-                  "id": 74,
-                  "node_kind": "list",
-                  "uniqueId": 888655833
-                }
-              ],
-              "open_position": "12:0-1",
-              "open_content": "{",
-              "close_content": "}",
-              "num_descendants": 0,
-              "id": 72,
-              "node_kind": "list",
-              "uniqueId": 879583678
+              "id": 43,
+              "node_kind": "list"
             }
           ],
-          "open_position": "5:0-0",
-          "open_content": "",
-          "close_content": "",
+          "open_position": "0:0-1",
+          "open_content": "{",
+          "close_content": "}",
           "num_descendants": 0,
-          "id": 46,
-          "node_kind": "list"
+          "id": 41,
+          "node_kind": "list",
+          "uniqueId": 111374580
         }
       ],
       "open_position": "0:0-0",
       "open_content": "",
       "close_content": "",
       "num_descendants": 0,
-      "id": 44,
+      "id": 40,
       "node_kind": "list",
-      "uniqueId": 1362546706
+      "uniqueId": 1190820921
     }
   }
 }

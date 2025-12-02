@@ -1,0 +1,60 @@
+{
+  "lhs": [],
+  "rhs": [
+    [
+      {
+        "rust_id": 62,
+        "java_id": 1380806038,
+        "type": "SimpleName (atom)",
+        "content": "y",
+        "position": "3:12-13"
+      },
+      {
+        "rust_id": 69,
+        "java_id": 464676531,
+        "type": "SimpleName (atom)",
+        "content": "y",
+        "position": "4:15-16"
+      },
+      {
+        "rust_id": 80,
+        "java_id": 895281180,
+        "type": "SingleVariableDeclaration (list)",
+        "content": "",
+        "position": "6:34-34"
+      }
+    ],
+    [
+      {
+        "rust_id": 60,
+        "java_id": 1324578393,
+        "type": "PrimitiveType (atom)",
+        "content": "int",
+        "position": "3:8-11"
+      },
+      {
+        "rust_id": 63,
+        "java_id": 1641415002,
+        "type": "NumberLiteral (atom)",
+        "content": "3",
+        "position": "3:16-17"
+      }
+    ],
+    [
+      {
+        "rust_id": 81,
+        "java_id": 680712932,
+        "type": "SimpleName (atom)",
+        "content": "b",
+        "position": "6:38-39"
+      },
+      {
+        "rust_id": 89,
+        "java_id": 912672706,
+        "type": "SimpleName (atom)",
+        "content": "b",
+        "position": "7:30-31"
+      }
+    ]
+  ]
+}

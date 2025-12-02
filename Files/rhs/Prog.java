@@ -1,17 +1,10 @@
-
-
-import java.util.Random;
-
-
-public class Main {
+public class Demo {
     public static void main(String[] args) {
-        Helper h = new Helper();
-        System.out.println(h.randomNumberChange());
+        int x = 5;
+        int y = 3;
+        foo(x, y);
     }
-}
-
-class Helper {
-    int randomNumberChange() {
-        return new Random().nextInt(10);
+    public static void foo(int a, int b) {
+        System.out.println(a, b);
     }
 }
