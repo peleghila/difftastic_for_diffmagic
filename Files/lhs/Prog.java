@@ -1,9 +1,7 @@
-public class Demo {
+class Car {}
+
+public class Main {
     public static void main(String[] args) {
-        int x = 5;
-        foo(x);
-    }
-    public static void foo(int a) {
-        System.out.println(a);
+        Car c = new Car();
     }
 }

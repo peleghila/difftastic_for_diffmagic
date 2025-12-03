@@ -1,0 +1,52 @@
+{
+  "lhs": [
+    [
+      {
+        "rust_id": 18,
+        "java_id": 128359175,
+        "type": "NumberLiteral (atom)",
+        "content": "3",
+        "position": "3:15-16"
+      },
+      {
+        "rust_id": 19,
+        "java_id": 893192050,
+        "type": "PrimitiveType (atom)",
+        "content": "int",
+        "position": "1:18-21"
+      },
+      {
+        "rust_id": 31,
+        "java_id": 607932305,
+        "type": "PrimitiveType (atom)",
+        "content": "int",
+        "position": "7:8-11"
+      }
+    ]
+  ],
+  "rhs": [
+    [
+      {
+        "rust_id": 59,
+        "java_id": 532087022,
+        "type": "NumberLiteral (atom)",
+        "content": "3.0",
+        "position": "3:15-18"
+      },
+      {
+        "rust_id": 60,
+        "java_id": 324457684,
+        "type": "PrimitiveType (atom)",
+        "content": "float",
+        "position": "1:18-23"
+      },
+      {
+        "rust_id": 72,
+        "java_id": 1324578393,
+        "type": "PrimitiveType (atom)",
+        "content": "float",
+        "position": "7:8-13"
+      }
+    ]
+  ]
+}

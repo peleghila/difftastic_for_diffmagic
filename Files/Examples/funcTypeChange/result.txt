@@ -1,0 +1,595 @@
+------------------Prog.java------------------
+LHS: [
+    List id:1 content_id:33 {
+        open_content: "",
+        open_position: "-",
+        children: [
+            List id:2 content_id:32 {
+                open_content: "{",
+                open_position: "0:0-1",
+                children: [
+                    Atom id:3 content_id:1 {
+                        content: "Main",
+                        position: "0:13-17",
+                    },
+                    List id:4 content_id:31 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            List id:5 content_id:16 {
+                                open_content: "",
+                                open_position: "1:4-4",
+                                children: [
+                                    Atom id:6 content_id:2 {
+                                        content: "foo",
+                                        position: "1:22-25",
+                                    },
+                                    List id:7 content_id:5 {
+                                        open_content: "",
+                                        open_position: "1:4-4",
+                                        children: [
+                                            Atom id:8 content_id:3 {
+                                                content: "public",
+                                                position: "1:4-10",
+                                            },
+                                            Atom id:9 content_id:4 {
+                                                content: "static",
+                                                position: "1:11-17",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "1:17-17",
+                                    },
+                                    List id:10 content_id:14 {
+                                        open_content: "{",
+                                        open_position: "1:27-28",
+                                        children: [
+                                            List id:11 content_id:13 {
+                                                open_content: "",
+                                                open_position: "2:8-8",
+                                                children: [
+                                                    List id:12 content_id:10 {
+                                                        open_content: "",
+                                                        open_position: "2:8-8",
+                                                        children: [
+                                                            List id:13 content_id:9 {
+                                                                open_content: "(",
+                                                                open_position: "2:8-9",
+                                                                children: [
+                                                                    Atom id:14 content_id:6 {
+                                                                        content: "println",
+                                                                        position: "2:19-26",
+                                                                    },
+                                                                    Atom id:15 content_id:7 {
+                                                                        content: "old",
+                                                                        position: "2:27-30",
+                                                                    },
+                                                                    Atom id:16 content_id:8 {
+                                                                        content: "System.out",
+                                                                        position: "2:8-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "2:33-34",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "2:34-34",
+                                                    },
+                                                    List id:17 content_id:12 {
+                                                        open_content: "",
+                                                        open_position: "3:8-8",
+                                                        children: [
+                                                            Atom id:18 content_id:11 {
+                                                                content: "3",
+                                                                position: "3:15-16",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "3:17-17",
+                                                    },
+                                                ],
+                                                close_content: "",
+                                                close_position: "3:17-17",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "4:3-4",
+                                    },
+                                    Atom id:19 content_id:15 {
+                                        content: "int",
+                                        position: "1:18-21",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "4:5-5",
+                            },
+                            List id:20 content_id:30 {
+                                open_content: "",
+                                open_position: "6:4-4",
+                                children: [
+                                    Atom id:21 content_id:17 {
+                                        content: "main",
+                                        position: "6:23-27",
+                                    },
+                                    List id:22 content_id:5 {
+                                        open_content: "",
+                                        open_position: "6:4-4",
+                                        children: [
+                                            Atom id:23 content_id:3 {
+                                                content: "public",
+                                                position: "6:4-10",
+                                            },
+                                            Atom id:24 content_id:4 {
+                                                content: "static",
+                                                position: "6:11-17",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "6:17-17",
+                                    },
+                                    List id:25 content_id:20 {
+                                        open_content: "",
+                                        open_position: "6:28-28",
+                                        children: [
+                                            Atom id:26 content_id:18 {
+                                                content: "args",
+                                                position: "6:37-41",
+                                            },
+                                            Atom id:27 content_id:19 {
+                                                content: "String",
+                                                position: "6:28-34",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "6:41-41",
+                                    },
+                                    List id:28 content_id:28 {
+                                        open_content: "{",
+                                        open_position: "6:42-43",
+                                        children: [
+                                            List id:29 content_id:27 {
+                                                open_content: "",
+                                                open_position: "7:8-8",
+                                                children: [
+                                                    List id:30 content_id:24 {
+                                                        open_content: "",
+                                                        open_position: "7:8-8",
+                                                        children: [
+                                                            Atom id:31 content_id:15 {
+                                                                content: "int",
+                                                                position: "7:8-11",
+                                                            },
+                                                            List id:32 content_id:23 {
+                                                                open_content: "",
+                                                                open_position: "7:12-12",
+                                                                children: [
+                                                                    Atom id:33 content_id:21 {
+                                                                        content: "x",
+                                                                        position: "7:12-13",
+                                                                    },
+                                                                    List id:34 content_id:22 {
+                                                                        open_content: "(",
+                                                                        open_position: "7:16-17",
+                                                                        children: [
+                                                                            Atom id:35 content_id:2 {
+                                                                                content: "foo",
+                                                                                position: "7:16-19",
+                                                                            },
+                                                                        ],
+                                                                        close_content: ")",
+                                                                        close_position: "7:21-22",
+                                                                    },
+                                                                ],
+                                                                close_content: "",
+                                                                close_position: "7:21-21",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "7:22-22",
+                                                    },
+                                                    List id:36 content_id:26 {
+                                                        open_content: "",
+                                                        open_position: "8:8-8",
+                                                        children: [
+                                                            List id:37 content_id:25 {
+                                                                open_content: "(",
+                                                                open_position: "8:8-9",
+                                                                children: [
+                                                                    Atom id:38 content_id:6 {
+                                                                        content: "println",
+                                                                        position: "8:19-26",
+                                                                    },
+                                                                    Atom id:39 content_id:21 {
+                                                                        content: "x",
+                                                                        position: "8:27-28",
+                                                                    },
+                                                                    Atom id:40 content_id:8 {
+                                                                        content: "System.out",
+                                                                        position: "8:8-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "8:29-30",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "8:30-30",
+                                                    },
+                                                ],
+                                                close_content: "",
+                                                close_position: "8:30-30",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "9:3-4",
+                                    },
+                                    Atom id:41 content_id:29 {
+                                        content: "void",
+                                        position: "6:18-22",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "9:5-5",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "9:5-5",
+                    },
+                ],
+                close_content: "}",
+                close_position: "10:1-2",
+            },
+        ],
+        close_content: "",
+        close_position: "0:0-228",
+    },
+]
+RHS: [
+    List id:42 content_id:49 {
+        open_content: "",
+        open_position: "-",
+        children: [
+            List id:43 content_id:48 {
+                open_content: "{",
+                open_position: "0:0-1",
+                children: [
+                    Atom id:44 content_id:1 {
+                        content: "Main",
+                        position: "0:13-17",
+                    },
+                    List id:45 content_id:47 {
+                        open_content: "",
+                        open_position: "1:4-4",
+                        children: [
+                            List id:46 content_id:42 {
+                                open_content: "",
+                                open_position: "1:4-4",
+                                children: [
+                                    Atom id:47 content_id:2 {
+                                        content: "foo",
+                                        position: "1:24-27",
+                                    },
+                                    List id:48 content_id:5 {
+                                        open_content: "",
+                                        open_position: "1:4-4",
+                                        children: [
+                                            Atom id:49 content_id:3 {
+                                                content: "public",
+                                                position: "1:4-10",
+                                            },
+                                            Atom id:50 content_id:4 {
+                                                content: "static",
+                                                position: "1:11-17",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "1:17-17",
+                                    },
+                                    List id:51 content_id:40 {
+                                        open_content: "{",
+                                        open_position: "1:29-30",
+                                        children: [
+                                            List id:52 content_id:39 {
+                                                open_content: "",
+                                                open_position: "2:8-8",
+                                                children: [
+                                                    List id:53 content_id:36 {
+                                                        open_content: "",
+                                                        open_position: "2:8-8",
+                                                        children: [
+                                                            List id:54 content_id:35 {
+                                                                open_content: "(",
+                                                                open_position: "2:8-9",
+                                                                children: [
+                                                                    Atom id:55 content_id:6 {
+                                                                        content: "println",
+                                                                        position: "2:19-26",
+                                                                    },
+                                                                    Atom id:56 content_id:34 {
+                                                                        content: "new",
+                                                                        position: "2:27-30",
+                                                                    },
+                                                                    Atom id:57 content_id:8 {
+                                                                        content: "System.out",
+                                                                        position: "2:8-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "2:33-34",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "2:34-34",
+                                                    },
+                                                    List id:58 content_id:38 {
+                                                        open_content: "",
+                                                        open_position: "3:8-8",
+                                                        children: [
+                                                            Atom id:59 content_id:37 {
+                                                                content: "3.0",
+                                                                position: "3:15-18",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "3:19-19",
+                                                    },
+                                                ],
+                                                close_content: "",
+                                                close_position: "3:19-19",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "4:3-4",
+                                    },
+                                    Atom id:60 content_id:41 {
+                                        content: "float",
+                                        position: "1:18-23",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "4:5-5",
+                            },
+                            List id:61 content_id:46 {
+                                open_content: "",
+                                open_position: "6:4-4",
+                                children: [
+                                    Atom id:62 content_id:17 {
+                                        content: "main",
+                                        position: "6:23-27",
+                                    },
+                                    List id:63 content_id:5 {
+                                        open_content: "",
+                                        open_position: "6:4-4",
+                                        children: [
+                                            Atom id:64 content_id:3 {
+                                                content: "public",
+                                                position: "6:4-10",
+                                            },
+                                            Atom id:65 content_id:4 {
+                                                content: "static",
+                                                position: "6:11-17",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "6:17-17",
+                                    },
+                                    List id:66 content_id:20 {
+                                        open_content: "",
+                                        open_position: "6:28-28",
+                                        children: [
+                                            Atom id:67 content_id:18 {
+                                                content: "args",
+                                                position: "6:37-41",
+                                            },
+                                            Atom id:68 content_id:19 {
+                                                content: "String",
+                                                position: "6:28-34",
+                                            },
+                                        ],
+                                        close_content: "",
+                                        close_position: "6:41-41",
+                                    },
+                                    List id:69 content_id:45 {
+                                        open_content: "{",
+                                        open_position: "6:42-43",
+                                        children: [
+                                            List id:70 content_id:44 {
+                                                open_content: "",
+                                                open_position: "7:8-8",
+                                                children: [
+                                                    List id:71 content_id:43 {
+                                                        open_content: "",
+                                                        open_position: "7:8-8",
+                                                        children: [
+                                                            Atom id:72 content_id:41 {
+                                                                content: "float",
+                                                                position: "7:8-13",
+                                                            },
+                                                            List id:73 content_id:23 {
+                                                                open_content: "",
+                                                                open_position: "7:14-14",
+                                                                children: [
+                                                                    Atom id:74 content_id:21 {
+                                                                        content: "x",
+                                                                        position: "7:14-15",
+                                                                    },
+                                                                    List id:75 content_id:22 {
+                                                                        open_content: "(",
+                                                                        open_position: "7:18-19",
+                                                                        children: [
+                                                                            Atom id:76 content_id:2 {
+                                                                                content: "foo",
+                                                                                position: "7:18-21",
+                                                                            },
+                                                                        ],
+                                                                        close_content: ")",
+                                                                        close_position: "7:23-24",
+                                                                    },
+                                                                ],
+                                                                close_content: "",
+                                                                close_position: "7:23-23",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "7:24-24",
+                                                    },
+                                                    List id:77 content_id:26 {
+                                                        open_content: "",
+                                                        open_position: "8:8-8",
+                                                        children: [
+                                                            List id:78 content_id:25 {
+                                                                open_content: "(",
+                                                                open_position: "8:8-9",
+                                                                children: [
+                                                                    Atom id:79 content_id:6 {
+                                                                        content: "println",
+                                                                        position: "8:19-26",
+                                                                    },
+                                                                    Atom id:80 content_id:21 {
+                                                                        content: "x",
+                                                                        position: "8:27-28",
+                                                                    },
+                                                                    Atom id:81 content_id:8 {
+                                                                        content: "System.out",
+                                                                        position: "8:8-18",
+                                                                    },
+                                                                ],
+                                                                close_content: ")",
+                                                                close_position: "8:29-30",
+                                                            },
+                                                        ],
+                                                        close_content: "",
+                                                        close_position: "8:30-30",
+                                                    },
+                                                ],
+                                                close_content: "",
+                                                close_position: "8:30-30",
+                                            },
+                                        ],
+                                        close_content: "}",
+                                        close_position: "9:3-4",
+                                    },
+                                    Atom id:82 content_id:29 {
+                                        content: "void",
+                                        position: "6:18-22",
+                                    },
+                                ],
+                                close_content: "",
+                                close_position: "9:5-5",
+                            },
+                        ],
+                        close_content: "",
+                        close_position: "9:5-5",
+                    },
+                ],
+                close_content: "}",
+                close_position: "10:1-2",
+            },
+        ],
+        close_content: "",
+        close_position: "0:0-234",
+    },
+]
+
+------------------Prog.java------------------
+Changes: ChangeMap {
+    changes: {
+        73: Unchanged(ID: 32),
+        19: Novel,
+        38: Unchanged(ID: 79),
+        57: Unchanged(ID: 16),
+        3: Unchanged(ID: 44),
+        76: Unchanged(ID: 35),
+        22: Unchanged(ID: 63),
+        41: Unchanged(ID: 82),
+        60: Novel,
+        6: Unchanged(ID: 47),
+        79: Unchanged(ID: 38),
+        25: Unchanged(ID: 66),
+        44: Unchanged(ID: 3),
+        63: Unchanged(ID: 22),
+        9: Unchanged(ID: 50),
+        82: Unchanged(ID: 41),
+        28: Unchanged(ID: 69),
+        47: Unchanged(ID: 6),
+        66: Unchanged(ID: 25),
+        12: Unchanged(ID: 53),
+        31: Novel,
+        50: Unchanged(ID: 9),
+        69: Unchanged(ID: 28),
+        15: Novel,
+        34: Unchanged(ID: 75),
+        53: Unchanged(ID: 12),
+        72: Novel,
+        18: Novel,
+        37: Unchanged(ID: 78),
+        56: Novel,
+        2: Unchanged(ID: 43),
+        75: Unchanged(ID: 34),
+        21: Unchanged(ID: 62),
+        40: Unchanged(ID: 81),
+        59: Novel,
+        5: Unchanged(ID: 46),
+        78: Unchanged(ID: 37),
+        24: Unchanged(ID: 65),
+        43: Unchanged(ID: 2),
+        62: Unchanged(ID: 21),
+        8: Unchanged(ID: 49),
+        81: Unchanged(ID: 40),
+        27: Unchanged(ID: 68),
+        46: Unchanged(ID: 5),
+        65: Unchanged(ID: 24),
+        11: Unchanged(ID: 52),
+        30: Unchanged(ID: 71),
+        49: Unchanged(ID: 8),
+        68: Unchanged(ID: 27),
+        14: Unchanged(ID: 55),
+        33: Unchanged(ID: 74),
+        52: Unchanged(ID: 11),
+        71: Unchanged(ID: 30),
+        17: Unchanged(ID: 58),
+        36: Unchanged(ID: 77),
+        55: Unchanged(ID: 14),
+        1: Unchanged(ID: 42),
+        74: Unchanged(ID: 33),
+        20: Unchanged(ID: 61),
+        39: Unchanged(ID: 80),
+        58: Unchanged(ID: 17),
+        4: Unchanged(ID: 45),
+        77: Unchanged(ID: 36),
+        23: Unchanged(ID: 64),
+        42: Unchanged(ID: 1),
+        61: Unchanged(ID: 20),
+        7: Unchanged(ID: 48),
+        80: Unchanged(ID: 39),
+        26: Unchanged(ID: 67),
+        45: Unchanged(ID: 4),
+        64: Unchanged(ID: 23),
+        10: Unchanged(ID: 51),
+        29: Unchanged(ID: 70),
+        48: Unchanged(ID: 7),
+        67: Unchanged(ID: 26),
+        13: Unchanged(ID: 54),
+        32: Unchanged(ID: 73),
+        51: Unchanged(ID: 10),
+        70: Unchanged(ID: 29),
+        16: Unchanged(ID: 57),
+        35: Unchanged(ID: 76),
+        54: Unchanged(ID: 13),
+    },
+}
+
+Prog.java --- Java
+ 1 public class Main {                            1 public class Main {
+ 2     public static int foo() {                  2     public static float foo() {
+ 3         System.out.println("old");             3         System.out.println("new");
+ 4         return 3;                              4         return 3.0;
+ 5     }                                          5     }
+ 6                                                6 
+ 7     public static void main(String[] args) {   7     public static void main(String[] args) {
+ 8         int x = foo();                         8         float x = foo();
+ 9         System.out.println(x);                 9         System.out.println(x);
+10     }                                         10     }
+11 }                                             11 }
+

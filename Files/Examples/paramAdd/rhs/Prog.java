@@ -1,9 +1,10 @@
-class Main {
-    public static void foo(int a, int b) {
-    }
-
-    public static void main() {
+public class Demo {
+    public static void main(String[] args) {
         int x = 5;
-        foo(x, x);
+        int y = 3;
+        foo(x, y);
+    }
+    public static void foo(int a, int b) {
+        System.out.println(a, b);
     }
 }

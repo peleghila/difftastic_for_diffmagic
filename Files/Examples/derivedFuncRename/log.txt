@@ -1,0 +1,278 @@
+Base absolute path: C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Base' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;
+Processing SimpleName: 'foo' at position 30
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;.foo()V
+  Pattern: SimpleName is a method declaration
+No binding for SimpleName: 'System' at position 47
+No binding for SimpleName: 'out' at position 54
+No binding for SimpleName: 'println' at position 58
+Processing SimpleName: 'Derived' at position 98
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;
+Processing SimpleName: 'Base' at position 114
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@114 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'Override' at position 127
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLOverride;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLOverride;0, Kind: 2
+Processing SimpleName: 'foo' at position 153
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;.foo()V
+  Pattern: SimpleName is a method declaration
+  Added overriding-method-to-original edge: foo -> foo
+No binding for SimpleName: 'System' at position 170
+No binding for SimpleName: 'out' at position 177
+No binding for SimpleName: 'println' at position 181
+Processing SimpleName: 'Main' at position 231
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;
+Processing SimpleName: 'main' at position 262
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 267
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLString;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
+Processing SimpleName: 'args' at position 276
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Base' at position 293
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@293 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'b' at position 298
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#b
+  Added fragment-to-statement edge: b@298 -> VariableDeclarationStatement@293
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Base
+Processing SimpleName: 'Base' at position 306
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@306 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'Derived' at position 323
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@323 -> NameRes:SimpleName:Derived@98
+Processing SimpleName: 'd' at position 331
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#d
+  Added fragment-to-statement edge: d@331 -> VariableDeclarationStatement@323
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Derived
+Processing SimpleName: 'Derived' at position 339
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@339 -> NameRes:SimpleName:Derived@98
+Processing SimpleName: 'Base' at position 359
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@359 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'poly' at position 364
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#poly
+  Added fragment-to-statement edge: poly@364 -> VariableDeclarationStatement@359
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Base
+Processing SimpleName: 'Derived' at position 375
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@375 -> NameRes:SimpleName:Derived@98
+
+Processing MethodInvocation: foo
+Processing SimpleName: 'b' at position 397
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#b
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:b@397 -> NameRes:SimpleName:b@298
+Processing SimpleName: 'foo' at position 399
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;.foo()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:foo@399 -> NameRes:SimpleName:foo@30
+
+Processing MethodInvocation: foo
+Processing SimpleName: 'd' at position 432
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#d
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:d@432 -> NameRes:SimpleName:d@331
+Processing SimpleName: 'foo' at position 434
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Derived;.foo()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:foo@434 -> NameRes:SimpleName:foo@153
+
+Processing MethodInvocation: foo
+Processing SimpleName: 'poly' at position 470
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#poly
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:poly@470 -> NameRes:SimpleName:poly@364
+Processing SimpleName: 'foo' at position 475
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Base;.foo()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:foo@475 -> NameRes:SimpleName:foo@30
+Processed: Prog.java (43 edges)
+
+LHS JSON saved to: ..\..\difftastic\Files\lhs.json
+
+Batch parsing all compilation units...
+Parsed: Prog.java (index: 0)
+
+Processing parsed compilation units...
+Processing SimpleName: 'Base' at position 6
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;
+Processing SimpleName: 'bar' at position 30
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;.bar()V
+  Pattern: SimpleName is a method declaration
+No binding for SimpleName: 'System' at position 47
+No binding for SimpleName: 'out' at position 54
+No binding for SimpleName: 'println' at position 58
+Processing SimpleName: 'Derived' at position 98
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;
+Processing SimpleName: 'Base' at position 114
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@114 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'Override' at position 127
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLOverride;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLOverride;0, Kind: 2
+Processing SimpleName: 'bar' at position 153
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;.bar()V
+  Pattern: SimpleName is a method declaration
+  Added overriding-method-to-original edge: bar -> bar
+No binding for SimpleName: 'System' at position 170
+No binding for SimpleName: 'out' at position 177
+No binding for SimpleName: 'println' at position 181
+Processing SimpleName: 'Main' at position 231
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;
+Processing SimpleName: 'main' at position 262
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'String' at position 267
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLString;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
+Processing SimpleName: 'args' at position 276
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#args#0#0
+Processing SimpleName: 'Base' at position 293
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@293 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'b' at position 298
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#b
+  Added fragment-to-statement edge: b@298 -> VariableDeclarationStatement@293
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Base
+Processing SimpleName: 'Base' at position 306
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@306 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'Derived' at position 323
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@323 -> NameRes:SimpleName:Derived@98
+Processing SimpleName: 'd' at position 331
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#d
+  Added fragment-to-statement edge: d@331 -> VariableDeclarationStatement@323
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Derived
+Processing SimpleName: 'Derived' at position 339
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@339 -> NameRes:SimpleName:Derived@98
+Processing SimpleName: 'Base' at position 359
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Base@359 -> NameRes:SimpleName:Base@6
+Processing SimpleName: 'poly' at position 364
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#poly
+  Added fragment-to-statement edge: poly@364 -> VariableDeclarationStatement@359
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: ClassInstanceCreation -> Base
+Processing SimpleName: 'Derived' at position 375
+  Binding type: TypeBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Derived@375 -> NameRes:SimpleName:Derived@98
+
+Processing MethodInvocation: bar
+Processing SimpleName: 'b' at position 397
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#b
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:b@397 -> NameRes:SimpleName:b@298
+Processing SimpleName: 'bar' at position 399
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;.bar()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:bar@399 -> NameRes:SimpleName:bar@30
+
+Processing MethodInvocation: bar
+Processing SimpleName: 'd' at position 432
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#d
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:d@432 -> NameRes:SimpleName:d@331
+Processing SimpleName: 'bar' at position 434
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Derived;.bar()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:bar@434 -> NameRes:SimpleName:bar@153
+
+Processing MethodInvocation: bar
+Processing SimpleName: 'poly' at position 470
+  Binding type: VariableBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#poly
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:poly@470 -> NameRes:SimpleName:poly@364
+Processing SimpleName: 'bar' at position 475
+  Binding type: MethodBinding
+  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Base;.bar()V
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:bar@475 -> NameRes:SimpleName:bar@30
+Processed: Prog.java (43 edges)
+
+RHS JSON saved to: ..\..\difftastic\Files\rhs.json
+
+=== Executing Shell Script ===
+Executable: bash
+Script path: /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/diffmagic.sh
+[Shell] ▶ Running diffmagic(target/release/difft)
+[Shell] ✅ Saved to /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/result.txt
+[Shell] 
+[Shell] ▶ Running expected(bin/release/difft)
+[Shell] ✅ Saved to /mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/expected.txt
+Shell script completed with exit code: 0
+
+=== Executing Python Script ===
+Executable: C:\Users\Bitroix\AppData\Local\Microsoft\WindowsApps\python3.13.exe
+Script path: c:/Users/Bitroix/Desktop/Technion/Diff/diffmagic/novel_components.py
+[Python] LHS: Built mappings with 69 nodes
+[Python] LHS: Filtered to 4 edges with both sides novel (duplicates removed)
+[Python] 
+[Python] === Generalizing Edges ===
+[Python] RHS: Built mappings with 69 nodes
+[Python] RHS: Filtered to 4 edges with both sides novel (duplicates removed)
+[Python] 
+[Python] === Generalizing Edges ===
+[Python] 
+[Python] Components JSON written to C:\Users\Bitroix\Desktop\Technion\Diff\difftastic\Files\output_components.json
+[Python]   LHS components: 1
+[Python]   RHS components: 1
+Python script completed with exit code: 0

@@ -1,0 +1,38 @@
+{
+  "lhs": [
+    [
+      {
+        "rust_id": 17,
+        "java_id": 501187768,
+        "type": "SimpleName (atom)",
+        "content": "count",
+        "position": "2:12-17"
+      },
+      {
+        "rust_id": 22,
+        "java_id": 1031061344,
+        "type": "SimpleName (atom)",
+        "content": "count",
+        "position": "3:27-32"
+      }
+    ]
+  ],
+  "rhs": [
+    [
+      {
+        "rust_id": 41,
+        "java_id": 917831210,
+        "type": "SimpleName (atom)",
+        "content": "total",
+        "position": "2:12-17"
+      },
+      {
+        "rust_id": 46,
+        "java_id": 360207322,
+        "type": "SimpleName (atom)",
+        "content": "total",
+        "position": "3:27-32"
+      }
+    ]
+  ]
+}

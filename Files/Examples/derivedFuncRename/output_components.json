@@ -1,0 +1,80 @@
+{
+  "lhs": [
+    [
+      {
+        "rust_id": 6,
+        "java_id": 1105423942,
+        "type": "SimpleName (atom)",
+        "content": "foo",
+        "position": "1:16-19"
+      },
+      {
+        "rust_id": 18,
+        "java_id": 551479935,
+        "type": "SimpleName (atom)",
+        "content": "foo",
+        "position": "8:16-19"
+      },
+      {
+        "rust_id": 63,
+        "java_id": 771775563,
+        "type": "SimpleName (atom)",
+        "content": "foo",
+        "position": "19:10-13"
+      },
+      {
+        "rust_id": 67,
+        "java_id": 1666607455,
+        "type": "SimpleName (atom)",
+        "content": "foo",
+        "position": "20:10-13"
+      },
+      {
+        "rust_id": 71,
+        "java_id": 530737374,
+        "type": "SimpleName (atom)",
+        "content": "foo",
+        "position": "21:13-16"
+      }
+    ]
+  ],
+  "rhs": [
+    [
+      {
+        "rust_id": 79,
+        "java_id": 1025309396,
+        "type": "SimpleName (atom)",
+        "content": "bar",
+        "position": "1:16-19"
+      },
+      {
+        "rust_id": 91,
+        "java_id": 737945227,
+        "type": "SimpleName (atom)",
+        "content": "bar",
+        "position": "8:16-19"
+      },
+      {
+        "rust_id": 136,
+        "java_id": 1604002113,
+        "type": "SimpleName (atom)",
+        "content": "bar",
+        "position": "19:10-13"
+      },
+      {
+        "rust_id": 140,
+        "java_id": 1787079037,
+        "type": "SimpleName (atom)",
+        "content": "bar",
+        "position": "20:10-13"
+      },
+      {
+        "rust_id": 144,
+        "java_id": 574268151,
+        "type": "SimpleName (atom)",
+        "content": "bar",
+        "position": "21:13-16"
+      }
+    ]
+  ]
+}
