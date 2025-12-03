@@ -1,6 +1,36 @@
 {
   "nameResEdges": [
     {
+      "from": "NameRes:SimpleName:Demo@13",
+      "to": "!!!public class Demo {\n  public static void main(  String[] args){\n    int x\u003d5;\n    foo(x);\n  }\n  public static void foo(  int a){\n    System.out.println(a);\n  }\n}\n",
+      "fromId": 1912962767,
+      "toId": 422396878
+    },
+    {
+      "from": "NameRes:SimpleName:main@44",
+      "to": "!!!public static void main(String[] args){\n  int x\u003d5;\n  foo(x);\n}\n",
+      "fromId": 1754894440,
+      "toId": 1888442711
+    },
+    {
+      "from": "NameRes:SimpleName:args@58",
+      "to": "!!!String[] args",
+      "fromId": 24119573,
+      "toId": 568221876
+    },
+    {
+      "from": "NameRes:SimpleName:x@79",
+      "to": "!!!x\u003d5",
+      "fromId": 558216562,
+      "toId": 367746789
+    },
+    {
+      "from": "FragmentToStmt:Fragment:x@79",
+      "to": "FragmentToStmt:Statement:VariableDeclarationStatement@75",
+      "fromId": 367746789,
+      "toId": 728115831
+    },
+    {
       "from": "VarInit:InitLiteral:NumberLiteral@83",
       "to": "VarInit:DeclVarType:int@75",
       "fromId": 1327536153,
@@ -14,15 +44,45 @@
     },
     {
       "from": "NameRes:SimpleName:foo@95",
+      "to": "!!!public static void foo(int a){\n  System.out.println(a);\n}\n",
+      "fromId": 318857719,
+      "toId": 1449263511
+    },
+    {
+      "from": "NameRes:SimpleName:foo@95",
       "to": "NameRes:SimpleName:foo@134",
       "fromId": 318857719,
       "toId": 116237769
     },
     {
       "from": "NameRes:SimpleName:x@99",
+      "to": "!!!x\u003d5",
+      "fromId": 745962066,
+      "toId": 367746789
+    },
+    {
+      "from": "NameRes:SimpleName:x@99",
       "to": "NameRes:SimpleName:x@79",
       "fromId": 745962066,
       "toId": 558216562
+    },
+    {
+      "from": "NameRes:SimpleName:foo@134",
+      "to": "!!!public static void foo(int a){\n  System.out.println(a);\n}\n",
+      "fromId": 116237769,
+      "toId": 1449263511
+    },
+    {
+      "from": "NameRes:SimpleName:a@142",
+      "to": "!!!int a",
+      "fromId": 49752459,
+      "toId": 411506101
+    },
+    {
+      "from": "NameRes:SimpleName:a@175",
+      "to": "!!!int a",
+      "fromId": 58940486,
+      "toId": 411506101
     },
     {
       "from": "NameRes:SimpleName:a@175",
@@ -83,7 +143,7 @@
                           "id": 8,
                           "node_kind": "atom",
                           "content": "public",
-                          "uniqueId": 2131670196
+                          "uniqueId": 1546908073
                         },
                         {
                           "nodeClass": "Modifier",
@@ -93,7 +153,7 @@
                           "id": 9,
                           "node_kind": "atom",
                           "content": "static",
-                          "uniqueId": 1546908073
+                          "uniqueId": 371439501
                         }
                       ],
                       "open_position": "1:4-4",
@@ -202,7 +262,7 @@
                               "num_descendants": 0,
                               "id": 15,
                               "node_kind": "list",
-                              "uniqueId": 371439501
+                              "uniqueId": 728115831
                             },
                             {
                               "close_position": "3:15-15",

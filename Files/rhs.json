@@ -1,10 +1,52 @@
 {
   "nameResEdges": [
     {
+      "from": "NameRes:SimpleName:Demo@13",
+      "to": "!!!public class Demo {\n  public static void main(  String[] args){\n    int x\u003d5;\n    int y\u003d3;\n    foo(x,y);\n  }\n  public static void foo(  int a,  int b){\n    System.out.println(a,b);\n  }\n}\n",
+      "fromId": 717176949,
+      "toId": 111374580
+    },
+    {
+      "from": "NameRes:SimpleName:main@44",
+      "to": "!!!public static void main(String[] args){\n  int x\u003d5;\n  int y\u003d3;\n  foo(x,y);\n}\n",
+      "fromId": 737077247,
+      "toId": 812446698
+    },
+    {
+      "from": "NameRes:SimpleName:args@58",
+      "to": "!!!String[] args",
+      "fromId": 1600667055,
+      "toId": 2030036700
+    },
+    {
+      "from": "NameRes:SimpleName:x@79",
+      "to": "!!!x\u003d5",
+      "fromId": 255334292,
+      "toId": 1819776360
+    },
+    {
+      "from": "FragmentToStmt:Fragment:x@79",
+      "to": "FragmentToStmt:Statement:VariableDeclarationStatement@75",
+      "fromId": 1819776360,
+      "toId": 1374754488
+    },
+    {
       "from": "VarInit:InitLiteral:NumberLiteral@83",
       "to": "VarInit:DeclVarType:int@75",
       "fromId": 1864869682,
       "toId": 773662650
+    },
+    {
+      "from": "NameRes:SimpleName:y@99",
+      "to": "!!!y\u003d3",
+      "fromId": 1380806038,
+      "toId": 623247230
+    },
+    {
+      "from": "FragmentToStmt:Fragment:y@99",
+      "to": "FragmentToStmt:Statement:VariableDeclarationStatement@95",
+      "fromId": 623247230,
+      "toId": 27084827
     },
     {
       "from": "VarInit:InitLiteral:NumberLiteral@103",
@@ -26,9 +68,21 @@
     },
     {
       "from": "NameRes:SimpleName:foo@115",
+      "to": "!!!public static void foo(int a,int b){\n  System.out.println(a,b);\n}\n",
+      "fromId": 931496835,
+      "toId": 81412691
+    },
+    {
+      "from": "NameRes:SimpleName:foo@115",
       "to": "NameRes:SimpleName:foo@157",
       "fromId": 931496835,
       "toId": 963815509
+    },
+    {
+      "from": "NameRes:SimpleName:x@119",
+      "to": "!!!x\u003d5",
+      "fromId": 1311146128,
+      "toId": 1819776360
     },
     {
       "from": "NameRes:SimpleName:x@119",
@@ -38,15 +92,51 @@
     },
     {
       "from": "NameRes:SimpleName:y@122",
+      "to": "!!!y\u003d3",
+      "fromId": 464676531,
+      "toId": 623247230
+    },
+    {
+      "from": "NameRes:SimpleName:y@122",
       "to": "NameRes:SimpleName:y@99",
       "fromId": 464676531,
       "toId": 1380806038
+    },
+    {
+      "from": "NameRes:SimpleName:foo@157",
+      "to": "!!!public static void foo(int a,int b){\n  System.out.println(a,b);\n}\n",
+      "fromId": 963815509,
+      "toId": 81412691
+    },
+    {
+      "from": "NameRes:SimpleName:a@165",
+      "to": "!!!int a",
+      "fromId": 1376790324,
+      "toId": 893504292
+    },
+    {
+      "from": "NameRes:SimpleName:b@172",
+      "to": "!!!int b",
+      "fromId": 680712932,
+      "toId": 895281180
+    },
+    {
+      "from": "NameRes:SimpleName:a@205",
+      "to": "!!!int a",
+      "fromId": 1210830415,
+      "toId": 893504292
     },
     {
       "from": "NameRes:SimpleName:a@205",
       "to": "NameRes:SimpleName:a@165",
       "fromId": 1210830415,
       "toId": 1376790324
+    },
+    {
+      "from": "NameRes:SimpleName:b@208",
+      "to": "!!!int b",
+      "fromId": 912672706,
+      "toId": 895281180
     },
     {
       "from": "NameRes:SimpleName:b@208",
@@ -107,7 +197,7 @@
                           "id": 47,
                           "node_kind": "atom",
                           "content": "public",
-                          "uniqueId": 1374754488
+                          "uniqueId": 530042637
                         },
                         {
                           "nodeClass": "Modifier",
@@ -117,7 +207,7 @@
                           "id": 48,
                           "node_kind": "atom",
                           "content": "static",
-                          "uniqueId": 27084827
+                          "uniqueId": 336371513
                         }
                       ],
                       "open_position": "1:4-4",
@@ -226,7 +316,7 @@
                               "num_descendants": 0,
                               "id": 54,
                               "node_kind": "list",
-                              "uniqueId": 530042637
+                              "uniqueId": 1374754488
                             },
                             {
                               "close_position": "3:18-18",
@@ -284,7 +374,7 @@
                               "num_descendants": 0,
                               "id": 59,
                               "node_kind": "list",
-                              "uniqueId": 336371513
+                              "uniqueId": 27084827
                             },
                             {
                               "close_position": "4:18-18",

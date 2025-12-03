@@ -22,6 +22,7 @@ Processing SimpleName: 'args' at position 58
 Processing SimpleName: 'x' at position 79
   Binding type: VariableBinding
   Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Demo;.main([LString;)V#x
+  Added fragment-to-statement edge: x@79 -> VariableDeclarationStatement@75
   Pattern: SimpleName is a variable being initialized
   Added initialization literal-to-type edge: NumberLiteral -> int
 
@@ -49,7 +50,7 @@ Processing SimpleName: 'a' at position 175
   Binding type: VariableBinding
   Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Demo;.foo(I)V#a#0#0
   Added SimpleName-to-SimpleName edge: NameRes:SimpleName:a@175 -> NameRes:SimpleName:a@142
-Processed: Prog.java (5 edges)
+Processed: Prog.java (15 edges)
 
 LHS JSON saved to: ..\..\difftastic\Files\lhs.json
 
@@ -75,11 +76,13 @@ Processing SimpleName: 'args' at position 58
 Processing SimpleName: 'x' at position 79
   Binding type: VariableBinding
   Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Demo;.main([LString;)V#x
+  Added fragment-to-statement edge: x@79 -> VariableDeclarationStatement@75
   Pattern: SimpleName is a variable being initialized
   Added initialization literal-to-type edge: NumberLiteral -> int
 Processing SimpleName: 'y' at position 99
   Binding type: VariableBinding
   Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Demo;.main([LString;)V#y
+  Added fragment-to-statement edge: y@99 -> VariableDeclarationStatement@95
   Pattern: SimpleName is a variable being initialized
   Added initialization literal-to-type edge: NumberLiteral -> int
 
@@ -119,7 +122,7 @@ Processing SimpleName: 'b' at position 208
   Binding type: VariableBinding
   Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Demo;.foo(II)V#b#0#1
   Added SimpleName-to-SimpleName edge: NameRes:SimpleName:b@208 -> NameRes:SimpleName:b@172
-Processed: Prog.java (9 edges)
+Processed: Prog.java (24 edges)
 
 RHS JSON saved to: ..\..\difftastic\Files\rhs.json
 
@@ -135,15 +138,15 @@ Shell script completed with exit code: 0
 
 === Executing Python Script ===
 Executable: C:\Users\Bitroix\AppData\Local\Microsoft\WindowsApps\python3.13.exe
-Script path: c:/Users/Bitroix/Desktop/Technion/Diff/diffmagic/filter_novel_edges.py
+Script path: c:/Users/Bitroix/Desktop/Technion/Diff/diffmagic/novel_components.py
 [Python] LHS: Filtered to 0 edges with both sides novel (duplicates removed)
-[Python] RHS: Filtered to 4 edges with both sides novel (duplicates removed)
+[Python] RHS: Filtered to 9 edges with both sides novel (duplicates removed)
 [Python] 
 [Python] Structured filtered edges written to C:\Users\Bitroix\Desktop\Technion\Diff\difftastic\Files\output.json
 [Python]   LHS edges: 0
-[Python]   RHS edges: 4
-[Python]   Total edges: 4
+[Python]   RHS edges: 9
+[Python]   Total edges: 9
 [Python] Components JSON written to C:\Users\Bitroix\Desktop\Technion\Diff\difftastic\Files\output_components.json
 [Python]   LHS components: 0
-[Python]   RHS components: 3
+[Python]   RHS components: 2
 Python script completed with exit code: 0

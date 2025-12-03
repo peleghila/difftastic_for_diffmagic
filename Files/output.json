@@ -2,6 +2,22 @@
   "lhs": [],
   "rhs": [
     {
+      "from": "NameRes:SimpleName:y@99",
+      "to": "!!!y=3",
+      "fromId": 62,
+      "toId": 61,
+      "fromUniqueId": 1380806038,
+      "toUniqueId": 623247230
+    },
+    {
+      "from": "FragmentToStmt:Fragment:y@99",
+      "to": "FragmentToStmt:Statement:VariableDeclarationStatement@95",
+      "fromId": 61,
+      "toId": 59,
+      "fromUniqueId": 623247230,
+      "toUniqueId": 27084827
+    },
+    {
       "from": "VarInit:InitLiteral:NumberLiteral@103",
       "to": "VarInit:DeclVarType:int@95",
       "fromId": 63,
@@ -19,11 +35,35 @@
     },
     {
       "from": "NameRes:SimpleName:y@122",
+      "to": "!!!y=3",
+      "fromId": 69,
+      "toId": 61,
+      "fromUniqueId": 464676531,
+      "toUniqueId": 623247230
+    },
+    {
+      "from": "NameRes:SimpleName:y@122",
       "to": "NameRes:SimpleName:y@99",
       "fromId": 69,
       "toId": 62,
       "fromUniqueId": 464676531,
       "toUniqueId": 1380806038
+    },
+    {
+      "from": "NameRes:SimpleName:b@172",
+      "to": "!!!int b",
+      "fromId": 81,
+      "toId": 80,
+      "fromUniqueId": 680712932,
+      "toUniqueId": 895281180
+    },
+    {
+      "from": "NameRes:SimpleName:b@208",
+      "to": "!!!int b",
+      "fromId": 89,
+      "toId": 80,
+      "fromUniqueId": 912672706,
+      "toUniqueId": 895281180
     },
     {
       "from": "NameRes:SimpleName:b@208",

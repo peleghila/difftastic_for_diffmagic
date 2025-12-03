@@ -3,6 +3,20 @@
   "rhs": [
     [
       {
+        "rust_id": 59,
+        "java_id": 27084827,
+        "type": "VariableDeclarationStatement (list)",
+        "content": "",
+        "position": "3:8-8"
+      },
+      {
+        "rust_id": 61,
+        "java_id": 623247230,
+        "type": "VariableDeclarationFragment (list)",
+        "content": "",
+        "position": "3:12-12"
+      },
+      {
         "rust_id": 62,
         "java_id": 1380806038,
         "type": "SimpleName (atom)",
@@ -22,6 +36,20 @@
         "type": "SingleVariableDeclaration (list)",
         "content": "",
         "position": "6:34-34"
+      },
+      {
+        "rust_id": 81,
+        "java_id": 680712932,
+        "type": "SimpleName (atom)",
+        "content": "b",
+        "position": "6:38-39"
+      },
+      {
+        "rust_id": 89,
+        "java_id": 912672706,
+        "type": "SimpleName (atom)",
+        "content": "b",
+        "position": "7:30-31"
       }
     ],
     [
@@ -38,22 +66,6 @@
         "type": "NumberLiteral (atom)",
         "content": "3",
         "position": "3:16-17"
-      }
-    ],
-    [
-      {
-        "rust_id": 81,
-        "java_id": 680712932,
-        "type": "SimpleName (atom)",
-        "content": "b",
-        "position": "6:38-39"
-      },
-      {
-        "rust_id": 89,
-        "java_id": 912672706,
-        "type": "SimpleName (atom)",
-        "content": "b",
-        "position": "7:30-31"
       }
     ]
   ]

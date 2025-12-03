@@ -222,9 +222,9 @@ impl<'a> Syntax<'a> {
         // This is a small performance win as it makes the difftastic
         // syntax tree smaller. It also really helps when looking at
         // debug output for small inputs.
-        if children.len() == 1 && open_content.is_empty() && close_content.is_empty() {
-            return children[0];
-        }
+        // if children.len() == 1 && open_content.is_empty() && close_content.is_empty() {
+        //     return children[0];
+        // }
 
         let mut num_descendants = 0;
         for child in &children {
