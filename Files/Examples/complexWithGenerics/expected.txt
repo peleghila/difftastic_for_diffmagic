@@ -1626,7 +1626,7 @@ RHS: [
         close_content: "",
         close_position: "7:22-22",
     },
-    List id:303 content_id:195 {
+    List id:303 content_id:194 {
         open_content: "",
         open_position: "9:0-0",
         children: [
@@ -1666,7 +1666,7 @@ RHS: [
                 content: "UserService",
                 position: "10:13-24",
             },
-            List id:311 content_id:194 {
+            List id:311 content_id:193 {
                 open_content: "{",
                 open_position: "10:25-26",
                 children: [
@@ -2457,7 +2457,7 @@ RHS: [
                         close_content: "",
                         close_position: "33:5-5",
                     },
-                    List id:453 content_id:193 {
+                    List id:453 content_id:192 {
                         open_content: "",
                         open_position: "35:4-4",
                         children: [
@@ -2508,7 +2508,7 @@ RHS: [
                                 close_content: ")",
                                 close_position: "35:34-35",
                             },
-                            List id:463 content_id:192 {
+                            List id:463 content_id:191 {
                                 open_content: "{",
                                 open_position: "35:36-37",
                                 children: [
@@ -2553,53 +2553,53 @@ RHS: [
                                                 open_position: "36:19-19",
                                                 children: [
                                                     Atom id:472 content_id:180 {
-                                                        content: "amazing",
-                                                        position: "36:19-26",
+                                                        content: "result",
+                                                        position: "36:19-25",
                                                     },
                                                     Atom id:473 content_id:42 {
                                                         content: "=",
-                                                        position: "36:27-28",
+                                                        position: "36:26-27",
                                                     },
                                                     List id:474 content_id:114 {
                                                         open_content: "",
-                                                        open_position: "36:29-29",
+                                                        open_position: "36:28-28",
                                                         children: [
                                                             Atom id:475 content_id:36 {
                                                                 content: "repo",
-                                                                position: "36:29-33",
+                                                                position: "36:28-32",
                                                             },
                                                             Atom id:476 content_id:3 {
                                                                 content: ".",
-                                                                position: "36:33-34",
+                                                                position: "36:32-33",
                                                             },
                                                             Atom id:477 content_id:113 {
                                                                 content: "findAll",
-                                                                position: "36:34-41",
+                                                                position: "36:33-40",
                                                             },
                                                             List id:478 content_id:65 {
                                                                 open_content: "(",
-                                                                open_position: "36:41-42",
+                                                                open_position: "36:40-41",
                                                                 children: [],
                                                                 close_content: ")",
-                                                                close_position: "36:42-43",
+                                                                close_position: "36:41-42",
                                                             },
                                                         ],
                                                         close_content: "",
-                                                        close_position: "36:43-43",
+                                                        close_position: "36:42-42",
                                                     },
                                                 ],
                                                 close_content: "",
-                                                close_position: "36:43-43",
+                                                close_position: "36:42-42",
                                             },
                                             Atom id:479 content_id:10 {
                                                 content: ";",
-                                                position: "36:43-44",
+                                                position: "36:42-43",
                                             },
                                         ],
                                         close_content: "",
-                                        close_position: "36:44-44",
+                                        close_position: "36:43-43",
                                     },
-                                    List id:480 content_id:191 {
+                                    List id:480 content_id:190 {
                                         open_content: "",
                                         open_position: "37:8-8",
                                         children: [
@@ -2607,19 +2607,19 @@ RHS: [
                                                 content: "return",
                                                 position: "37:8-14",
                                             },
-                                            List id:482 content_id:190 {
+                                            List id:482 content_id:189 {
                                                 open_content: "",
                                                 open_position: "37:15-15",
                                                 children: [
-                                                    List id:483 content_id:185 {
+                                                    List id:483 content_id:184 {
                                                         open_content: "",
                                                         open_position: "37:15-15",
                                                         children: [
-                                                            Atom id:484 content_id:183 {
+                                                            Atom id:484 content_id:180 {
                                                                 content: "result",
                                                                 position: "37:15-21",
                                                             },
-                                                            Atom id:485 content_id:184 {
+                                                            Atom id:485 content_id:183 {
                                                                 content: "!=",
                                                                 position: "37:22-24",
                                                             },
@@ -2631,19 +2631,19 @@ RHS: [
                                                         close_content: "",
                                                         close_position: "37:29-29",
                                                     },
-                                                    Atom id:487 content_id:186 {
+                                                    Atom id:487 content_id:185 {
                                                         content: "?",
                                                         position: "37:30-31",
                                                     },
-                                                    Atom id:488 content_id:183 {
+                                                    Atom id:488 content_id:180 {
                                                         content: "result",
                                                         position: "37:32-38",
                                                     },
-                                                    Atom id:489 content_id:187 {
+                                                    Atom id:489 content_id:186 {
                                                         content: ":",
                                                         position: "37:39-40",
                                                     },
-                                                    List id:490 content_id:189 {
+                                                    List id:490 content_id:188 {
                                                         open_content: "",
                                                         open_position: "37:41-41",
                                                         children: [
@@ -2655,7 +2655,7 @@ RHS: [
                                                                 content: ".",
                                                                 position: "37:52-53",
                                                             },
-                                                            Atom id:493 content_id:188 {
+                                                            Atom id:493 content_id:187 {
                                                                 content: "emptyList",
                                                                 position: "37:53-62",
                                                             },
@@ -3241,7 +3241,7 @@ Prog.java --- Java
 35     }                                                                                       34     }
 36                                                                                             35 
 37     public List<User> getAllUsers() {                                                       36     public List<User> getAllUsers() {
-38         return repo.findAll(); // can return null in older JPA impls                        37         List<User> amazing = repo.findAll();
+38         return repo.findAll(); // can return null in older JPA impls                        37         List<User> result = repo.findAll();
 ..                                                                                             38         return result != null ? result : Collections.emptyList();
 39     }                                                                                       39     }
 40 }                                                                                           40 }

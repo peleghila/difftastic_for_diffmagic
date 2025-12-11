@@ -1,0 +1,117 @@
+{
+  "lhs": [],
+  "rhs": [
+    [
+      {
+        "from": {
+          "rust_id": 76,
+          "java_id": 895281180,
+          "type": "SimpleName (atom)",
+          "content": "y",
+          "position": "4:15-16"
+        },
+        "to": {
+          "rust_id": 87,
+          "java_id": 963815509,
+          "type": "SingleVariableDeclaration (list)",
+          "content": "",
+          "position": "6:34-34"
+        },
+        "edge_label": "ArgToParam:Expression:SimpleName@126",
+        "edge_label_full": "ArgToParam:Expression:SimpleName@126 -> ArgToParam:Param:b@172"
+      },
+      {
+        "from": {
+          "rust_id": 76,
+          "java_id": 895281180,
+          "type": "SimpleName (atom)",
+          "content": "y",
+          "position": "4:15-16"
+        },
+        "to": {
+          "rust_id": 65,
+          "java_id": 1496949625,
+          "type": "VariableDeclarationFragment (list)",
+          "content": "",
+          "position": "3:12-12"
+        },
+        "edge_label": "NameRes:SimpleName:y@126",
+        "edge_label_full": "NameRes:SimpleName:y@126 -> NameRes::BaseNode:VariableDeclarationFragment@99"
+      },
+      {
+        "from": {
+          "rust_id": 76,
+          "java_id": 895281180,
+          "type": "SimpleName (atom)",
+          "content": "y",
+          "position": "4:15-16"
+        },
+        "to": {
+          "rust_id": 66,
+          "java_id": 236840983,
+          "type": "SimpleName (atom)",
+          "content": "y",
+          "position": "3:12-13"
+        },
+        "edge_label": "NameRes:SimpleName:y@126",
+        "edge_label_full": "NameRes:SimpleName:y@126 -> NameRes:SimpleName:y@99"
+      },
+      {
+        "from": {
+          "rust_id": 96,
+          "java_id": 1374754488,
+          "type": "SimpleName (atom)",
+          "content": "b",
+          "position": "7:30-31"
+        },
+        "to": {
+          "rust_id": 87,
+          "java_id": 963815509,
+          "type": "SingleVariableDeclaration (list)",
+          "content": "",
+          "position": "6:34-34"
+        },
+        "edge_label": "NameRes:SimpleName:b@212",
+        "edge_label_full": "NameRes:SimpleName:b@212 -> NameRes::BaseNode:SingleVariableDeclaration@172"
+      },
+      {
+        "from": {
+          "rust_id": 96,
+          "java_id": 1374754488,
+          "type": "SimpleName (atom)",
+          "content": "b",
+          "position": "7:30-31"
+        },
+        "to": {
+          "rust_id": 88,
+          "java_id": 81412691,
+          "type": "SimpleName (atom)",
+          "content": "b",
+          "position": "6:38-39"
+        },
+        "edge_label": "NameRes:SimpleName:b@212",
+        "edge_label_full": "NameRes:SimpleName:b@212 -> NameRes:SimpleName:b@176"
+      }
+    ],
+    [
+      {
+        "from": {
+          "rust_id": 70,
+          "java_id": 1362546706,
+          "type": "SimpleName (atom)",
+          "content": "w",
+          "position": "3:20-21"
+        },
+        "to": {
+          "rust_id": 61,
+          "java_id": 1380806038,
+          "type": "SimpleName (atom)",
+          "content": "w",
+          "position": "2:12-13"
+        },
+        "edge_label": "NameRes:SimpleName:w@107",
+        "edge_label_full": "NameRes:SimpleName:w@107 -> NameRes:SimpleName:w@79"
+      }
+    ]
+  ]
+}

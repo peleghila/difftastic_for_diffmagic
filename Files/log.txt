@@ -4,39 +4,299 @@ Batch parsing all compilation units...
 Parsed: Prog.java (index: 0)
 
 Processing parsed compilation units...
-Processing SimpleName: 'Car' at position 6
+Processing SimpleName: 'com' at position 8
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 12
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 20
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'service' at position 24
+  Binding type: PackageBinding
+  Binding key: com/example/app/service
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app/service, Kind: 1
+Processing SimpleName: 'com' at position 43
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 47
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 55
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'model' at position 59
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/model;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/model;0, Kind: 2
+Processing SimpleName: 'User' at position 65
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/model;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/model;0, Kind: 2
+Processing SimpleName: 'com' at position 79
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 83
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 91
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'repository' at position 95
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/repository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/repository;0, Kind: 2
+Processing SimpleName: 'UserRepository' at position 106
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/repository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/repository;0, Kind: 2
+Processing SimpleName: 'java' at position 132
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 137
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'List' at position 142
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'java' at position 156
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 161
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Optional' at position 166
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'UserService' at position 192
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Car;
-Processing SimpleName: 'Main' at position 29
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+Processing SimpleName: 'UserRepository' at position 221
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;
-Processing SimpleName: 'main' at position 60
+  Binding key: LUserRepository;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LUserRepository;, Kind: 2
+Processing SimpleName: 'repo' at position 236
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added fragment-to-field edge: repo@236 -> FieldDeclaration@213
+Processing SimpleName: 'UserService' at position 256
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.(LUserRepository;)V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: UserService -> UserService
+Processing SimpleName: 'UserRepository' at position 268
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUserRepository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUserRepository;0, Kind: 2
+Processing SimpleName: 'repo' at position 283
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.(LUserRepository;)V#repo#0#0
+Processing SimpleName: 'repo' at position 305
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@305 -> NameRes:SimpleName:repo@236
+Processing SimpleName: 'repo' at position 312
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.(LUserRepository;)V#repo#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@312 -> NameRes:SimpleName:repo@283
+  Pattern: SimpleName is on right side of assignment
+  Added field-assignment variable-type edge: UserRepository -> UserRepository
+Processing SimpleName: 'User' at position 339
+  Binding type: TypeBinding
+  Binding key: LUser;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LUser;, Kind: 2
+Processing SimpleName: 'getUserById' at position 344
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;
   Pattern: SimpleName is a method declaration
-Processing SimpleName: 'String' at position 65
+Processing SimpleName: 'Long' at position 356
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLLong;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLLong;0, Kind: 2
+Processing SimpleName: 'id' at position 361
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;#id#0#0
+Processing SimpleName: 'Optional' at position 376
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLOptional;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLOptional;0, Kind: 2
+Processing SimpleName: 'User' at position 385
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUser;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUser;0, Kind: 2
+Processing SimpleName: 'u' at position 391
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;#u
+  Added fragment-to-statement edge: u@391 -> VariableDeclarationStatement@376
+  Pattern: SimpleName is a variable being initialized
+  Added initialization literal-to-type edge: MethodInvocation -> Optional<User>
+Processing SimpleName: 'repo' at position 395
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@395 -> NameRes:SimpleName:repo@236
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+No binding for SimpleName: 'findById' at position 400
+Processing SimpleName: 'id' at position 409
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;#id#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:id@409 -> NameRes:SimpleName:id@361
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+Processing SimpleName: 'u' at position 428
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;#u
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:u@428 -> NameRes:SimpleName:u@391
+No binding for SimpleName: 'isPresent' at position 430
+
+Processing ReturnStatement with literal in method: getUserById
+  Added literal-to-method-return-type edge: ReturnLiteral:NullLiteral@465 -> MethodReturnType:User@339
+
+Processing ReturnStatement with literal in method: getUserById
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@498 -> MethodReturnType:User@339
+Processing SimpleName: 'u' at position 498
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getUserById(LLong;)LUser;#u
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:u@498 -> NameRes:SimpleName:u@391
+No binding for SimpleName: 'get' at position 500
+Processing SimpleName: 'updateEmail' at position 536
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'Long' at position 548
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLLong;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLLong;0, Kind: 2
+Processing SimpleName: 'id' at position 553
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#id#0#0
+Processing SimpleName: 'String' at position 557
   Binding type: RecoveredTypeBinding
   Binding key: Recovered#typeBindingLString;0
   WARNING: Binding not resolved in any compilation unit
   Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
-Processing SimpleName: 'args' at position 74
+Processing SimpleName: 'newEmail' at position 564
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#args#0#0
-Processing SimpleName: 'Car' at position 91
-  Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Car;
-  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Car@91 -> NameRes:SimpleName:Car@6
-Processing SimpleName: 'c' at position 95
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+Processing SimpleName: 'User' at position 585
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUser;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUser;0, Kind: 2
+Processing SimpleName: 'u' at position 590
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Main;.main([LString;)V#c
-  Added fragment-to-statement edge: c@95 -> VariableDeclarationStatement@91
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#u
+  Added fragment-to-statement edge: u@590 -> VariableDeclarationStatement@585
   Pattern: SimpleName is a variable being initialized
-  Added initialization literal-to-type edge: ClassInstanceCreation -> Car
-Processing SimpleName: 'Car' at position 103
+  Added initialization literal-to-type edge: MethodInvocation -> User
+Processing SimpleName: 'repo' at position 594
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@594 -> NameRes:SimpleName:repo@236
+No binding for SimpleName: 'findById' at position 599
+Processing SimpleName: 'id' at position 608
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#id#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:id@608 -> NameRes:SimpleName:id@553
+No binding for SimpleName: 'orElse' at position 612
+Processing SimpleName: 'u' at position 639
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#u
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:u@639 -> NameRes:SimpleName:u@590
+
+Processing ReturnStatement with literal in method: updateEmail
+  Added literal-to-method-return-type edge: ReturnLiteral:BooleanLiteral@672 -> MethodReturnType:boolean@528
+Processing SimpleName: 'u' at position 734
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#u
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:u@734 -> NameRes:SimpleName:u@590
+No binding for SimpleName: 'setEmail' at position 736
+Processing SimpleName: 'newEmail' at position 745
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:newEmail@745 -> NameRes:SimpleName:newEmail@564
+Processing SimpleName: 'repo' at position 765
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@765 -> NameRes:SimpleName:repo@236
+No binding for SimpleName: 'save' at position 770
+Processing SimpleName: 'u' at position 775
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.updateEmail(LLong;LString;)Z#u
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:u@775 -> NameRes:SimpleName:u@590
+
+Processing ReturnStatement with literal in method: updateEmail
+  Added literal-to-method-return-type edge: ReturnLiteral:BooleanLiteral@795 -> MethodReturnType:boolean@528
+Processing SimpleName: 'List' at position 822
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~Car;
-  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Car@103 -> NameRes:SimpleName:Car@6
-Processed: Prog.java (11 edges)
+  Binding key: LList<LUser;>;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LList<LUser;>;, Kind: 2
+Processing SimpleName: 'User' at position 827
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUser;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUser;0, Kind: 2
+Processing SimpleName: 'getAllUsers' at position 833
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.getAllUsers()LList<LUser;>;
+  Pattern: SimpleName is a method declaration
+
+Processing ReturnStatement with literal in method: getAllUsers
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@865 -> MethodReturnType:List<User>@822
+Processing SimpleName: 'repo' at position 865
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\lhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@865 -> NameRes:SimpleName:repo@236
+No binding for SimpleName: 'findAll' at position 870
+Processed: Prog.java (52 edges)
 
 LHS JSON saved to: ..\..\difftastic\Files\lhs.json
 
@@ -44,39 +304,307 @@ Batch parsing all compilation units...
 Parsed: Prog.java (index: 0)
 
 Processing parsed compilation units...
-Processing SimpleName: 'Bike' at position 6
+Processing SimpleName: 'com' at position 8
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 12
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 20
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'service' at position 24
+  Binding type: PackageBinding
+  Binding key: com/example/app/service
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app/service, Kind: 1
+Processing SimpleName: 'com' at position 43
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 47
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 55
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'model' at position 59
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/model;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/model;0, Kind: 2
+Processing SimpleName: 'User' at position 65
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/model;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/model;0, Kind: 2
+Processing SimpleName: 'com' at position 79
+  Binding type: PackageBinding
+  Binding key: com
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com, Kind: 1
+Processing SimpleName: 'example' at position 83
+  Binding type: PackageBinding
+  Binding key: com/example
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example, Kind: 1
+Processing SimpleName: 'app' at position 91
+  Binding type: PackageBinding
+  Binding key: com/example/app
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: com/example/app, Kind: 1
+Processing SimpleName: 'repository' at position 95
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/repository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/repository;0, Kind: 2
+Processing SimpleName: 'UserRepository' at position 106
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLcom/example/app/repository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLcom/example/app/repository;0, Kind: 2
+Processing SimpleName: 'org' at position 130
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLorg;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLorg;0, Kind: 2
+Processing SimpleName: 'springframework' at position 134
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLorg;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLorg;0, Kind: 2
+Processing SimpleName: 'stereotype' at position 150
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLorg;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLorg;0, Kind: 2
+Processing SimpleName: 'Service' at position 161
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLorg;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLorg;0, Kind: 2
+Processing SimpleName: 'java' at position 180
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 185
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Collections' at position 190
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'java' at position 211
+  Binding type: PackageBinding
+  Binding key: java
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: java, Kind: 1
+Processing SimpleName: 'util' at position 216
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'List' at position 221
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLjava/util;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLjava/util;0, Kind: 2
+Processing SimpleName: 'Service' at position 231
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLService;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLService;0, Kind: 2
+Processing SimpleName: 'UserService' at position 253
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Bike;
-Processing SimpleName: 'Main' at position 30
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+Processing SimpleName: 'UserRepository' at position 288
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;
-Processing SimpleName: 'main' at position 61
+  Binding key: LUserRepository;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LUserRepository;, Kind: 2
+Processing SimpleName: 'repo' at position 303
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.repo)LUserRepository;
+  Added fragment-to-field edge: repo@303 -> FieldDeclaration@274
+Processing SimpleName: 'UserService' at position 323
   Binding type: MethodBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.(LUserRepository;)V
+  Pattern: SimpleName is a constructor declaration
+  Added constructor-declaration-to-class edge: UserService -> UserService
+Processing SimpleName: 'UserRepository' at position 335
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUserRepository;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUserRepository;0, Kind: 2
+Processing SimpleName: 'repo' at position 350
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.(LUserRepository;)V#repo#0#0
+Processing SimpleName: 'repo' at position 372
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@372 -> NameRes:SimpleName:repo@303
+Processing SimpleName: 'repo' at position 379
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.(LUserRepository;)V#repo#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@379 -> NameRes:SimpleName:repo@350
+  Pattern: SimpleName is on right side of assignment
+  Added field-assignment variable-type edge: UserRepository -> UserRepository
+Processing SimpleName: 'User' at position 406
+  Binding type: TypeBinding
+  Binding key: LUser;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LUser;, Kind: 2
+Processing SimpleName: 'getUserById' at position 411
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.getUserById(LLong;)LUser;
   Pattern: SimpleName is a method declaration
-Processing SimpleName: 'String' at position 66
+Processing SimpleName: 'Long' at position 423
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLLong;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLLong;0, Kind: 2
+Processing SimpleName: 'id' at position 428
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.getUserById(LLong;)LUser;#id#0#0
+
+Processing ReturnStatement with literal in method: getUserById
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@450 -> MethodReturnType:User@406
+Processing SimpleName: 'repo' at position 450
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@450 -> NameRes:SimpleName:repo@303
+No binding for SimpleName: 'findById' at position 455
+Processing SimpleName: 'id' at position 464
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.getUserById(LLong;)LUser;#id#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:id@464 -> NameRes:SimpleName:id@428
+No binding for SimpleName: 'orElseThrow' at position 486
+No binding for SimpleName: 'IllegalArgumentException' at position 508
+No binding for SimpleName: 'id' at position 554
+Processing SimpleName: 'updateEmail' at position 589
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'Long' at position 601
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLLong;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLLong;0, Kind: 2
+Processing SimpleName: 'id' at position 606
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#id#0#0
+Processing SimpleName: 'String' at position 610
   Binding type: RecoveredTypeBinding
   Binding key: Recovered#typeBindingLString;0
   WARNING: Binding not resolved in any compilation unit
   Binding details - Key: Recovered#typeBindingLString;0, Kind: 2
-Processing SimpleName: 'args' at position 75
+Processing SimpleName: 'newEmail' at position 617
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#args#0#0
-Processing SimpleName: 'Bike' at position 92
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+Processing SimpleName: 'newEmail' at position 642
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:newEmail@642 -> NameRes:SimpleName:newEmail@617
+Processing SimpleName: 'newEmail' at position 663
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:newEmail@663 -> NameRes:SimpleName:newEmail@617
+No binding for SimpleName: 'contains' at position 672
+Processing SimpleName: 'IllegalArgumentException' at position 712
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLIllegalArgumentException;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLIllegalArgumentException;0, Kind: 2
+Processing SimpleName: 'newEmail' at position 757
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#newEmail#0#1
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:newEmail@757 -> NameRes:SimpleName:newEmail@617
+
+Processing ReturnStatement with literal in method: updateEmail
+  Added literal-to-method-return-type edge: ReturnLiteral:MethodInvocation@797 -> MethodReturnType:boolean@581
+Processing SimpleName: 'repo' at position 797
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@797 -> NameRes:SimpleName:repo@303
+No binding for SimpleName: 'findById' at position 802
+Processing SimpleName: 'id' at position 811
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.updateEmail(LLong;LString;)Z#id#0#0
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:id@811 -> NameRes:SimpleName:id@606
+No binding for SimpleName: 'map' at position 815
+No binding for SimpleName: 'u' at position 819
+No binding for SimpleName: 'u' at position 839
+No binding for SimpleName: 'setEmail' at position 841
+No binding for SimpleName: 'newEmail' at position 850
+No binding for SimpleName: 'repo' at position 874
+No binding for SimpleName: 'save' at position 879
+No binding for SimpleName: 'u' at position 884
+
+Processing ReturnStatement with literal in method: updateEmail
+  Added literal-to-method-return-type edge: ReturnLiteral:BooleanLiteral@908 -> MethodReturnType:boolean@581
+No binding for SimpleName: 'orElse' at position 926
+Processing SimpleName: 'List' at position 962
   Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Bike;
-  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Bike@92 -> NameRes:SimpleName:Bike@6
-Processing SimpleName: 'c' at position 97
+  Binding key: LList<LUser;>;
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: LList<LUser;>;, Kind: 2
+Processing SimpleName: 'User' at position 967
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUser;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUser;0, Kind: 2
+Processing SimpleName: 'getAllUsers' at position 973
+  Binding type: MethodBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.getAllUsers()LList<LUser;>;
+  Pattern: SimpleName is a method declaration
+Processing SimpleName: 'List' at position 998
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLList;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLList;0, Kind: 2
+Processing SimpleName: 'User' at position 1003
+  Binding type: RecoveredTypeBinding
+  Binding key: Recovered#typeBindingLUser;0
+  WARNING: Binding not resolved in any compilation unit
+  Binding details - Key: Recovered#typeBindingLUser;0, Kind: 2
+Processing SimpleName: 'amazing' at position 1009
   Binding type: VariableBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Main;.main([LString;)V#c
-  Added fragment-to-statement edge: c@97 -> VariableDeclarationStatement@92
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.getAllUsers()LList<LUser;>;#amazing
+  Added fragment-to-statement edge: amazing@1009 -> VariableDeclarationStatement@998
   Pattern: SimpleName is a variable being initialized
-  Added initialization literal-to-type edge: ClassInstanceCreation -> Bike
-Processing SimpleName: 'Bike' at position 105
-  Binding type: TypeBinding
-  Binding key: LC:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~Bike;
-  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:Bike@105 -> NameRes:SimpleName:Bike@6
-Processed: Prog.java (11 edges)
+  Added initialization literal-to-type edge: MethodInvocation -> List<User>
+Processing SimpleName: 'repo' at position 1019
+  Binding type: VariableBinding
+  Binding key: Lcom/example/app/service/C:\Users\Bitroix\Desktop\Technion\Diff\diffmagic\diffmagicmaven\..\..\difftastic\Files\rhs\Prog~UserService;.repo)LUserRepository;
+  Added SimpleName-to-SimpleName edge: NameRes:SimpleName:repo@1019 -> NameRes:SimpleName:repo@303
+  Pattern: MethodInvocation used to initialize variable
+  WARNING: Could not resolve method binding
+No binding for SimpleName: 'findAll' at position 1024
+
+Processing ReturnStatement with literal in method: getAllUsers
+  Added literal-to-method-return-type edge: ReturnLiteral:ConditionalExpression@1051 -> MethodReturnType:List<User>@962
+No binding for SimpleName: 'result' at position 1051
+No binding for SimpleName: 'result' at position 1068
+No binding for SimpleName: 'Collections' at position 1077
+No binding for SimpleName: 'emptyList' at position 1089
+Processed: Prog.java (40 edges)
 
 RHS JSON saved to: ..\..\difftastic\Files\rhs.json
 
@@ -93,16 +621,14 @@ Shell script completed with exit code: 0
 === Executing Python Script ===
 Executable: C:\Users\Bitroix\AppData\Local\Microsoft\WindowsApps\python3.13.exe
 Script path: c:/Users/Bitroix/Desktop/Technion/Diff/diffmagic/novel_components.py
-[Python] LHS: Built mappings with 24 nodes
-[Python] LHS: Filtered to 2 edges with both sides novel (duplicates removed)
+[Python]   Filtered internal edge: 50 -> 49 (both inside 45)
+[Python]   Filtered internal edge: 49 -> 45 (both inside 45)
+[Python]   Filtered internal edge: 262 -> 261 (both inside 257)
+[Python]   Filtered internal edge: 261 -> 257 (both inside 257)
 [Python] 
-[Python] === Generalizing Edges ===
-[Python] RHS: Built mappings with 24 nodes
-[Python] RHS: Filtered to 2 edges with both sides novel (duplicates removed)
-[Python] 
-[Python] === Generalizing Edges ===
-[Python] 
-[Python] Components JSON written to C:\Users\Bitroix\Desktop\Technion\Diff\difftastic\Files\output_components.json
-[Python]   LHS components: 1
-[Python]   RHS components: 1
+[Python] Components JSON written to C:\Users\Bitroix\Desktop\Technion\Diff\difftastic\Files\output.json
+[Python]   LHS components: 2
+[Python]   LHS total edges: 5
+[Python]   RHS components: 0
+[Python]   RHS total edges: 0
 Python script completed with exit code: 0

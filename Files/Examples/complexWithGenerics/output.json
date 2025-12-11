@@ -1,0 +1,174 @@
+{
+  "lhs": [
+    [
+      {
+        "from": {
+          "rust_id": 59,
+          "java_id": 1327006586,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "18:13-14"
+        },
+        "to": {
+          "rust_id": 49,
+          "java_id": 148626113,
+          "type": "VariableDeclarationFragment (list)",
+          "content": "",
+          "position": "17:23-23"
+        },
+        "edge_label": "NameRes:SimpleName:u@428",
+        "edge_label_full": "NameRes:SimpleName:u@428 -> NameRes::BaseNode:VariableDeclarationFragment@391"
+      },
+      {
+        "from": {
+          "rust_id": 59,
+          "java_id": 1327006586,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "18:13-14"
+        },
+        "to": {
+          "rust_id": 50,
+          "java_id": 1847637306,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "17:23-24"
+        },
+        "edge_label": "NameRes:SimpleName:u@428",
+        "edge_label_full": "NameRes:SimpleName:u@428 -> NameRes:SimpleName:u@391"
+      },
+      {
+        "from": {
+          "rust_id": 66,
+          "java_id": 112797691,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "21:15-16"
+        },
+        "to": {
+          "rust_id": 49,
+          "java_id": 148626113,
+          "type": "VariableDeclarationFragment (list)",
+          "content": "",
+          "position": "17:23-23"
+        },
+        "edge_label": "NameRes:SimpleName:u@498",
+        "edge_label_full": "NameRes:SimpleName:u@498 -> NameRes::BaseNode:VariableDeclarationFragment@391"
+      },
+      {
+        "from": {
+          "rust_id": 66,
+          "java_id": 112797691,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "21:15-16"
+        },
+        "to": {
+          "rust_id": 50,
+          "java_id": 1847637306,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "17:23-24"
+        },
+        "edge_label": "NameRes:SimpleName:u@498",
+        "edge_label_full": "NameRes:SimpleName:u@498 -> NameRes:SimpleName:u@391"
+      }
+    ],
+    [
+      {
+        "from": {
+          "rust_id": 97,
+          "java_id": 982757413,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "26:12-13"
+        },
+        "to": {
+          "rust_id": 87,
+          "java_id": 1549725679,
+          "type": "SimpleName (atom)",
+          "content": "u",
+          "position": "25:13-14"
+        },
+        "edge_label": "NameRes:SimpleName:u@639",
+        "edge_label_full": "NameRes:SimpleName:u@639 -> NameRes:SimpleName:u@590"
+      }
+    ]
+  ],
+  "rhs": [
+    [
+      {
+        "from": {
+          "rust_id": 272,
+          "java_id": 504053874,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "37:15-21"
+        },
+        "to": {
+          "rust_id": 261,
+          "java_id": 806511723,
+          "type": "VariableDeclarationFragment (list)",
+          "content": "",
+          "position": "36:19-19"
+        },
+        "edge_label": "NameRes:SimpleName:result@1050",
+        "edge_label_full": "NameRes:SimpleName:result@1050 -> NameRes::BaseNode:VariableDeclarationFragment@1009"
+      },
+      {
+        "from": {
+          "rust_id": 272,
+          "java_id": 504053874,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "37:15-21"
+        },
+        "to": {
+          "rust_id": 262,
+          "java_id": 1250442005,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "36:19-25"
+        },
+        "edge_label": "NameRes:SimpleName:result@1050",
+        "edge_label_full": "NameRes:SimpleName:result@1050 -> NameRes:SimpleName:result@1009"
+      },
+      {
+        "from": {
+          "rust_id": 275,
+          "java_id": 953082513,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "37:32-38"
+        },
+        "to": {
+          "rust_id": 261,
+          "java_id": 806511723,
+          "type": "VariableDeclarationFragment (list)",
+          "content": "",
+          "position": "36:19-19"
+        },
+        "edge_label": "NameRes:SimpleName:result@1067",
+        "edge_label_full": "NameRes:SimpleName:result@1067 -> NameRes::BaseNode:VariableDeclarationFragment@1009"
+      },
+      {
+        "from": {
+          "rust_id": 275,
+          "java_id": 953082513,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "37:32-38"
+        },
+        "to": {
+          "rust_id": 262,
+          "java_id": 1250442005,
+          "type": "SimpleName (atom)",
+          "content": "result",
+          "position": "36:19-25"
+        },
+        "edge_label": "NameRes:SimpleName:result@1067",
+        "edge_label_full": "NameRes:SimpleName:result@1067 -> NameRes:SimpleName:result@1009"
+      }
+    ]
+  ]
+}
