@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Hardcoded base path
-BASE_PATH="/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic"
+# Get the directory where this script is located
+BASE_PATH="$(cd "$(dirname "$0")" && pwd)"
 
 echo "▶ Running diffmagic(target/release/difft)"
 "$BASE_PATH/target/release/difft" --width 200 "$BASE_PATH/Files/lhs" "$BASE_PATH/Files/rhs" > "$BASE_PATH/Files/result.txt"
