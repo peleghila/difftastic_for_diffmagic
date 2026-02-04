@@ -84,6 +84,7 @@ static GLOBAL: MiMalloc = MiMalloc;
 
 use std::path::Path;
 use std::{env, thread};
+use std::collections::HashMap;
 
 use serde_json::Value;
 
@@ -343,19 +344,19 @@ fn main() {
                         false,
                         &language_overrides,
                     );
-                    println!("{:#?}", diff_result);
+                    // println!("{:#?}", diff_result);
                     if diff_result.has_reportable_change() {
                         encountered_changes = true;
                     }
 
-                    match display_options.display_mode {
-                        DisplayMode::Inline
-                        | DisplayMode::SideBySide
-                        | DisplayMode::SideBySideShowBoth => {
-                            print_diff_result(&display_options, &diff_result);
-                        }
-                        DisplayMode::Json => display::json::print(&diff_result),
-                    }
+                    // match display_options.display_mode {
+                    //     DisplayMode::Inline
+                    //     | DisplayMode::SideBySide
+                    //     | DisplayMode::SideBySideShowBoth => {
+                    //         print_diff_result(&display_options, &diff_result);
+                    //     }
+                    //     DisplayMode::Json => display::json::print(&diff_result),
+                    // }
                 }
             }
 
@@ -593,7 +594,33 @@ fn create_position(position_str: &str) -> Vec<SingleLineSpan> {
     }]
 }
 
-fn build_syntax_tree<'a>(syntax: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
+fn build_id_mapping(syntax: &Value, mapping: &mut HashMap<u32, u32>) {
+    match syntax {
+        Value::Object(obj) => {
+            if let (Some(id), Some(unique_id)) = (
+                obj.get("id").and_then(|v| v.as_u64()),
+                obj.get("uniqueId").and_then(|v| v.as_u64()),
+            ) {
+                mapping.insert(id as u32, unique_id as u32);
+            }
+
+            // Recursively process children if this is a list node
+            if let Some(children_array) = obj.get("children").and_then(|v| v.as_array()) {
+                for child_value in children_array {
+                    build_id_mapping(child_value, mapping);
+                }
+            }
+        }
+        Value::Array(arr) => {
+            for item in arr {
+                build_id_mapping(item, mapping);
+            }
+        }
+        _ => {}
+    }
+}
+
+fn build_syntax_tree<'a>(syntax: &Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syntax<'a> {
     match syntax {
         Value::Object(obj) => {
             let node_kind = obj.get("node_kind").and_then(|v| v.as_str()).unwrap_or("");
@@ -614,7 +641,7 @@ fn build_syntax_tree<'a>(syntax: Value, arena: &'a Arena<Syntax<'a>>) -> &'a Syn
                 if let Some(children_array) = obj.get("children").and_then(|v| v.as_array()) {
                     for child_value in children_array {
                         // Recursively process each child
-                        let child_node = build_syntax_tree(child_value.clone(), arena);
+                        let child_node = build_syntax_tree(child_value, arena);
                         children.push(child_node);
                     }
                 }
@@ -670,9 +697,86 @@ fn parse_from_json<'a>(src: &str, filename: &str, arena: &'a Arena<Syntax<'a>>) 
     };
 
     match syntax_obj.get(filename) {
-        Some(syntax) => return Ok(build_syntax_tree(syntax.clone(), arena)),
+        Some(syntax) => return Ok(build_syntax_tree(syntax, arena)),
         None => return Err(format!("No syntax found for file: {}", filename)),
     };
+}
+
+fn build_id_mapping_from_json(src: &str, filename: &str) -> HashMap<u32, u32> {
+    let mut mapping = HashMap::new();
+    
+    if let Ok(json) = serde_json::from_str::<Value>(src) {
+        if let Some(syntax_obj) = json.get("syntax") {
+            if let Some(syntax) = syntax_obj.get(filename) {
+                build_id_mapping(syntax, &mut mapping);
+            }
+        }
+    }
+    
+    mapping
+}
+
+fn print_change_map_recursive<'a>(
+    nodes: &[&'a Syntax<'a>],
+    change_map: &ChangeMap<'a>,
+    lhs_mapping: &HashMap<u32, u32>,
+    rhs_mapping: &HashMap<u32, u32>,
+) {
+    use crate::diff::changes::ChangeKind;
+    
+    for node in nodes {
+        if let Some(change) = change_map.get(node) {
+            let rust_id = node.id().get();
+            let mapped_id = lhs_mapping.get(&rust_id)
+                .or_else(|| rhs_mapping.get(&rust_id))
+                .copied()
+                .unwrap_or(rust_id);
+            
+            let change_str = match change {
+                ChangeKind::Unchanged(other_node) => {
+                    let other_rust_id = other_node.id().get();
+                    let other_mapped = rhs_mapping.get(&other_rust_id)
+                        .or_else(|| lhs_mapping.get(&other_rust_id))
+                        .copied()
+                        .unwrap_or(other_rust_id);
+                    format!("Unchanged(ID: {})", other_mapped)
+                }
+                ChangeKind::Novel => "Novel".to_string(),
+                ChangeKind::ReplacedComment(lhs_node, rhs_node) => {
+                    let lhs_rust_id = lhs_node.id().get();
+                    let rhs_rust_id = rhs_node.id().get();
+                    let lhs_mapped = lhs_mapping.get(&lhs_rust_id).copied().unwrap_or(lhs_rust_id);
+                    let rhs_mapped = rhs_mapping.get(&rhs_rust_id).copied().unwrap_or(rhs_rust_id);
+                    format!("ReplacedComment(lhs ID: {}, rhs ID: {})", lhs_mapped, rhs_mapped)
+                }
+                ChangeKind::ReplacedString(lhs_node, rhs_node) => {
+                    let lhs_rust_id = lhs_node.id().get();
+                    let rhs_rust_id = rhs_node.id().get();
+                    let lhs_mapped = lhs_mapping.get(&lhs_rust_id).copied().unwrap_or(lhs_rust_id);
+                    let rhs_mapped = rhs_mapping.get(&rhs_rust_id).copied().unwrap_or(rhs_rust_id);
+                    format!("ReplacedString(lhs ID: {}, rhs ID: {})", lhs_mapped, rhs_mapped)
+                }
+            };
+            
+            println!("{}: {},", mapped_id, change_str);
+        }
+        
+        // Recursively process children for List nodes
+        if let Syntax::List { children, .. } = node {
+            print_change_map_recursive(children, change_map, lhs_mapping, rhs_mapping);
+        }
+    }
+}
+
+fn print_change_map<'a>(
+    lhs: &[&'a Syntax<'a>],
+    rhs: &[&'a Syntax<'a>],
+    change_map: &ChangeMap<'a>,
+    lhs_mapping: &HashMap<u32, u32>,
+    rhs_mapping: &HashMap<u32, u32>,
+) {
+    print_change_map_recursive(lhs, change_map, lhs_mapping, rhs_mapping);
+    print_change_map_recursive(rhs, change_map, lhs_mapping, rhs_mapping);
 }
 
 fn diff_file_content(
@@ -740,7 +844,7 @@ fn diff_file_content(
                         &lang_config,
                         diff_options,
                     ) {
-                        Ok((lhs, rhs)) => {
+                        Ok((_lhs, _rhs)) => {
                             let lhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/lhs.json").unwrap();
                             let rhs_json = std::fs::read_to_string("/mnt/c/Users/Bitroix/Desktop/Technion/Diff/difftastic/Files/rhs.json").unwrap();
                             
@@ -763,8 +867,10 @@ fn diff_file_content(
                             let rhs_parsed = parse_from_json(&rhs_json, &rhs_filename, &arena).unwrap();
                             let rhs = vec![rhs_parsed];
                             init_all_info(&lhs, &rhs);
-
-                            println!("------------------{}------------------\nLHS: {:#?}\nRHS: {:#?}\n", lhs_filename, lhs, rhs);
+                            
+                            // Build ID mappings from JSON
+                            let lhs_id_mapping = build_id_mapping_from_json(&lhs_json, &lhs_filename);
+                            let rhs_id_mapping = build_id_mapping_from_json(&rhs_json, &rhs_filename);
                             
                             if diff_options.check_only {
                                 let has_syntactic_changes = lhs != rhs;
@@ -825,7 +931,8 @@ fn diff_file_content(
 
                                 let mut lhs_positions = syntax::change_positions(&lhs, &change_map);
                                 let mut rhs_positions = syntax::change_positions(&rhs, &change_map);
-                                println!("------------------{}------------------\nChanges: {:#?}\n", lhs_filename, change_map);
+                                println!("------------------{}------------------\n", lhs_filename);
+                                print_change_map(&lhs, &rhs, &change_map, &lhs_id_mapping, &rhs_id_mapping);
 
                                 if diff_options.ignore_comments {
                                     let lhs_comments =

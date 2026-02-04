@@ -3,7 +3,7 @@
 # Get the directory where this script is located
 BASE_PATH="$(cd "$(dirname "$0")" && pwd)"
 
-echo "▶ Running diffmagic(target/release/difft) - Processing files individually to avoid memory issues"
+echo "▶ Running diffmagic(target/release/difft) - Processing files individually"
 
 # Clear or create result file
 > "$BASE_PATH/Files/result.txt"
@@ -17,7 +17,7 @@ find "$BASE_PATH/Files/lhs" -name "*.java" -type f | sort | while read -r lhs_fi
     # Check if corresponding rhs file exists
     if [ -f "$rhs_file" ]; then
         echo "Processing: $rel_path"
-        "$BASE_PATH/target/release/difft_debug" --width 200 "$lhs_file" "$rhs_file" >> "$BASE_PATH/Files/result.txt" 2>&1
+        "$BASE_PATH/target/release/difft" --width 200 "$lhs_file" "$rhs_file" >> "$BASE_PATH/Files/result.txt" 2>&1
         echo -e "\n==========================================\n" >> "$BASE_PATH/Files/result.txt"
     fi
 done
